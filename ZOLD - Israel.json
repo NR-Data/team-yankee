@@ -1,0 +1,3277 @@
+{
+  "catalogue": {
+    "name": "OUTDATED - Israel",
+    "id": "ee58-b579-8fa5-c796",
+    "authorName": "Grimgrin9",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "9096-fd85-6ba1-72c5",
+    "gameSystemRevision": 7,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "selectionEntries": [
+      {
+        "name": "Israeli M113 Mech Infantry Company",
+        "id": "5407-20e3-bd16-6678",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "9128-357d-9001-60b8", "hidden": false, "primary": true, "targetId": "49c4-0317-f106-84c7"}],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "M113 Mech Infantry Company HQ",
+            "id": "c418-1b84-02a7-174e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Combat Formation", "id": "676e-09cf-8b31-d8a3", "hidden": false, "primary": false, "targetId": "49c4-0317-f106-84c7"}],
+            "constraints": [
+              {
+                "id": "ec91-70b5-25d0-20d3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "3d8d-0830-f3c8-09bb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+            "infoLinks": [
+              {"name": "Galil Assault Rifle team HQ", "id": "3790-dfef-c41e-c279", "hidden": false, "targetId": "758e-dd25-7bbb-19dd", "type": "profile"},
+              {"name": "M113 Transport", "id": "fd6a-7689-a774-cc88", "hidden": false, "targetId": "2334-97c0-75d9-04aa", "type": "profile"},
+              {"name": ".50 cal AA MG", "id": "b125-92e3-fc18-b55f", "hidden": false, "targetId": "7db7-f937-aedb-0515", "type": "profile"},
+              {"name": "Amphibious", "id": "23ff-7fb3-81ab-66ac", "hidden": false, "targetId": "5807-4eac-7fae-eda0", "type": "rule"},
+              {"name": "M47", "id": "70c2-8d05-39bd-3ee5", "hidden": false, "targetId": "dd19-5346-a65c-d98e", "type": "profile"},
+              {"name": "Passengers #", "id": "bfc5-c97d-8580-ba79", "hidden": false, "targetId": "988f-bf9e-b22b-463e", "type": "rule"},
+              {"name": "Thermal Imaging", "id": "52ef-7faf-de01-f557", "hidden": false, "targetId": "d777-d425-a1a7-8e83", "type": "rule"},
+              {"name": "7.62 AA MG", "id": "c9c5-52aa-5217-d0dd", "hidden": false, "targetId": "0db1-913b-4e9a-0860", "type": "profile"},
+              {"name": "AA MG", "id": "cf69-a609-95a8-6be3", "hidden": false, "targetId": "60ba-123c-4f2a-1604", "type": "rule"},
+              {"name": "Dragon mount", "id": "cf69-a609-95a8-6666", "hidden": false, "targetId": "dfec-07f6-3fa0-c825", "type": "rule"},
+              {"name": "pinned ROF 1", "id": "7777-a609-95a8-6666", "hidden": false, "targetId": "1567-d8ea-bc21-5566", "type": "rule"},
+              {"name": "HEAT", "id": "3676-3348-c692-100a", "hidden": false, "targetId": "4ac0-f918-a4e1-d232", "type": "rule"},
+              {"name": "heavy weapon", "id": "9769-a5d8-a340-2b91", "hidden": false, "targetId": "d661-451e-b329-b452", "type": "rule"},
+              {"name": "Slow Firing", "id": "3063-150b-1833-ebb2", "hidden": false, "targetId": "7504-1bfb-7651-0911", "type": "rule"},
+              {"name": "Assault #", "id": "d54e-2694-393a-605d", "hidden": false, "targetId": "b814-659f-46f8-b83a", "type": "rule"},
+              {"name": "HQ transport", "id": "5d0d-14d9-b1d2-5924", "hidden": false, "targetId": "2d25-2cc5-0ea9-7fd9", "type": "rule"}
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Unit Size",
+                "id": "5044-5c2f-e5fb-8896",
+                "collective": false,
+                "defaultSelectionEntryId": "61da-74fe-1ccf-401f",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "4000-297b-50f9-2fe6",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "a9e4-b4a1-b5e7-5f49",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Galil Assault Rifle Team HQ",
+                    "id": "61da-74fe-1ccf-401f",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 1}],
+                    "infoLinks": [{"name": "Galil Assault Rifle Team HQ", "id": "07ef-46c3-c94f-f7d4", "hidden": false, "targetId": "758e-dd25-7bbb-19dd", "type": "profile"}]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "M113 Mech Infantry Platoon",
+            "id": "6159-5bf0-25fa-e213",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "3033-34ee-6fc1-27ae",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              },
+              {
+                "id": "f48d-38ee-a228-ec43",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "M113 Mech Infantry Platoon",
+                "id": "aa89-7d7d-4b83-4321",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f675-5bf4-b041-50d7",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "Merkava 1 Tank Platoon or Merkava 2 Tank Platoon or Magach 6 tank Platoon",
+            "id": "ce70-5790-da1a-8501",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "efb2-aa11-9c02-c2ce",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "896e-fd04-89ce-adf8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Merkava Tank Platoon",
+                "id": "571b-c998-e7ff-c983",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "b574-347b-c757-237d",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Magach 6 Tank Platoon",
+                "id": "3759-3a4c-3fa7-5e2c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "8af1-83f2-1a71-5b19",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "M150 Anti-Tank Section",
+            "id": "6002-af9a-8149-77d6",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "7f87-ba61-ecd3-2aef",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
+              },
+              {
+                "id": "c256-cafd-3123-a087",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "M150 Anti-Tank Platoon",
+                "id": "874b-6377-de7e-5ec8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "22a8-1575-80b6-cd32",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "M125 81mm Mortar Platoon",
+            "id": "6159-5bf0-25fa-e5bd",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "7f87-ba61-ecd3-2aef",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
+              },
+              {
+                "id": "c256-cafd-3123-a087",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "M125 81mm Mortar Platoon",
+                "id": "a5b1-dbda-9711-4866",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f7c7-6953-00ea-4e42",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli Magach 6 Tank Platoon",
+        "id": "8af1-83f2-1a71-5b19",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "30f3-475e-27e8-c5a8", "hidden": false, "primary": true, "targetId": "ccc5-e668-a26d-db83"}],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [
+          {"name": "M68 105mm gun", "id": "4bd5-c56a-2cb1-9e9a", "hidden": false, "targetId": "d35b-ac1d-1959-1daa", "type": "profile"},
+          {"name": ".50 cal AA MG", "id": "2dff-3b4a-a642-9e0d", "hidden": false, "targetId": "7db7-f937-aedb-0515", "type": "profile"},
+          {"name": "7.62 AA MG", "id": "58c4-7df5-37c4-a16e", "hidden": false, "targetId": "0db1-913b-4e9a-0860", "type": "profile"},
+          {"name": "Magach 6", "id": "4cf3-12ca-e37c-55af", "hidden": false, "targetId": "b578-f839-ead7-6a68", "type": "profile"},
+          {"name": "AA MG", "id": "6be9-3e79-7c74-98e7", "hidden": false, "targetId": "60ba-123c-4f2a-1604", "type": "rule"},
+          {"name": "Brutal", "id": "9886-a565-7d89-5104", "hidden": false, "targetId": "2102-fd36-69d4-0b93", "type": "rule"},
+          {"name": "Anti-Helicopter", "id": "4d92-e6bd-df80-8ef1", "hidden": false, "targetId": "8e4a-59b8-2d58-8f33", "type": "rule"},
+          {"name": "Smoke", "id": "8fc2-d4c0-a6a5-badf", "hidden": false, "targetId": "f3d4-cf1f-bfdd-e76c", "type": "rule"},
+          {"name": "Accurate", "id": "119a-c8a0-06f6-79bd", "hidden": false, "targetId": "b8d6-5c93-8cd5-5578", "type": "rule"},
+          {"name": "Infra-Red", "id": "59e8-6ed5-72fe-b88b", "hidden": false, "targetId": "e794-7147-1c60-5942", "type": "rule"}
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "a141-b0ec-a143-e00f",
+            "collective": false,
+            "defaultSelectionEntryId": "5e76-3e0f-6506-d748",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "3033-34ee-6fc1-27ae",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
+              },
+              {
+                "id": "f48d-38ee-a228-ec43",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "3x Magach 6",
+                "id": "0a0a-8b62-d283-3fcd",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 11}]
+              },
+              {
+                "name": "2x Magach 6",
+                "id": "5e76-3e0f-6506-d748",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 7}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli Magach 6 Tank Company",
+        "id": "b5bb-4330-31c3-a565",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1b64-0b90-5334-dcf3", "hidden": false, "primary": true, "targetId": "49c4-0317-f106-84c7"}],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Magach 6 HQ",
+            "id": "7c2a-363b-b609-fd53",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Combat Formation", "id": "5fe4-e826-de79-37cc", "hidden": false, "primary": false, "targetId": "49c4-0317-f106-84c7"}],
+            "constraints": [
+              {
+                "id": "ec91-70b5-25d0-20d3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "3d8d-0830-f3c8-09bb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+            "infoLinks": [
+              {"name": "M68 105mm gun", "id": "9138-bfdd-b36a-cae2", "hidden": false, "targetId": "d35b-ac1d-1959-1daa", "type": "profile"},
+              {"name": ".50 cal MG", "id": "cadb-28e8-f687-689d", "hidden": false, "targetId": "b8ec-c5d7-69f3-1692", "type": "profile"},
+              {"name": "7.62 AA MG", "id": "07c4-5fa0-e284-3753", "hidden": false, "targetId": "0db1-913b-4e9a-0860", "type": "profile"},
+              {"name": "AA MG", "id": "080b-09d3-44d4-4a4e", "hidden": false, "targetId": "60ba-123c-4f2a-1604", "type": "rule"}
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Unit Size",
+                "id": "023d-2311-4397-8d84",
+                "collective": false,
+                "defaultSelectionEntryId": "2d9f-3404-30d2-5a21",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "4000-297b-50f9-2fe6",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "a9e4-b4a1-b5e7-5f49",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "1x Magach 6 HQ",
+                    "id": "2d9f-3404-30d2-5a21",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 4}],
+                    "infoLinks": [{"name": "Magach 6 HQ", "id": "5b04-9d1a-88a7-be46", "hidden": false, "targetId": "49da-63e7-b2d5-1c3c", "type": "profile"}]
+                  },
+                  {
+                    "name": "2x Magach 6 HQ",
+                    "id": "8c2b-81f9-43bf-22d8",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 7}],
+                    "infoLinks": [{"name": "Magach 6 HQ", "id": "e68f-1ca8-a96e-b489", "hidden": false, "targetId": "49da-63e7-b2d5-1c3c", "type": "profile"}]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Jeep Recce Platoon or M113 Recce Platoon",
+            "id": "c6a6-4f7e-5322-9d38",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "efb2-aa11-9c02-c2ce",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "896e-fd04-89ce-adf8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Israeli M113 Recce Platoon",
+                "id": "066e-e94a-2405-623e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "a847-0242-20bf-c799",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Jeep Recce Platoon",
+                "id": "5d65-ed14-6ef2-6e38",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "b79d-d450-09bb-2c21",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "M113 Mech Platoon",
+            "id": "9904-2b25-613d-f021",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "7f87-ba61-ecd3-2aef",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
+              },
+              {
+                "id": "c256-cafd-3123-a087",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "M113 Mech Platoon",
+                "id": "a998-a32c-af5c-63de",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f675-5bf4-b041-50d7",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "Magach 6 Tank Platoon",
+            "id": "880d-2698-fac0-b3d1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "0fd4-d360-be14-c1d5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              },
+              {
+                "id": "f421-34f4-53e3-4733",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "magach 6 tank platoon",
+                "id": "a998-a32c-af5c-1234",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "8af1-83f2-1a71-5b19",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli M113 Recce Platoon",
+        "id": "a847-0242-20bf-c799",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "efa8-d617-926d-4531", "hidden": false, "primary": true, "targetId": "ccc5-e668-a26d-db83"}],
+        "constraints": [
+          {
+            "id": "7b87-13a6-658b-aa29",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 0
+          },
+          {
+            "id": "bc4f-5985-4232-5d05",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [
+          {"name": "M113 Chassis", "id": "3c91-ef08-79ff-54ba", "hidden": false, "targetId": "2334-97c0-75d9-04aa", "type": "profile"},
+          {"name": "7.62 AA MG", "id": "268f-57ca-0714-cd1b", "hidden": false, "targetId": "0db1-913b-4e9a-0860", "type": "profile"},
+          {"name": ".50 cal AA MG", "id": "64b4-7e08-f536-7651", "hidden": false, "targetId": "7db7-f937-aedb-0515", "type": "profile"},
+          {"name": "Spearhead", "id": "e735-17c6-5d8d-0409", "hidden": false, "targetId": "e9cf-a511-2a6a-6507", "type": "rule"},
+          {"name": "Scout", "id": "a3a7-4c32-3550-a6d6", "hidden": false, "targetId": "9df5-f39b-4148-24ca", "type": "rule"},
+          {"name": "Amphibious", "id": "80b7-13b0-5ff8-e559", "hidden": false, "targetId": "5807-4eac-7fae-eda0", "type": "rule"}
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "77b8-4dee-0604-f48f",
+            "collective": false,
+            "defaultSelectionEntryId": "68fb-f0c8-daf1-e319",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "5955-0c14-f4f6-b4dd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
+              },
+              {
+                "id": "180c-e54b-9a73-c8b9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "3x Recce M113",
+                "id": "68fb-f0c8-daf1-e319",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 2}]
+              },
+              {
+                "name": "4x Recce M113",
+                "id": "1919-57a5-2777-bd8f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 3}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli Jeep Recce Platoon",
+        "id": "b79d-d450-09bb-2c21",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "f59d-8c25-2327-74f2", "hidden": false, "primary": true, "targetId": "ccc5-e668-a26d-db83"}],
+        "constraints": [
+          {
+            "id": "bc4f-5985-4232-5d05",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [
+          {"name": "Jeep", "id": "8f87-e9c0-0d1e-7da8", "hidden": false, "targetId": "6702-5ea6-6c16-f461", "type": "profile"},
+          {"name": "7.62 AA MG", "id": "09ef-3ef0-c5eb-3482", "hidden": false, "targetId": "0db1-913b-4e9a-0860", "type": "profile"},
+          {"name": "Spearhead", "id": "5fc0-50d7-8caa-b15d", "hidden": false, "targetId": "e9cf-a511-2a6a-6507", "type": "rule"},
+          {"name": "Scout", "id": "5ebf-effd-b89d-3b52", "hidden": false, "targetId": "9df5-f39b-4148-24ca", "type": "rule"},
+          {"name": "forward firing", "id": "83f9-977b-6a7b-e902", "hidden": false, "targetId": "253b-8bc1-23c4-40c7", "type": "rule"}
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "8285-cc2b-e175-dea3",
+            "collective": false,
+            "defaultSelectionEntryId": "58ac-8d48-7075-db00",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "5955-0c14-f4f6-b4dd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
+              },
+              {
+                "id": "180c-e54b-9a73-c8b9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x Recce Jeep",
+                "id": "58ac-8d48-7075-db00",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 2}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli M106 120mm Mortar Battery",
+        "id": "4f8f-4cc8-5d24-aa97",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "fae4-d77f-c6b3-8dda", "hidden": false, "primary": true, "targetId": "ccc5-e668-a26d-db83"}],
+        "constraints": [
+          {
+            "id": "bc4f-5985-4232-5d05",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [
+          {"name": "M113", "id": "e249-35f4-d1a5-5013", "hidden": false, "targetId": "2334-97c0-75d9-04aa", "type": "profile"},
+          {"name": ".50 cal AA MG", "id": "2bf8-bcf3-4720-d040", "hidden": false, "targetId": "7db7-f937-aedb-0515", "type": "profile"},
+          {"name": "120mm Mortar", "id": "3cde-6060-8479-9fc6", "hidden": false, "targetId": "0db1-913b-4e9a-0860", "type": "profile"},
+          {"name": "Amphibious", "id": "2c71-48ad-3610-a4f3", "hidden": false, "targetId": "5807-4eac-7fae-eda0", "type": "rule"},
+          {"name": "Smoke Bombardment", "id": "3f5e-e400-5949-d6f6", "hidden": false, "targetId": "9897-8e4d-613a-55cb", "type": "rule"}
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "890a-218a-108d-d4a5",
+            "collective": false,
+            "defaultSelectionEntryId": "463d-3da1-ef09-15a5",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "5955-0c14-f4f6-b4dd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "180c-e54b-9a73-c8b9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x M106 (120mm)",
+                "id": "463d-3da1-ef09-15a5",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 2}]
+              },
+              {
+                "name": "3x M106 (120mm)",
+                "id": "47be-2dca-d824-7638",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 3}]
+              },
+              {
+                "name": "4x M106 (120mm)",
+                "id": "c2db-6822-129f-4af1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 4}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli ZSU-23-4 Shilka AA Platoon",
+        "id": "aea6-181b-5556-6b41",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "ff11-d0a3-9418-0c60", "hidden": false, "primary": true, "targetId": "f947-2750-08c3-d4fc"}],
+        "constraints": [
+          {
+            "id": "bc4f-5985-4232-5d05",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [
+          {"name": "ZSU-23-4 Shilka", "id": "a471-0804-1370-8b1d", "hidden": false, "targetId": "a39b-b1c6-8ba9-08f2", "type": "profile"},
+          {"name": "23mm 2A7 AA gun", "id": "0172-ebbb-09f7-cd4b", "hidden": false, "targetId": "0db1-913b-4e9a-0860", "type": "profile"},
+          {"name": "Radar", "id": "5451-03fb-3278-2c20", "hidden": false, "targetId": "beb6-7b27-c6e9-3056", "type": "rule"},
+          {"name": "dedicated AA", "id": "ff08-bf9d-dcae-419b", "hidden": false, "targetId": "514b-1009-1db9-e89a", "type": "rule"}
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "7a64-558c-6764-01e0",
+            "collective": false,
+            "defaultSelectionEntryId": "10c9-17ea-944c-f42b",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "5955-0c14-f4f6-b4dd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "180c-e54b-9a73-c8b9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x ZSU-23-4 Shilka",
+                "id": "10c9-17ea-944c-f42b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 3}]
+              },
+              {
+                "name": "4x ZSU-23-4 Shilka",
+                "id": "80c5-fdf1-f161-b32c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 6}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli Pereh Anti-Tank Platoon",
+        "id": "1ce0-2cce-91a7-c529",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "837e-1f85-e733-a16d", "hidden": false, "primary": true, "targetId": "f947-2750-08c3-d4fc"}],
+        "constraints": [
+          {
+            "id": "bc4f-5985-4232-5d05",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [
+          {"name": "Pereh", "id": "b9c8-79a6-91b1-aa2f", "hidden": false, "targetId": "8e41-59de-4ae7-c0e2", "type": "profile"},
+          {"name": "7.62 AA MG", "id": "8d62-8cda-8de1-d1ea", "hidden": false, "targetId": "0db1-913b-4e9a-0860", "type": "profile"},
+          {"name": "Tamuz Missile", "id": "cfab-4357-2ce2-d75a", "hidden": false, "targetId": "2042-af6a-b756-5cb5", "type": "profile"},
+          {"name": "Infra-Red", "id": "5b90-e32e-b218-b5d9", "hidden": false, "targetId": "e794-7147-1c60-5942", "type": "rule"},
+          {"name": "BDD", "id": "2ae4-9d01-89d8-32a5", "hidden": false, "targetId": "6f6c-20ec-7219-ad4a", "type": "rule"}
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "d186-964f-95b1-5c7d",
+            "collective": false,
+            "defaultSelectionEntryId": "2847-232a-3036-2dbf",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "5955-0c14-f4f6-b4dd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "180c-e54b-9a73-c8b9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x Pereh",
+                "id": "2847-232a-3036-2dbf",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 5}]
+              },
+              {
+                "name": "3x Pereh",
+                "id": "b577-d395-b7ac-e554",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 7}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli M113 OP Artillery Observer",
+        "id": "ed6e-0ed5-a661-eb3d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "2bd8-18bb-296b-731f", "hidden": false, "primary": true, "targetId": "f947-2750-08c3-d4fc"}],
+        "constraints": [
+          {
+            "id": "bc4f-5985-4232-5d05",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [
+          {"name": "M113  Chassis", "id": "ef47-e0d1-767c-b3de", "hidden": false, "targetId": "2334-97c0-75d9-04aa", "type": "profile"},
+          {"name": "7.62 AA MG", "id": "897c-052e-0dc7-76f4", "hidden": false, "targetId": "0db1-913b-4e9a-0860", "type": "profile"},
+          {"name": "Amphibious", "id": "85ba-596f-b4e8-570f", "hidden": false, "targetId": "5807-4eac-7fae-eda0", "type": "rule"},
+          {"name": "Infra-Red", "id": "7c14-d47a-dca4-4b24", "hidden": false, "targetId": "e794-7147-1c60-5942", "type": "rule"},
+          {"name": "observer", "id": "bdbb-8761-6172-ca23", "hidden": false, "targetId": "e41f-bf7a-3766-c44c", "type": "rule"}
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "fe35-48b1-a7d3-a3a4",
+            "collective": false,
+            "defaultSelectionEntryId": "de62-0ace-cd70-551a",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "5955-0c14-f4f6-b4dd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "180c-e54b-9a73-c8b9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "1x M113 OP",
+                "id": "de62-0ace-cd70-551a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 1}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli Redeye Sam Platoon",
+        "id": "bacb-06dd-18c6-131a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c6f6-4ad8-5f38-4bbe", "hidden": false, "primary": true, "targetId": "f947-2750-08c3-d4fc"}],
+        "constraints": [
+          {
+            "id": "bc4f-5985-4232-5d05",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [
+          {"name": "Redeye Team", "id": "18dd-398a-a45d-9459", "hidden": false, "targetId": "c29d-1bf7-b7be-5034", "type": "profile"},
+          {"name": "Redeye Team", "id": "0f94-2ea4-b727-c01e", "hidden": false, "targetId": "cd4d-890c-a052-7b94", "type": "profile"},
+          {"name": "Guided AA", "id": "a35a-c192-1f9d-0f6d", "hidden": false, "targetId": "8fe0-6df6-1e26-7ec2", "type": "rule"},
+          {"name": "heavy weapon", "id": "01f3-b3b9-b0e7-9f2d", "hidden": false, "targetId": "d661-451e-b329-b452", "type": "rule"}
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "317f-e5be-954d-dad8",
+            "collective": false,
+            "defaultSelectionEntryId": "8f96-35b4-8713-5b4a",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "5955-0c14-f4f6-b4dd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "180c-e54b-9a73-c8b9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x Redeye Team",
+                "id": "8f96-35b4-8713-5b4a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 2}]
+              },
+              {
+                "name": "4x Redeye Team",
+                "id": "80b7-fab1-88dc-9cb0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 4}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli M125 81mm Mortar Platoon",
+        "id": "f7c7-6953-00ea-4e42",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c6f6-4ad8-5f38-4bbf", "hidden": false, "primary": true, "targetId": "ccc5-e668-a26d-db83"}],
+        "constraints": [
+          {
+            "id": "bc4f-5985-4232-5d05",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [
+          {"name": "M113  Chassis", "id": "83ff-6fdf-5c54-d8e5", "hidden": false, "targetId": "2334-97c0-75d9-04aa", "type": "profile"},
+          {"name": ".50 cal AA MG", "id": "7266-c22c-e5e1-b467", "hidden": false, "targetId": "7db7-f937-aedb-0515", "type": "profile"},
+          {"name": "Smoke Bombardment", "id": "11f3-8755-04c9-8a56", "hidden": false, "targetId": "9897-8e4d-613a-55cb", "type": "rule"},
+          {"name": "Amphibious", "id": "b9c3-7285-843f-8740", "hidden": false, "targetId": "5807-4eac-7fae-eda0", "type": "rule"}
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "c1ad-962f-59dd-d45b",
+            "collective": false,
+            "defaultSelectionEntryId": "b30f-705e-8bf4-4f82",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "5955-0c14-f4f6-b4dd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
+              },
+              {
+                "id": "180c-e54b-9a73-c8b9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x M125 (81mm)",
+                "id": "b30f-705e-8bf4-4f82",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 1}]
+              },
+              {
+                "name": "3x M125 (81mm)",
+                "id": "a629-b994-3434-ead0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 2}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli M150 Anti-Tank Platoon",
+        "id": "22a8-1575-80b6-cd32",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c6f6-4ad8-5f38-4bce", "hidden": false, "primary": true, "targetId": "ccc5-e668-a26d-db83"}],
+        "constraints": [
+          {
+            "id": "bc4f-5985-4232-5d05",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [
+          {"name": "M113  Chassis", "id": "222a-e517-8e80-bbb5", "hidden": false, "targetId": "2334-97c0-75d9-04aa", "type": "profile"},
+          {"name": "7.62 AA MG", "id": "d54d-8113-d029-7058", "hidden": false, "targetId": "0db1-913b-4e9a-0860", "type": "profile"},
+          {"name": "Thermal Imaging", "id": "2db5-1ddd-137b-b983", "hidden": false, "targetId": "d777-d425-a1a7-8e83", "type": "rule"},
+          {"name": "Amphibious", "id": "ddad-9058-c482-cd2e", "hidden": false, "targetId": "5807-4eac-7fae-eda0", "type": "rule"},
+          {"name": "Guided", "id": "28af-c025-dbd2-599b", "hidden": false, "targetId": "5571-a7f9-133c-dd58", "type": "rule"},
+          {"name": "HEAT", "id": "a495-0ec4-3320-5fd6", "hidden": false, "targetId": "4ac0-f918-a4e1-d232", "type": "rule"}
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "190e-7213-d43c-0393",
+            "collective": false,
+            "defaultSelectionEntryId": "f1a1-287c-95d4-4db3",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "5955-0c14-f4f6-b4dd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
+              },
+              {
+                "id": "180c-e54b-9a73-c8b9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x M150(TOW)",
+                "id": "f1a1-287c-95d4-4db3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 3}],
+                "infoLinks": [{"name": "Improved TOW Missile", "id": "0f2e-4590-b087-ee9c", "hidden": false, "targetId": "985f-afac-086e-c6e1", "type": "profile"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli Jeep (TOW) platoon",
+        "id": "2572-fade-0e37-b805",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Formation Support", "id": "5a57-7b52-2726-6241", "hidden": false, "primary": true, "targetId": "ccc5-e668-a26d-db83"}],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [
+          {"name": "Jeep", "id": "c375-79bd-0157-b1c2", "hidden": false, "targetId": "6702-5ea6-6c16-f461", "type": "profile"},
+          {"name": "Improved TOW Missile", "id": "f07a-8a6a-2040-117d", "hidden": false, "targetId": "985f-afac-086e-c6e1", "type": "profile"},
+          {"name": "Scout", "id": "3c63-470d-35ed-0d9a", "hidden": false, "targetId": "9df5-f39b-4148-24ca", "type": "rule"},
+          {"name": "Thermal Imaging", "id": "1f4f-fa74-b1ae-af11", "hidden": false, "targetId": "d777-d425-a1a7-8e83", "type": "rule"},
+          {"name": "Guided", "id": "11cb-0390-f005-baee", "hidden": false, "targetId": "5571-a7f9-133c-dd58", "type": "rule"},
+          {"name": "HEAT", "id": "9f8e-c858-a482-71d4", "hidden": false, "targetId": "4ac0-f918-a4e1-d232", "type": "rule"}
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "9b94-acd0-44f9-bbe6",
+            "collective": false,
+            "defaultSelectionEntryId": "6ea3-48ac-8e15-eeef",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "3033-34ee-6fc1-27ae",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "f48d-38ee-a228-ec43",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x Jeep (TOW)",
+                "id": "6ea3-48ac-8e15-eeef",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 3}]
+              },
+              {
+                "name": "4x Jeep (TOW)",
+                "id": "4df8-1600-108f-6b2c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 6}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli Merkava Tank Company",
+        "id": "cf79-aa8b-04fd-c269",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1e15-2f28-2bc3-f0a2", "hidden": false, "primary": true, "targetId": "49c4-0317-f106-84c7"}],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Merkava 1 HQ",
+            "id": "5bbc-002d-87b4-f35e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Combat Formation", "id": "ebef-cb33-447c-193a", "hidden": false, "primary": false, "targetId": "49c4-0317-f106-84c7"}],
+            "constraints": [
+              {
+                "id": "ec91-70b5-25d0-20d3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "3d8d-0830-f3c8-09bb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+            "infoLinks": [
+              {"name": "M68 105mm gun", "id": "33b8-da3b-5035-4f7e", "hidden": false, "targetId": "d35b-ac1d-1959-1daa", "type": "profile"},
+              {"name": "Advanced Stabiliser", "id": "3ff4-6e5f-483d-6ce5", "hidden": false, "targetId": "16f1-d6c2-e846-b6c8", "type": "rule"},
+              {"name": "Laser Rangefinder", "id": "6a7c-0632-5fe7-beb9", "hidden": false, "targetId": "ab4f-6615-cc38-6418", "type": "rule"},
+              {"name": "Chobham Armor", "id": "ccc2-3116-5489-0b72", "hidden": false, "targetId": "c037-2081-25b7-61b7", "type": "rule"},
+              {"name": "Thermal Imaging", "id": "28f2-af61-ce41-ce13", "hidden": false, "targetId": "d777-d425-a1a7-8e83", "type": "rule"},
+              {"name": ".50 cal AA MG", "id": "e619-96c0-773f-e80e", "hidden": false, "targetId": "7db7-f937-aedb-0515", "type": "profile"},
+              {"name": "7.62 AA MG", "id": "e902-c0d1-43a9-c16f", "hidden": false, "targetId": "0db1-913b-4e9a-0860", "type": "profile"},
+              {"name": "AA MG", "id": "29fa-ad1d-9b64-b48c", "hidden": false, "targetId": "60ba-123c-4f2a-1604", "type": "rule"}
+            ],
+            "rules": [{"name": "Merkava 1 HQ", "id": "7d77-30ff-7cf5-793c", "hidden": false}],
+            "selectionEntryGroups": [
+              {
+                "name": "Unit Size",
+                "id": "304e-2a8d-abc3-4617",
+                "collective": false,
+                "defaultSelectionEntryId": "f3ce-6113-1677-319d",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "4000-297b-50f9-2fe6",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "a9e4-b4a1-b5e7-5f49",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "1x Merkava 1 HQ",
+                    "id": "f3ce-6113-1677-319d",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 6}],
+                    "infoLinks": [{"name": "Merkava 1 HQ", "id": "38da-55bb-b413-dada", "hidden": false, "targetId": "bfcf-30b2-50c3-ab09", "type": "profile"}]
+                  },
+                  {
+                    "name": "1x Merkava 2 HQ",
+                    "id": "aedc-f0bc-8bac-2dbf",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 7}],
+                    "infoLinks": [{"name": "Merkava 2 HQ", "id": "7b80-4ed2-6f40-539d", "hidden": false, "targetId": "80f1-757f-fcc9-8289", "type": "profile"}]
+                  },
+                  {
+                    "name": "2x Merkava 2 HQ",
+                    "id": "aedc-f0bc-8bac-2eef",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 14}],
+                    "infoLinks": [{"name": "Merkava 2 HQ", "id": "7b80-4ed2-6f40-531f", "hidden": false, "targetId": "80f1-757f-fcc9-8289", "type": "profile"}]
+                  },
+                  {
+                    "name": "2x Merkava 1",
+                    "id": "f3ce-6113-1677-333f",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 12}],
+                    "infoLinks": [{"name": "Merkava 1 HQ", "id": "38da-55bb-b413-dafe", "hidden": false, "targetId": "bfcf-30b2-50c3-ab09", "type": "profile"}]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Jeep Recce Platoon or M113 Recce Platoon",
+            "id": "9f09-c7b6-7357-e564",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "efb2-aa11-9c02-c2ce",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "896e-fd04-89ce-adf8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Israeli M113 Recce Platoon",
+                "id": "ce54-f685-0e28-37aa",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "a847-0242-20bf-c799",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Jeep Recce Platoon",
+                "id": "61a4-bcbc-ce9c-362b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "b79d-d450-09bb-2c21",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "Israeli M113 Mech Platoon",
+            "id": "9904-2b25-613d-f022",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "7f87-ba61-ecd3-2aef",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
+              },
+              {
+                "id": "c256-cafd-3123-a087",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Israeli M113 Mech Platoon",
+                "id": "6865-89ce-a772-82ac",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f675-5bf4-b041-50d7",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "Merkava  Tank Platoon",
+            "id": "880d-2698-fac0-b3d6",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "0fd4-d360-be14-c1d5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              },
+              {
+                "id": "f421-34f4-53e3-4733",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Merkava Tank Platoon",
+                "id": "aa89-88e3-4b83-b6c1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "b574-347b-c757-237d",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli Merkava Tank Platoon",
+        "id": "b574-347b-c757-237d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c6f6-4ad8-5f38-4dbe", "hidden": false, "primary": true, "targetId": "ccc5-e668-a26d-db83"}],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [
+          {"name": "M68 105mm gun", "id": "b022-7a67-2e55-e17f", "hidden": false, "targetId": "d35b-ac1d-1959-1daa", "type": "profile"},
+          {"name": "Stabiliser", "id": "797e-41a4-4f1e-8f67", "hidden": false, "targetId": "d3fb-834f-d6a6-3a89", "type": "rule"},
+          {"name": "Infra-Red", "id": "25cb-2c21-b5b6-ce22", "hidden": false, "targetId": "e794-7147-1c60-5942", "type": "rule"},
+          {"name": "Bazooka Skirts", "id": "5ce1-10a9-3cf7-5a2f", "hidden": false, "targetId": "2cb5-d057-feb4-dd26", "type": "rule"},
+          {"name": "Laser Rangefinder", "id": "fe70-c541-551b-6a27", "hidden": false, "targetId": "ab4f-6615-cc38-6418", "type": "rule"},
+          {"name": ".50 cal AA MG", "id": "fbfe-8302-9a06-179e", "hidden": false, "targetId": "7db7-f937-aedb-0515", "type": "profile"},
+          {"name": "7.62 AA MG", "id": "d85d-f093-6476-69ab", "hidden": false, "targetId": "0db1-913b-4e9a-0860", "type": "profile"},
+          {"name": "AA MG", "id": "4dd2-901b-74f4-f193", "hidden": false, "targetId": "60ba-123c-4f2a-1604", "type": "rule"},
+          {"name": "Anti-Helicopter", "id": "665d-b41b-3a26-461d", "hidden": false, "targetId": "8e4a-59b8-2d58-8f33", "type": "rule"},
+          {"name": "Smoke", "id": "5ef1-4b4e-7dd9-464d", "hidden": false, "targetId": "f3d4-cf1f-bfdd-e76c", "type": "rule"},
+          {"name": "Brutal", "id": "b0a7-acc6-2475-10c7", "hidden": false, "targetId": "2102-fd36-69d4-0b93", "type": "rule"}
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "72f9-cdcc-27a8-1bd8",
+            "collective": false,
+            "defaultSelectionEntryId": "5060-d5d8-e26b-460a",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "3033-34ee-6fc1-27ae",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
+              },
+              {
+                "id": "f48d-38ee-a228-ec43",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "3x Merkava 1",
+                "id": "dc78-9511-2395-684b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 18}],
+                "infoLinks": [{"name": "Merkava 1", "id": "4363-19a9-0f91-4782", "hidden": false, "targetId": "872d-daa3-fe3d-a036", "type": "profile"}]
+              },
+              {
+                "name": "2x Merkava 1",
+                "id": "5060-d5d8-e26b-460a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 12}],
+                "infoLinks": [{"name": "Merkava 1", "id": "ee4c-7416-c9da-edab", "hidden": false, "targetId": "872d-daa3-fe3d-a036", "type": "profile"}]
+              },
+              {
+                "name": "2x Merkava 2",
+                "id": "bbc9-6a42-ec28-d01e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 14}],
+                "infoLinks": [{"name": "Merkava 2", "id": "0c3f-5b61-20be-3f75", "hidden": false, "targetId": "5d42-4fd3-6a3c-87eb", "type": "profile"}]
+              },
+              {
+                "name": "3x Merkava 2",
+                "id": "74d9-8730-179b-8e0b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 21}],
+                "infoLinks": [{"name": "Merkava 2", "id": "c4b9-fa11-a2d9-1005", "hidden": false, "targetId": "5d42-4fd3-6a3c-87eb", "type": "profile"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli M48 Chaparral SAM Platoon",
+        "id": "2852-ea2f-cf13-92c7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "page": 61,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "0e37-510f-7386-5d53", "hidden": false, "primary": true, "targetId": "f947-2750-08c3-d4fc"}],
+        "constraints": [
+          {
+            "id": "5dbd-139a-6b29-db83",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [
+          {"name": "Infra-Red", "id": "28f8-91a4-cd25-befe", "hidden": false, "targetId": "e794-7147-1c60-5942", "type": "rule"},
+          {"name": "Guided AA", "id": "5a48-979c-d7ad-466e", "hidden": false, "targetId": "8fe0-6df6-1e26-7ec2", "type": "rule"},
+          {"name": "M48 Chaparral SAM Platoon", "id": "140f-6464-7ec6-4f34", "hidden": false, "targetId": "fa21-f1f8-f01f-404b", "type": "profile"},
+          {"name": "MIM-72 Sidewinder AA Missile", "id": "952e-37cb-7369-35cd", "hidden": false, "targetId": "26a4-d546-53c8-f619", "type": "profile"}
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "6bb6-e0cc-8422-5051",
+            "collective": false,
+            "defaultSelectionEntryId": "8193-9fa5-b43b-f91e",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "0482-31c3-ed0f-19f9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "1de0-93eb-719b-bf68",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x M48",
+                "id": "8193-9fa5-b43b-f91e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 4}]
+              },
+              {
+                "name": "4x M48",
+                "id": "b098-8a82-6987-3784",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 9}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli M109 SP Artillery Battery",
+        "id": "3484-1993-0776-b345",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c514-6f7a-d42b-2797", "hidden": false, "primary": true, "targetId": "f947-2750-08c3-d4fc"}],
+        "constraints": [
+          {
+            "id": "209c-afed-5e79-91de",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 2
+          }
+        ],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [
+          {"name": "M109", "id": "43cd-15ac-b9a0-9162", "hidden": false, "targetId": "7894-8920-f84b-6aa7", "type": "profile"},
+          {"name": ".50 cal AA MG", "id": "1c73-8b4d-3145-8ba4", "hidden": false, "targetId": "7db7-f937-aedb-0515", "type": "profile"},
+          {"name": "M185 155mm howitzer", "id": "08f7-7450-bb6c-5c0a", "hidden": false, "targetId": "06be-fdea-c9d3-13e2", "type": "profile"},
+          {"name": "M185 155mm howitzer direct fire", "id": "ebf5-0488-bd6f-933b", "hidden": false, "targetId": "d327-44f6-44db-d971", "type": "profile"},
+          {"name": "AA MG", "id": "1e2f-5f07-5d5e-4701", "hidden": false, "targetId": "60ba-123c-4f2a-1604", "type": "rule"},
+          {"name": "Smoke Bombardment", "id": "3d91-1dd8-feba-7179", "hidden": false, "targetId": "9897-8e4d-613a-55cb", "type": "rule"},
+          {"name": "Brutal", "id": "c717-483d-56a5-4bb9", "hidden": false, "targetId": "2102-fd36-69d4-0b93", "type": "rule"},
+          {"name": "Slow Firing", "id": "7ab0-9049-4ec4-7ed9", "hidden": false, "targetId": "7504-1bfb-7651-0911", "type": "rule"},
+          {"name": "Smoke", "id": "0a94-62b6-299f-3432", "hidden": false, "targetId": "f3d4-cf1f-bfdd-e76c", "type": "rule"}
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "67ce-c669-df9d-3bad",
+            "collective": false,
+            "defaultSelectionEntryId": "b9f7-9218-b97e-b439",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "4ca3-2ba5-38e7-b344",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "dadb-a833-05c2-f9e1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "3x M109",
+                "id": "b9f7-9218-b97e-b439",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 7}]
+              },
+              {
+                "name": "6x M109",
+                "id": "71df-75f9-bf5a-1876",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 14}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli M163 VADS AA Platoon",
+        "id": "8a3b-df0a-c82e-3472",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "6ea4-8d27-c93a-d40f", "hidden": false, "primary": true, "targetId": "f947-2750-08c3-d4fc"}],
+        "constraints": [
+          {
+            "id": "b111-547a-ed71-fc9b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [{"name": "M163 VADS AA Platoon", "id": "a481-5860-364d-214d", "hidden": false, "targetId": "35d2-2058-9e89-05ef", "type": "infoGroup"}],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "efc2-5e63-dcea-bf68",
+            "collective": false,
+            "defaultSelectionEntryId": "3e13-76be-2fd5-664d",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "bbf9-0aaa-e571-825d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "68f4-3732-1b38-e279",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "4x M163 VADS",
+                "id": "a7da-446f-b853-1416",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 7}]
+              },
+              {
+                "name": "2x M163 VADS",
+                "id": "3e13-76be-2fd5-664d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 4}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli AH-1 Viper",
+        "id": "3470-919f-7db2-4629",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Support Unit", "id": "ce7e-9e36-1cfa-f087", "hidden": false, "primary": true, "targetId": "f947-2750-08c3-d4fc"}],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [
+          {"name": "AH-1 Viper", "id": "d394-7fac-89c9-0227", "hidden": false, "targetId": "e55d-6921-2f50-f850", "type": "profile"},
+          {"name": "Improved TOW Missile", "id": "985f-afac-086e-f24c", "hidden": false, "targetId": "985f-afac-086e-c6e1", "type": "profile"},
+          {"name": "M159 rocket launcher", "id": "6258-6c43-0e88-a847", "hidden": false, "targetId": "2481-bc60-b4b2-8b95", "type": "profile"},
+          {"name": "M197 20mm Vulcan Gatling Gun", "id": "1022-afec-204c-6d54", "hidden": false, "targetId": "8c5e-84bb-9621-0b88", "type": "profile"},
+          {"name": "Hunter-killer", "id": "120b-5194-0e8a-f009", "hidden": false, "targetId": "7504-9285-5e1a-6726", "type": "rule"},
+          {"name": "Thermal Imaging", "id": "15a2-02ab-e5a5-6156", "hidden": false, "targetId": "d777-d425-a1a7-8e83", "type": "rule"},
+          {"name": "Guided", "id": "0f4a-ebbd-b01f-e9a9", "hidden": false, "targetId": "5571-a7f9-133c-dd58", "type": "rule"},
+          {"name": "HEAT", "id": "270c-97a9-e4d7-ec15", "hidden": false, "targetId": "4ac0-f918-a4e1-d232", "type": "rule"},
+          {"name": "Anti-Helicopter", "id": "c986-98eb-f714-cf09", "hidden": false, "targetId": "8e4a-59b8-2d58-8f33", "type": "rule"},
+          {"name": "One Shot", "id": "c6b2-d9ce-1337-25dc", "hidden": false, "targetId": "42d2-8e63-990e-68f9", "type": "rule"}
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "8fea-4ab9-d0b2-1beb",
+            "collective": false,
+            "defaultSelectionEntryId": "4d60-785f-a2ab-1b72",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "bb4f-6926-ad63-a5d6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "170d-67e2-9d4d-d70e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x AH-1 Viper",
+                "id": "4d60-785f-a2ab-1b72",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 8}]
+              },
+              {
+                "name": "4x AH-1 Viper",
+                "id": "c4d3-9925-eff4-4980",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 16}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli Skyhawk Fighter Flight",
+        "id": "907c-b621-4ce4-7a46",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "0e37-510f-7386-5d53", "hidden": false, "primary": true, "targetId": "f947-2750-08c3-d4fc"}],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [{"name": "Skyhawk", "id": "53a5-5d5c-4586-9f2e", "hidden": false, "targetId": "a44f-137d-53e9-fe28", "type": "infoGroup"}],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "2867-c6d1-c8ac-9145",
+            "collective": false,
+            "defaultSelectionEntryId": "3e13-76be-2fd5-664c",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "a01e-4175-0f6c-1b59",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "43c9-850e-0509-5b1c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "4x Skyhawk",
+                "id": "a7da-446f-b853-1415",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 6}]
+              },
+              {
+                "name": "2x Skyhawk",
+                "id": "3e13-76be-2fd5-664c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 3}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Israeli M113 Mech Platoon",
+        "id": "f675-5bf4-b041-50d7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c6f6-4ad8-5f38-5cbe", "hidden": false, "primary": true, "targetId": "ccc5-e668-a26d-db83"}],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [
+          {"name": "HEAT", "id": "d683-9d4f-446e-36b6", "hidden": false, "targetId": "4ac0-f918-a4e1-d232", "type": "rule"},
+          {"name": "Slow Firing", "id": "6778-6d1d-0620-24b5", "hidden": false, "targetId": "7504-1bfb-7651-0911", "type": "rule"},
+          {"name": "M113  Chassis", "id": "6f23-2f35-855f-f93e", "hidden": false, "targetId": "2334-97c0-75d9-04aa", "type": "profile"},
+          {"name": "FN MAG", "id": "f64c-fff7-323c-8e55", "hidden": false, "targetId": "109c-2484-66ac-f390", "type": "profile"},
+          {"name": "Galil", "id": "f64c-fff7-323c-9876", "hidden": false, "targetId": "ccb9-b151-abc1-87ff", "type": "profile"},
+          {"name": "M47", "id": "efa2-7e15-bf78-0b9c", "hidden": false, "targetId": "dd19-5346-a65c-d98e", "type": "profile"},
+          {"name": "RPG-7", "id": "c4dd-0638-8fc1-2f1f", "hidden": false, "targetId": "8a6c-e42e-6c40-205d", "type": "profile"},
+          {"name": "M72 LAW", "id": "c4dd-0638-8fc1-2f0e", "hidden": false, "targetId": "11bc-8d75-cd12-066c", "type": "profile"},
+          {"name": "Assault #", "id": "807a-7c1e-ec4f-6aff", "hidden": false, "targetId": "b814-659f-46f8-b83a", "type": "rule"},
+          {"name": "Guided", "id": "8fb3-f3f5-6d8c-ad65", "hidden": false, "targetId": "5571-a7f9-133c-dd58", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Israeli Infantry Platoon",
+            "id": "c29d-1bf7-b7be-5034",
+            "hidden": false,
+            "typeId": "095d-7a5e-b507-44e4",
+            "typeName": "Infantry Team",
+            "characteristics": [
+              {"name": "Tactical", "$text": "8\"/20CM", "typeId": "e0ee-5804-d1a7-ffb3"},
+              {"name": "Terrain Dash", "$text": "8\"/20CM", "typeId": "ccbc-9147-7cef-acca"},
+              {"name": "Cross Country Dash", "$text": "12\"/30CM", "typeId": "ba8c-85b8-4860-cd28"},
+              {"name": "Road Dash", "$text": "12\"/30CM", "typeId": "ad4b-3a11-05ef-daf4"},
+              {"name": "Cross", "$text": "AUTO", "typeId": "93df-8d45-e422-9163"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "b0ba-ff6a-b454-a926"},
+              {"name": "Save", "$text": "3+", "typeId": "7ad2-ac9e-02fd-af45"},
+              {"name": "Courage", "$text": "3+", "typeId": "3ea8-3e5a-9400-878e"},
+              {"name": "Morale", "$text": "3+", "typeId": "68ce-356d-7a68-0eaf"},
+              {"name": "Rally", "$text": "3+", "typeId": "2a3a-aed9-48b2-234a"},
+              {"name": "Skill", "$text": "3+", "typeId": "eb99-12e9-c164-6fd6"},
+              {"name": "Assault", "$text": "4+", "typeId": "060b-f9d6-0748-a496"},
+              {"name": "Counter Attack", "$text": "3+", "typeId": "57d9-d0c4-dd83-6019"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Add 1x M47",
+            "id": "3232-291c-8e23-14a8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 1}]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "db51-3eb0-8965-98eb",
+            "collective": false,
+            "defaultSelectionEntryId": "36c6-6341-6452-1934",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "3033-34ee-6fc1-27ae",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 0
+              },
+              {
+                "id": "f48d-38ee-a228-ec43",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "3x Galil team with M72 LAW 2x FN MAG with M72 LAW 2x RPG-7  1x M47 1x 52mm Mortar 3x M113",
+                "id": "350a-1012-56ab-fcef",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 8}]
+              },
+              {
+                "name": "4x Galil team with M72 LAW 3x FN MAG with M72 LAW 3x RPG-7  1x M47 1x52mm Mortar 4x M113",
+                "id": "36c6-6341-6452-1934",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 11}]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedInfoGroups": [
+      {
+        "name": "Merkava 1 HQ",
+        "id": "be93-fb25-4e58-1c24",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Merkava 1 HQ", "id": "91ce-c48a-e51a-66dc", "hidden": false, "targetId": "bfcf-30b2-50c3-ab09", "type": "profile"},
+          {"name": ".50 cal AA MG", "id": "2c01-52eb-043c-5a5e", "hidden": false, "targetId": "7db7-f937-aedb-0515", "type": "profile"},
+          {"name": "7.62 AA MG", "id": "dc2c-4fd6-4b97-4cc1", "hidden": false, "targetId": "0db1-913b-4e9a-0860", "type": "profile"},
+          {"name": "M68 105mm gun", "id": "ff22-b7ca-2b61-acac", "hidden": false, "targetId": "d35b-ac1d-1959-1daa", "type": "profile"},
+          {"name": "Stabiliser", "id": "232d-c4de-e11e-5aec", "hidden": false, "targetId": "d3fb-834f-d6a6-3a89", "type": "rule"},
+          {"name": "BDD", "id": "1bab-42cf-74b0-1bb6", "hidden": false, "targetId": "6f6c-20ec-7219-ad4a", "type": "rule"},
+          {"name": "Laser Rangefinder", "id": "a202-3b01-caeb-24a5", "hidden": false, "targetId": "ab4f-6615-cc38-6418", "type": "rule"},
+          {"name": "Infra-Red", "id": "c2d8-adf4-6be7-eec3", "hidden": false, "targetId": "e794-7147-1c60-5942", "type": "rule"},
+          {"name": "AA MG", "id": "6a62-1bdc-6cf1-68f4", "hidden": false, "targetId": "60ba-123c-4f2a-1604", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Jeep Recce",
+        "id": "0a70-c302-36b5-0261",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "7.62 AA MG", "id": "d39a-eb0a-867c-7927", "hidden": false, "targetId": "0db1-913b-4e9a-0860", "type": "profile"},
+          {"name": "Jeep", "id": "cad5-2cf2-55e4-d47c", "hidden": false, "targetId": "6702-5ea6-6c16-f461", "type": "profile"}
+        ]
+      },
+      {
+        "name": "Jeep (TOW)",
+        "id": "ee88-9fb4-7bd1-77cf",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Improved TOW Missile", "id": "7be4-5cf6-7457-221f", "hidden": false, "targetId": "985f-afac-086e-c6e1", "type": "profile"},
+          {"name": "Jeep", "id": "53a4-fc6c-ae99-4067", "hidden": false, "targetId": "6702-5ea6-6c16-f461", "type": "profile"},
+          {"name": "Scout", "id": "b5da-df2e-c9b5-19bd", "hidden": false, "targetId": "9df5-f39b-4148-24ca", "type": "rule"},
+          {"name": "Thermal Imaging", "id": "e82f-9c94-54f5-d693", "hidden": false, "targetId": "d777-d425-a1a7-8e83", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Skyhawk",
+        "id": "a44f-137d-53e9-fe28",
+        "hidden": false,
+        "page": 65,
+        "infoLinks": [
+          {"name": "Strike Aircraft", "id": "207e-adeb-f8b3-c7c7", "hidden": false, "targetId": "c9ad-9317-fa93-e4f2", "type": "rule"},
+          {"name": "Brutal", "id": "7726-0002-4163-68d1", "hidden": false, "targetId": "2102-fd36-69d4-0b93", "type": "rule"},
+          {"name": "Anti-Helicopter", "id": "b25b-f80c-7ac2-392f", "hidden": false, "targetId": "8e4a-59b8-2d58-8f33", "type": "rule"},
+          {"name": "Guided", "id": "57dc-6a6d-1c0d-b1d3", "hidden": false, "targetId": "5571-a7f9-133c-dd58", "type": "rule"},
+          {"name": "One Shot", "id": "7d97-7ea9-b4be-4b06", "hidden": false, "targetId": "42d2-8e63-990e-68f9", "type": "rule"},
+          {"name": "Skyhawk", "id": "4415-7ec9-7733-2554", "hidden": false, "targetId": "328a-4562-071a-77f1", "type": "profile"},
+          {"name": "Napalm bomb", "id": "7b44-306e-e5b7-7c45", "hidden": false, "targetId": "00ae-c6f9-0d36-009d", "type": "profile"},
+          {"name": "Napalm", "id": "7b44-306e-e5b7-78ec", "hidden": false, "targetId": "beb6-7c27-c6f9-3066", "type": "rule"},
+          {"name": "CBU-100 Cluster bombs", "id": "f0bc-b5b1-0491-0098", "hidden": false, "targetId": "933e-fda4-97c4-41ea", "type": "profile"},
+          {"name": "30mm DEFA gun", "id": "6ad8-6265-d262-4a31", "hidden": false, "targetId": "c958-fa5b-4a93-0dab", "type": "profile"},
+          {"name": "Strike Aircraft", "id": "dba2-ac42-af11-29b0", "hidden": false, "targetId": "c9ad-9317-fa93-e4f2", "type": "rule"}
+        ]
+      },
+      {
+        "name": "M163 VADS",
+        "id": "35d2-2058-9e89-05ef",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Amphibious", "id": "5f99-27ce-6d8a-8553", "hidden": false, "targetId": "5807-4eac-7fae-eda0", "type": "rule"},
+          {"name": "Radar M163", "id": "5d08-204b-e734-4131", "hidden": false, "targetId": "90ff-cbfd-16c2-1b3d", "type": "rule"},
+          {"name": "dedicated AA", "id": "5d08-204b-e734-ab2c", "hidden": false, "targetId": "514b-1009-1db9-e89a", "type": "rule"},
+          {"name": "M113  Chassis VADS", "id": "7633-077b-b623-c67f", "hidden": false, "targetId": "7c55-4e46-61f3-1fb3", "type": "profile"},
+          {"name": "M168 20MM Vulcan Gatling AA gun", "id": "d1ba-7b0c-db3e-e645", "hidden": false, "targetId": "1bf0-5a8e-7e98-c8a3", "type": "profile"}
+        ]
+      },
+      {
+        "name": "M109 (155mm)",
+        "id": "ce35-c47b-28fb-b9f1",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Smoke Bombardment", "id": "e225-6b79-f82d-f3c6", "hidden": false, "targetId": "9897-8e4d-613a-55cb", "type": "rule"},
+          {"name": "Brutal", "id": "bedb-9122-efbb-3b77", "hidden": false, "targetId": "2102-fd36-69d4-0b93", "type": "rule"},
+          {"name": "Slow Firing", "id": "5222-c765-1175-dbf7", "hidden": false, "targetId": "7504-1bfb-7651-0911", "type": "rule"},
+          {"name": "Smoke", "id": "bb07-4e48-634a-07d8", "hidden": false, "targetId": "f3d4-cf1f-bfdd-e76c", "type": "rule"},
+          {"name": ".50 cal AA MG", "id": "05c1-c22b-bebe-3136", "hidden": false, "targetId": "7db7-f937-aedb-0515", "type": "profile"},
+          {"name": "M185 155mm howitzer", "id": "0aba-9eb2-573a-3576", "hidden": false, "targetId": "06be-fdea-c9d3-13e2", "type": "profile"},
+          {"name": "M185 155mm howitzer direct fire", "id": "268b-ce28-35ce-9513", "hidden": false, "targetId": "d327-44f6-44db-d971", "type": "profile"},
+          {"name": "M109", "id": "6c48-9686-5178-956c", "hidden": false, "targetId": "7894-8920-f84b-6aa7", "type": "profile"},
+          {"name": "AA MG", "id": "fe16-40e9-2c53-0fa7", "hidden": false, "targetId": "60ba-123c-4f2a-1604", "type": "rule"}
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Merkava 1 HQ",
+        "id": "bfcf-30b2-50c3-ab09",
+        "hidden": false,
+        "typeId": "e086-dcd6-1518-dc44",
+        "typeName": "Tank Unit",
+        "characteristics": [
+          {"name": "Tactical", "$text": "10\"/25CM", "typeId": "0f95-1160-8137-2e70"},
+          {"name": "Terrain Dash", "$text": "14\"/35CM", "typeId": "f9c7-641e-a00f-0552"},
+          {"name": "Cross Country Dash", "$text": "20\"/50CM", "typeId": "8fd7-dfd5-de5e-e574"},
+          {"name": "Road Dash", "$text": "24\"/60CM", "typeId": "f778-f445-c19b-30d4"},
+          {"name": "Cross", "$text": "3+", "typeId": "ae80-d6b0-cb1b-4c9c"},
+          {"name": "Front", "$text": "18", "typeId": "ca8b-c8f9-96f3-a913"},
+          {"name": "Side", "$text": "6", "typeId": "a40f-72f4-3d35-ec93"},
+          {"name": "Top", "$text": "2", "typeId": "f293-d7ab-abe0-c981"},
+          {"name": "Is Hit on", "$text": "4+", "typeId": "1a01-5cd5-d0d0-91c0"},
+          {"name": "Courage", "$text": "2+", "typeId": "12e0-c8cc-7fb1-25b5"},
+          {"name": "Morale", "$text": "2+", "typeId": "fb3f-6bb0-8c2b-d44a"},
+          {"name": "Remount", "$text": "2+", "typeId": "39b2-e446-443a-ccaf"},
+          {"name": "Skill", "$text": "2+", "typeId": "2347-c398-3cb7-2f91"},
+          {"name": "Assault", "$text": "4+", "typeId": "071d-fb0c-dc9f-c97f"},
+          {"name": "Counterattack", "$text": "2+", "typeId": "552a-1058-00df-a425"}
+        ]
+      },
+      {
+        "name": "Merkava 2 HQ",
+        "id": "80f1-757f-fcc9-8289",
+        "hidden": false,
+        "typeId": "e086-dcd6-1518-dc44",
+        "typeName": "Tank Unit",
+        "characteristics": [
+          {"name": "Tactical", "$text": "10\"/25CM", "typeId": "0f95-1160-8137-2e70"},
+          {"name": "Terrain Dash", "$text": "14\"/35CM", "typeId": "f9c7-641e-a00f-0552"},
+          {"name": "Cross Country Dash", "$text": "20\"/50CM", "typeId": "8fd7-dfd5-de5e-e574"},
+          {"name": "Road Dash", "$text": "24\"/60CM", "typeId": "f778-f445-c19b-30d4"},
+          {"name": "Cross", "$text": "3+", "typeId": "ae80-d6b0-cb1b-4c9c"},
+          {"name": "Front", "$text": "19", "typeId": "ca8b-c8f9-96f3-a913"},
+          {"name": "Side", "$text": "7", "typeId": "a40f-72f4-3d35-ec93"},
+          {"name": "Top", "$text": "2", "typeId": "f293-d7ab-abe0-c981"},
+          {"name": "Is Hit on", "$text": "4+", "typeId": "1a01-5cd5-d0d0-91c0"},
+          {"name": "Courage", "$text": "2+", "typeId": "12e0-c8cc-7fb1-25b5"},
+          {"name": "Morale", "$text": "2+", "typeId": "fb3f-6bb0-8c2b-d44a"},
+          {"name": "Remount", "$text": "2+", "typeId": "39b2-e446-443a-ccaf"},
+          {"name": "Skill", "$text": "2+", "typeId": "2347-c398-3cb7-2f91"},
+          {"name": "Assault", "$text": "4+", "typeId": "071d-fb0c-dc9f-c97f"},
+          {"name": "Counterattack", "$text": "2+", "typeId": "552a-1058-00df-a425"}
+        ]
+      },
+      {
+        "name": "M68 105mm gun",
+        "id": "d35b-ac1d-1959-1daa",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "40\"/100CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "2", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "2", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "19", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "2+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "$text": "Stabiliser, Laser Range Finder, Smoke, Brutal", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": ".50 cal AA MG",
+        "id": "7db7-f937-aedb-0515",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "20\"/50CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "3", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "2", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "4", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "5+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "7.62 AA MG",
+        "id": "0db1-913b-4e9a-0860",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "16\"/40CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "3", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "3", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "2", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "6", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "7.62 MG",
+        "id": "3e75-a9f5-e820-b029",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "16\"/40CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "1", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "1", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "2", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "6", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "Improved TOW Missile",
+        "id": "985f-afac-086e-c6e1",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "8\"/20CM-48\"/120CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "1", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "-", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "21", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "3+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "$text": "Guided, HEAT", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "M159 rocket launcher",
+        "id": "2481-bc60-b4b2-8b95",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "16\"/40CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "SALVO", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "SALVO", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "4", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "6", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "$text": "One Shot", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "M109",
+        "id": "7894-8920-f84b-6aa7",
+        "hidden": false,
+        "typeId": "e086-dcd6-1518-dc44",
+        "typeName": "Tank Unit",
+        "characteristics": [
+          {"name": "Tactical", "$text": "10\"/25CM", "typeId": "0f95-1160-8137-2e70"},
+          {"name": "Terrain Dash", "$text": "16\"/40CM", "typeId": "f9c7-641e-a00f-0552"},
+          {"name": "Cross Country Dash", "$text": "24\"/60CM", "typeId": "8fd7-dfd5-de5e-e574"},
+          {"name": "Road Dash", "$text": "28\"/70CM", "typeId": "f778-f445-c19b-30d4"},
+          {"name": "Cross", "$text": "3+", "typeId": "ae80-d6b0-cb1b-4c9c"},
+          {"name": "Front", "$text": "2", "typeId": "ca8b-c8f9-96f3-a913"},
+          {"name": "Side", "$text": "2", "typeId": "a40f-72f4-3d35-ec93"},
+          {"name": "Top", "$text": "1", "typeId": "f293-d7ab-abe0-c981"},
+          {"name": "Is Hit on", "$text": "4+", "typeId": "1a01-5cd5-d0d0-91c0"},
+          {"name": "Courage", "$text": "3+", "typeId": "12e0-c8cc-7fb1-25b5"},
+          {"name": "Morale", "$text": "3+", "typeId": "fb3f-6bb0-8c2b-d44a"},
+          {"name": "Remount", "$text": "3+", "typeId": "39b2-e446-443a-ccaf"},
+          {"name": "Skill", "$text": "3+", "typeId": "2347-c398-3cb7-2f91"},
+          {"name": "Assault", "$text": "5+", "typeId": "071d-fb0c-dc9f-c97f"},
+          {"name": "Counterattack", "$text": "4+", "typeId": "552a-1058-00df-a425"}
+        ]
+      },
+      {
+        "name": "M185 155mm howitzer",
+        "id": "06be-fdea-c9d3-13e2",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "96\"/240CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "ARTILLERY", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "ARTILLER", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "4", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "2+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "$text": "Smoke Bombardment", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "M185 155mm howitzer direct fire",
+        "id": "d327-44f6-44db-d971",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "36\"/90CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "1", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "1", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "15", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "1+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "$text": "Brutal, Slow Firing, Smoke", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "Merkava 2",
+        "id": "5d42-4fd3-6a3c-87eb",
+        "hidden": false,
+        "typeId": "e086-dcd6-1518-dc44",
+        "typeName": "Tank Unit",
+        "characteristics": [
+          {"name": "Tactical", "$text": "10\"/25CM", "typeId": "0f95-1160-8137-2e70"},
+          {"name": "Terrain Dash", "$text": "14\"/35CM", "typeId": "f9c7-641e-a00f-0552"},
+          {"name": "Cross Country Dash", "$text": "20\"/50CM", "typeId": "8fd7-dfd5-de5e-e574"},
+          {"name": "Road Dash", "$text": "24\"/60CM", "typeId": "f778-f445-c19b-30d4"},
+          {"name": "Cross", "$text": "3+", "typeId": "ae80-d6b0-cb1b-4c9c"},
+          {"name": "Front", "$text": "19", "typeId": "ca8b-c8f9-96f3-a913"},
+          {"name": "Side", "$text": "7", "typeId": "a40f-72f4-3d35-ec93"},
+          {"name": "Top", "$text": "2", "typeId": "f293-d7ab-abe0-c981"},
+          {"name": "Is Hit on", "$text": "4+", "typeId": "1a01-5cd5-d0d0-91c0"},
+          {"name": "Courage", "$text": "3+", "typeId": "12e0-c8cc-7fb1-25b5"},
+          {"name": "Morale", "$text": "3+", "typeId": "fb3f-6bb0-8c2b-d44a"},
+          {"name": "Remount", "$text": "2+", "typeId": "39b2-e446-443a-ccaf"},
+          {"name": "Skill", "$text": "3+", "typeId": "2347-c398-3cb7-2f91"},
+          {"name": "Assault", "$text": "4+", "typeId": "071d-fb0c-dc9f-c97f"},
+          {"name": "Counterattack", "$text": "3+", "typeId": "552a-1058-00df-a425"}
+        ]
+      },
+      {
+        "name": "Merkava 1",
+        "id": "872d-daa3-fe3d-a036",
+        "hidden": false,
+        "typeId": "e086-dcd6-1518-dc44",
+        "typeName": "Tank Unit",
+        "characteristics": [
+          {"name": "Tactical", "$text": "10\"/25CM", "typeId": "0f95-1160-8137-2e70"},
+          {"name": "Terrain Dash", "$text": "14\"/35CM", "typeId": "f9c7-641e-a00f-0552"},
+          {"name": "Cross Country Dash", "$text": "20\"/50CM", "typeId": "8fd7-dfd5-de5e-e574"},
+          {"name": "Road Dash", "$text": "24\"/60CM", "typeId": "f778-f445-c19b-30d4"},
+          {"name": "Cross", "$text": "3+", "typeId": "ae80-d6b0-cb1b-4c9c"},
+          {"name": "Front", "$text": "18", "typeId": "ca8b-c8f9-96f3-a913"},
+          {"name": "Side", "$text": "7", "typeId": "a40f-72f4-3d35-ec93"},
+          {"name": "Top", "$text": "2", "typeId": "f293-d7ab-abe0-c981"},
+          {"name": "Is Hit on", "$text": "4+", "typeId": "1a01-5cd5-d0d0-91c0"},
+          {"name": "Courage", "$text": "3+", "typeId": "12e0-c8cc-7fb1-25b5"},
+          {"name": "Morale", "$text": "3+", "typeId": "fb3f-6bb0-8c2b-d44a"},
+          {"name": "Remount", "$text": "2+", "typeId": "39b2-e446-443a-ccaf"},
+          {"name": "Skill", "$text": "3+", "typeId": "2347-c398-3cb7-2f91"},
+          {"name": "Assault", "$text": "4+", "typeId": "071d-fb0c-dc9f-c97f"},
+          {"name": "Counterattack", "$text": "3+", "typeId": "552a-1058-00df-a425"}
+        ]
+      },
+      {
+        "name": "CBU-100 cluster bomb",
+        "id": "f31d-b68b-6743-4459",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "6\"/15 CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "SALVO", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "SALVO", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "7", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "5+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "Jeep",
+        "id": "6702-5ea6-6c16-f461",
+        "hidden": false,
+        "typeId": "e086-dcd6-1518-dc44",
+        "typeName": "Tank Unit",
+        "characteristics": [
+          {"name": "Tactical", "$text": "10\"/25CM", "typeId": "0f95-1160-8137-2e70"},
+          {"name": "Terrain Dash", "$text": "12\"/30CM", "typeId": "f9c7-641e-a00f-0552"},
+          {"name": "Cross Country Dash", "$text": "20\"/50CM", "typeId": "8fd7-dfd5-de5e-e574"},
+          {"name": "Road Dash", "$text": "48\"/120CM", "typeId": "f778-f445-c19b-30d4"},
+          {"name": "Cross", "$text": "4+", "typeId": "ae80-d6b0-cb1b-4c9c"},
+          {"name": "Is Hit on", "$text": "4+", "typeId": "1a01-5cd5-d0d0-91c0"},
+          {"name": "Courage", "$text": "3+", "typeId": "12e0-c8cc-7fb1-25b5"},
+          {"name": "Morale", "$text": "3+", "typeId": "fb3f-6bb0-8c2b-d44a"},
+          {"name": "Skill", "$text": "3+", "typeId": "2347-c398-3cb7-2f91"},
+          {"name": "Assault", "$text": "-", "typeId": "071d-fb0c-dc9f-c97f"},
+          {"name": "Counterattack", "$text": "-", "typeId": "552a-1058-00df-a425"},
+          {"name": "Remount", "typeId": "39b2-e446-443a-ccaf"},
+          {"name": "Front", "typeId": "ca8b-c8f9-96f3-a913"},
+          {"name": "Side", "typeId": "a40f-72f4-3d35-ec93"},
+          {"name": "Top", "typeId": "f293-d7ab-abe0-c981"}
+        ]
+      },
+      {
+        "name": "MK 19 40mm GL",
+        "id": "f6cd-1fc9-54a9-8735",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "16\"/40 CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "5", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "4", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "4", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "6", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "TOW Missile",
+        "id": "a341-d172-fd3c-6cb9",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "8\"/20CM-48\"/120 CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "1", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "-", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "21", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "3+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "$text": "Guided, HEAT", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "Magach 6 HQ",
+        "id": "49da-63e7-b2d5-1c3c",
+        "hidden": false,
+        "typeId": "e086-dcd6-1518-dc44",
+        "typeName": "Tank Unit",
+        "characteristics": [
+          {"name": "Tactical", "$text": "10\"/25CM", "typeId": "0f95-1160-8137-2e70"},
+          {"name": "Terrain Dash", "$text": "14\"/35CM", "typeId": "f9c7-641e-a00f-0552"},
+          {"name": "Cross Country Dash", "$text": "20/50CM", "typeId": "8fd7-dfd5-de5e-e574"},
+          {"name": "Road Dash", "$text": "24\"/60CM", "typeId": "f778-f445-c19b-30d4"},
+          {"name": "Cross", "$text": "2+", "typeId": "ae80-d6b0-cb1b-4c9c"},
+          {"name": "Front", "$text": "15", "typeId": "ca8b-c8f9-96f3-a913"},
+          {"name": "Side", "$text": "8", "typeId": "a40f-72f4-3d35-ec93"},
+          {"name": "Top", "$text": "2", "typeId": "f293-d7ab-abe0-c981"},
+          {"name": "Is Hit on", "$text": "4+", "typeId": "1a01-5cd5-d0d0-91c0"},
+          {"name": "Courage", "$text": "2+", "typeId": "12e0-c8cc-7fb1-25b5"},
+          {"name": "Morale", "$text": "2+", "typeId": "fb3f-6bb0-8c2b-d44a"},
+          {"name": "Remount", "$text": "2+", "typeId": "39b2-e446-443a-ccaf"},
+          {"name": "Skill", "$text": "2+", "typeId": "2347-c398-3cb7-2f91"},
+          {"name": "Assault", "$text": "4+", "typeId": "071d-fb0c-dc9f-c97f"},
+          {"name": "Counterattack", "$text": "2+", "typeId": "552a-1058-00df-a425"}
+        ]
+      },
+      {
+        "name": "Magach 6",
+        "id": "b578-f839-ead7-6a68",
+        "hidden": false,
+        "typeId": "e086-dcd6-1518-dc44",
+        "typeName": "Tank Unit",
+        "characteristics": [
+          {"name": "Tactical", "$text": "10\"/25CM", "typeId": "0f95-1160-8137-2e70"},
+          {"name": "Terrain Dash", "$text": "14\"/35CM", "typeId": "f9c7-641e-a00f-0552"},
+          {"name": "Cross Country Dash", "$text": "20/50CM", "typeId": "8fd7-dfd5-de5e-e574"},
+          {"name": "Road Dash", "$text": "24\"/60CM", "typeId": "f778-f445-c19b-30d4"},
+          {"name": "Cross", "$text": "2+", "typeId": "ae80-d6b0-cb1b-4c9c"},
+          {"name": "Front", "$text": "15", "typeId": "ca8b-c8f9-96f3-a913"},
+          {"name": "Side", "$text": "8", "typeId": "a40f-72f4-3d35-ec93"},
+          {"name": "Top", "$text": "2", "typeId": "f293-d7ab-abe0-c981"},
+          {"name": "Is Hit on", "$text": "4+", "typeId": "1a01-5cd5-d0d0-91c0"},
+          {"name": "Courage", "$text": "3+", "typeId": "12e0-c8cc-7fb1-25b5"},
+          {"name": "Morale", "$text": "3+", "typeId": "fb3f-6bb0-8c2b-d44a"},
+          {"name": "Remount", "$text": "3+", "typeId": "39b2-e446-443a-ccaf"},
+          {"name": "Skill", "$text": "3+", "typeId": "2347-c398-3cb7-2f91"},
+          {"name": "Assault", "$text": "4+", "typeId": "071d-fb0c-dc9f-c97f"},
+          {"name": "Counterattack", "$text": "3+", "typeId": "552a-1058-00df-a425"}
+        ]
+      },
+      {
+        "name": ".50 cal  MG",
+        "id": "b8ec-c5d7-69f3-1692",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "20\"/50CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "3", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "2", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "4", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "5+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "AH-1 Viper",
+        "id": "e55d-6921-2f50-f850",
+        "hidden": false,
+        "page": 60,
+        "typeId": "cb62-cf79-c5be-c00b",
+        "typeName": "Aircraft",
+        "characteristics": [
+          {"name": "Is Hit On", "$text": "4+", "typeId": "a94f-1214-dc73-0af0"},
+          {"name": "Save", "$text": "5+", "typeId": "cf80-c66b-9018-b7bc"},
+          {"name": "Courage", "$text": "3+", "typeId": "c68f-dba5-3af1-dcfc"},
+          {"name": "Skill", "$text": "3+", "typeId": "d287-43b1-d61a-f837"},
+          {"name": "Movement", "$text": "Unlimited", "typeId": "0683-6f3b-3779-ddb2"}
+        ]
+      },
+      {
+        "name": "M197 20mm Vulcan Gatling Gun",
+        "id": "8c5e-84bb-9621-0b88",
+        "hidden": false,
+        "page": 60,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "8\"/20CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "6", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "3", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "6", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "5+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "$text": "Anti-Helicopter", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "M113 HQ",
+        "id": "9b05-71c5-e30a-37bc",
+        "hidden": false,
+        "typeId": "e086-dcd6-1518-dc44",
+        "typeName": "Tank Unit",
+        "characteristics": [
+          {"name": "Tactical", "$text": "10\"/25CM", "typeId": "0f95-1160-8137-2e70"},
+          {"name": "Terrain Dash", "$text": "16/\"/40CM", "typeId": "f9c7-641e-a00f-0552"},
+          {"name": "Cross Country Dash", "$text": "24\"/60CM", "typeId": "8fd7-dfd5-de5e-e574"},
+          {"name": "Road Dash", "$text": "32\"/80CM", "typeId": "f778-f445-c19b-30d4"},
+          {"name": "Cross", "$text": "3+", "typeId": "ae80-d6b0-cb1b-4c9c"},
+          {"name": "Front", "$text": "3", "typeId": "ca8b-c8f9-96f3-a913"},
+          {"name": "Side", "$text": "2", "typeId": "a40f-72f4-3d35-ec93"},
+          {"name": "Top", "$text": "1", "typeId": "f293-d7ab-abe0-c981"},
+          {"name": "Is Hit on", "$text": "4+", "typeId": "1a01-5cd5-d0d0-91c0"},
+          {"name": "Courage", "$text": "2+", "typeId": "12e0-c8cc-7fb1-25b5"},
+          {"name": "Morale", "$text": "2+", "typeId": "fb3f-6bb0-8c2b-d44a"},
+          {"name": "Remount", "$text": "2+", "typeId": "39b2-e446-443a-ccaf"},
+          {"name": "Skill", "$text": "2+", "typeId": "2347-c398-3cb7-2f91"},
+          {"name": "Assault", "$text": "4+", "typeId": "071d-fb0c-dc9f-c97f"},
+          {"name": "Counterattack", "$text": "2+", "typeId": "552a-1058-00df-a425"}
+        ]
+      },
+      {
+        "name": "M113  Scout",
+        "id": "b68a-50dd-c284-a35a",
+        "hidden": false,
+        "typeId": "e086-dcd6-1518-dc44",
+        "typeName": "Tank Unit",
+        "characteristics": [
+          {"name": "Tactical", "$text": "10\"/25CM", "typeId": "0f95-1160-8137-2e70"},
+          {"name": "Terrain Dash", "$text": "16/\"/40CM", "typeId": "f9c7-641e-a00f-0552"},
+          {"name": "Cross Country Dash", "$text": "24\"/60CM", "typeId": "8fd7-dfd5-de5e-e574"},
+          {"name": "Road Dash", "$text": "32\"/80CM", "typeId": "f778-f445-c19b-30d4"},
+          {"name": "Cross", "$text": "3+", "typeId": "ae80-d6b0-cb1b-4c9c"},
+          {"name": "Front", "$text": "3", "typeId": "ca8b-c8f9-96f3-a913"},
+          {"name": "Side", "$text": "2", "typeId": "a40f-72f4-3d35-ec93"},
+          {"name": "Top", "$text": "1", "typeId": "f293-d7ab-abe0-c981"},
+          {"name": "Is Hit on", "$text": "4+", "typeId": "1a01-5cd5-d0d0-91c0"},
+          {"name": "Courage", "$text": "4+", "typeId": "12e0-c8cc-7fb1-25b5"},
+          {"name": "Morale", "$text": "4+", "typeId": "fb3f-6bb0-8c2b-d44a"},
+          {"name": "Remount", "$text": "4+", "typeId": "39b2-e446-443a-ccaf"},
+          {"name": "Skill", "$text": "4+", "typeId": "2347-c398-3cb7-2f91"},
+          {"name": "Assault", "$text": "6", "typeId": "071d-fb0c-dc9f-c97f"},
+          {"name": "Counterattack", "$text": "-", "typeId": "552a-1058-00df-a425"}
+        ]
+      },
+      {
+        "name": "M113  Chassis",
+        "id": "2334-97c0-75d9-04aa",
+        "hidden": false,
+        "typeId": "e086-dcd6-1518-dc44",
+        "typeName": "Tank Unit",
+        "characteristics": [
+          {"name": "Tactical", "$text": "10\"/25CM", "typeId": "0f95-1160-8137-2e70"},
+          {"name": "Terrain Dash", "$text": "16/\"/40CM", "typeId": "f9c7-641e-a00f-0552"},
+          {"name": "Cross Country Dash", "$text": "24\"/60CM", "typeId": "8fd7-dfd5-de5e-e574"},
+          {"name": "Road Dash", "$text": "32\"/80CM", "typeId": "f778-f445-c19b-30d4"},
+          {"name": "Cross", "$text": "3+", "typeId": "ae80-d6b0-cb1b-4c9c"},
+          {"name": "Front", "$text": "3", "typeId": "ca8b-c8f9-96f3-a913"},
+          {"name": "Side", "$text": "2", "typeId": "a40f-72f4-3d35-ec93"},
+          {"name": "Top", "$text": "1", "typeId": "f293-d7ab-abe0-c981"},
+          {"name": "Is Hit on", "$text": "4+", "typeId": "1a01-5cd5-d0d0-91c0"},
+          {"name": "Courage", "$text": "3+", "typeId": "12e0-c8cc-7fb1-25b5"},
+          {"name": "Morale", "$text": "3+", "typeId": "fb3f-6bb0-8c2b-d44a"},
+          {"name": "Remount", "$text": "3+", "typeId": "39b2-e446-443a-ccaf"},
+          {"name": "Skill", "$text": "3+", "typeId": "2347-c398-3cb7-2f91"},
+          {"name": "Assault", "$text": "5+", "typeId": "071d-fb0c-dc9f-c97f"},
+          {"name": "Counterattack", "$text": "5+", "typeId": "552a-1058-00df-a425"}
+        ]
+      },
+      {
+        "name": "Galil Assault rifle team HQ",
+        "id": "758e-dd25-7bbb-19dd",
+        "hidden": false,
+        "typeId": "095d-7a5e-b507-44e4",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Tactical", "$text": "8\"/20CM", "typeId": "e0ee-5804-d1a7-ffb3"},
+          {"name": "Terrain Dash", "$text": "8\"/20CM", "typeId": "ccbc-9147-7cef-acca"},
+          {"name": "Cross Country Dash", "$text": "12\"/30CM", "typeId": "ba8c-85b8-4860-cd28"},
+          {"name": "Road Dash", "$text": "12\"/30CM", "typeId": "ad4b-3a11-05ef-daf4"},
+          {"name": "Cross", "$text": "AUTO", "typeId": "93df-8d45-e422-9163"},
+          {"name": "Is Hit On", "$text": "4+", "typeId": "b0ba-ff6a-b454-a926"},
+          {"name": "Save", "$text": "3+", "typeId": "7ad2-ac9e-02fd-af45"},
+          {"name": "Courage", "$text": "2+", "typeId": "3ea8-3e5a-9400-878e"},
+          {"name": "Morale", "$text": "2+", "typeId": "68ce-356d-7a68-0eaf"},
+          {"name": "Rally", "$text": "2+", "typeId": "2a3a-aed9-48b2-234a"},
+          {"name": "Skill", "$text": "2+", "typeId": "eb99-12e9-c164-6fd6"},
+          {"name": "Assault", "$text": "4+", "typeId": "060b-f9d6-0748-a496"},
+          {"name": "Counter Attack", "$text": "2+", "typeId": "57d9-d0c4-dd83-6019"}
+        ]
+      },
+      {
+        "name": "Galil",
+        "id": "ccb9-b151-abc1-87ff",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "8\"/20CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "3", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "3", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "2", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "5+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "RPG-7",
+        "id": "8a6c-e42e-6c40-205d",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "12\"/30CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "1", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "1", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "17", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "3+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "FN MAG",
+        "id": "109c-2484-66ac-f390",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "16\"/40CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "5", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "2", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "2", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "6", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "M72 LAW",
+        "id": "11bc-8d75-cd12-066c",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "12\"/30CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "1", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "1", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "12", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "5+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "$text": "HEAT, Slow Firing", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "M30 107MM Mortar",
+        "id": "edab-e5b8-e6e0-e87d",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "48\"/120CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "ARTILLERY", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "ARTILLERY", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "2", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "4+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "$text": "Smoke Bombardment", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "M47",
+        "id": "dd19-5346-a65c-d98e",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "8\"/20CM-28\"/70CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "1", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "-", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "18", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "3+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "$text": "Assault 5, Guided, HEAT", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "Mech Infantry Team",
+        "id": "ba24-e728-49ed-a81d",
+        "hidden": false,
+        "typeId": "095d-7a5e-b507-44e4",
+        "typeName": "Infantry Team",
+        "characteristics": [
+          {"name": "Tactical", "$text": "8\"/20CM", "typeId": "e0ee-5804-d1a7-ffb3"},
+          {"name": "Terrain Dash", "$text": "8\"/20CM", "typeId": "ccbc-9147-7cef-acca"},
+          {"name": "Cross Country Dash", "$text": "12\"/30CM", "typeId": "ba8c-85b8-4860-cd28"},
+          {"name": "Road Dash", "$text": "12\"/30CM", "typeId": "ad4b-3a11-05ef-daf4"},
+          {"name": "Cross", "$text": "AUTO", "typeId": "93df-8d45-e422-9163"},
+          {"name": "Is Hit On", "$text": "4+", "typeId": "b0ba-ff6a-b454-a926"},
+          {"name": "Save", "$text": "3+", "typeId": "7ad2-ac9e-02fd-af45"},
+          {"name": "Courage", "$text": "3+", "typeId": "3ea8-3e5a-9400-878e"},
+          {"name": "Morale", "$text": "3+", "typeId": "68ce-356d-7a68-0eaf"},
+          {"name": "Rally", "$text": "3+", "typeId": "2a3a-aed9-48b2-234a"},
+          {"name": "Skill", "$text": "3+", "typeId": "eb99-12e9-c164-6fd6"},
+          {"name": "Assault", "$text": "4+", "typeId": "060b-f9d6-0748-a496"},
+          {"name": "Counter Attack", "$text": "3+", "typeId": "57d9-d0c4-dd83-6019"}
+        ]
+      },
+      {
+        "name": "M134 Minigun MG",
+        "id": "5248-f3c2-5600-fe4c",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "16\"/40CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "7", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "4", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "2", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "6", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "M48 Chaparral SAM Platoon",
+        "id": "fa21-f1f8-f01f-404b",
+        "hidden": false,
+        "page": 29,
+        "typeId": "1d0d-99f1-d80c-2026",
+        "typeName": "Unarmored Tank Unit",
+        "characteristics": [
+          {"name": "Tactical", "$text": "10\"/25CM", "typeId": "c12d-44b4-4826-9d0e"},
+          {"name": "Terrain Dash", "$text": "14\"/35CM", "typeId": "5321-8ef2-2e31-96f7"},
+          {"name": "Cross Country Dash", "$text": "20\"/50CM", "typeId": "3e82-3246-6cf8-5f46"},
+          {"name": "Road Dash", "$text": "28\"/70CM", "typeId": "8254-878c-40b4-861c"},
+          {"name": "Cross", "$text": "3+", "typeId": "18fa-7699-146f-6363"},
+          {"name": "Is Hit On", "$text": "4+", "typeId": "9a7e-de6c-8c03-e998"},
+          {"name": "Save", "$text": "5+", "typeId": "9baa-1042-991e-640d"},
+          {"name": "Courage", "$text": "3+", "typeId": "6e4b-43ef-87a8-252f"},
+          {"name": "Morale", "$text": "3+", "typeId": "2b91-eafe-3aeb-c70b"},
+          {"name": "Rally", "$text": "3+", "typeId": "2373-177f-ce29-78cb"},
+          {"name": "Skill", "$text": "3+", "typeId": "1933-fc7d-e801-99ab"},
+          {"name": "Assault", "$text": "-", "typeId": "f004-e5d8-0da9-3d21"},
+          {"name": "Counterattack", "$text": "-", "typeId": "498a-fd31-607a-feec"}
+        ]
+      },
+      {
+        "name": "MIM-72 Sidewinder AA Missile",
+        "id": "26a4-d546-53c8-f619",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "72\"/180CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "2", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "-", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "-", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "3+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "$text": "Guided AA", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "Skyhawk",
+        "id": "328a-4562-071a-77f1",
+        "hidden": false,
+        "page": 29,
+        "typeId": "cb62-cf79-c5be-c00b",
+        "typeName": "Aircraft",
+        "characteristics": [
+          {"name": "Is Hit On", "$text": "4+", "typeId": "a94f-1214-dc73-0af0"},
+          {"name": "Save", "$text": "5+", "typeId": "cf80-c66b-9018-b7bc"},
+          {"name": "Courage", "$text": "3+", "typeId": "c68f-dba5-3af1-dcfc"},
+          {"name": "Skill", "$text": "3+", "typeId": "d287-43b1-d61a-f837"},
+          {"name": "Movement", "$text": "UNLIMITED", "typeId": "0683-6f3b-3779-ddb2"}
+        ]
+      },
+      {
+        "name": "30mm DEFA gun",
+        "id": "c958-fa5b-4a93-0dab",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "8\"/20CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "-", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "3", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "7", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "5+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "$text": "Anti-Helicopter", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "CBU-100 Cluster bombs",
+        "id": "933e-fda4-97c4-41ea",
+        "hidden": false,
+        "page": 29,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "6\"/15CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "SALVO", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "SALVO", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "7", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "5+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "Napalm bomb",
+        "id": "00ae-c6f9-0d36-009d",
+        "hidden": false,
+        "page": 65,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "6\"/15CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "ARTILLERY", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "ARTILLERY", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "1", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "AUTO", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "$text": "Napalm, One Shot", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "M113  Chassis VADS",
+        "id": "7c55-4e46-61f3-1fb3",
+        "hidden": false,
+        "typeId": "e086-dcd6-1518-dc44",
+        "typeName": "Tank Unit",
+        "characteristics": [
+          {"name": "Tactical", "$text": "10\"/25CM", "typeId": "0f95-1160-8137-2e70"},
+          {"name": "Terrain Dash", "$text": "16/\"/40CM", "typeId": "f9c7-641e-a00f-0552"},
+          {"name": "Cross Country Dash", "$text": "24\"/60CM", "typeId": "8fd7-dfd5-de5e-e574"},
+          {"name": "Road Dash", "$text": "32\"/80CM", "typeId": "f778-f445-c19b-30d4"},
+          {"name": "Cross", "$text": "3+", "typeId": "ae80-d6b0-cb1b-4c9c"},
+          {"name": "Front", "$text": "3", "typeId": "ca8b-c8f9-96f3-a913"},
+          {"name": "Side", "$text": "2", "typeId": "a40f-72f4-3d35-ec93"},
+          {"name": "Top", "$text": "0", "typeId": "f293-d7ab-abe0-c981"},
+          {"name": "Is Hit on", "$text": "4+", "typeId": "1a01-5cd5-d0d0-91c0"},
+          {"name": "Courage", "$text": "3+", "typeId": "12e0-c8cc-7fb1-25b5"},
+          {"name": "Morale", "$text": "3+", "typeId": "fb3f-6bb0-8c2b-d44a"},
+          {"name": "Remount", "$text": "3+", "typeId": "39b2-e446-443a-ccaf"},
+          {"name": "Skill", "$text": "3+", "typeId": "2347-c398-3cb7-2f91"},
+          {"name": "Assault", "$text": "5+", "typeId": "071d-fb0c-dc9f-c97f"},
+          {"name": "Counterattack", "$text": "4+", "typeId": "552a-1058-00df-a425"}
+        ]
+      },
+      {
+        "name": "M168 20MM Vulcan Gatling AA gun",
+        "id": "1bf0-5a8e-7e98-c8a3",
+        "hidden": false,
+        "page": 62,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "20\"/50CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "7", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "4", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "6", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "5+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "$text": "Dedicated AA, Radar", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "Redeye Team",
+        "id": "cd4d-890c-a052-7b94",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "48\"/120CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "3", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "-", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "-", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "5+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "$text": "Guided ,AA ,Heavy Weapon", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "Pereh",
+        "id": "8e41-59de-4ae7-c0e2",
+        "hidden": false,
+        "typeId": "e086-dcd6-1518-dc44",
+        "typeName": "Tank Unit",
+        "characteristics": [
+          {"name": "Tactical", "$text": "10\"/25CM", "typeId": "0f95-1160-8137-2e70"},
+          {"name": "Terrain Dash", "$text": "14\"/35CM", "typeId": "f9c7-641e-a00f-0552"},
+          {"name": "Cross Country Dash", "$text": "20\"/50CM", "typeId": "8fd7-dfd5-de5e-e574"},
+          {"name": "Road Dash", "$text": "24\"/60CM", "typeId": "f778-f445-c19b-30d4"},
+          {"name": "Cross", "$text": "2+", "typeId": "ae80-d6b0-cb1b-4c9c"},
+          {"name": "Front", "$text": "5", "typeId": "ca8b-c8f9-96f3-a913"},
+          {"name": "Side", "$text": "4", "typeId": "a40f-72f4-3d35-ec93"},
+          {"name": "Top", "$text": "1", "typeId": "f293-d7ab-abe0-c981"},
+          {"name": "Is Hit on", "$text": "4+", "typeId": "1a01-5cd5-d0d0-91c0"},
+          {"name": "Courage", "$text": "3+", "typeId": "12e0-c8cc-7fb1-25b5"},
+          {"name": "Morale", "$text": "3+", "typeId": "fb3f-6bb0-8c2b-d44a"},
+          {"name": "Remount", "$text": "3+", "typeId": "39b2-e446-443a-ccaf"},
+          {"name": "Skill", "$text": "3+", "typeId": "2347-c398-3cb7-2f91"},
+          {"name": "Assault", "$text": "4+", "typeId": "071d-fb0c-dc9f-c97f"},
+          {"name": "Counterattack", "$text": "3+", "typeId": "552a-1058-00df-a425"}
+        ]
+      },
+      {
+        "name": "Tamuz Missile",
+        "id": "2042-af6a-b756-5cb5",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "16\"/40CM-64\"/160CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "1", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "-", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "21", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "3+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "$text": "HEAT, NLOS", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "ZSU-23-4 Shilka",
+        "id": "a39b-b1c6-8ba9-08f2",
+        "hidden": false,
+        "typeId": "e086-dcd6-1518-dc44",
+        "typeName": "Tank Unit",
+        "characteristics": [
+          {"name": "Tactical", "$text": "10\"/25CM", "typeId": "0f95-1160-8137-2e70"},
+          {"name": "Terrain Dash", "$text": "14\"/35CM", "typeId": "f9c7-641e-a00f-0552"},
+          {"name": "Cross Country Dash", "$text": "20\"/50CM", "typeId": "8fd7-dfd5-de5e-e574"},
+          {"name": "Road Dash", "$text": "24\"/60CM", "typeId": "f778-f445-c19b-30d4"},
+          {"name": "Cross", "$text": "3+", "typeId": "ae80-d6b0-cb1b-4c9c"},
+          {"name": "Front", "$text": "1", "typeId": "ca8b-c8f9-96f3-a913"},
+          {"name": "Side", "$text": "1", "typeId": "a40f-72f4-3d35-ec93"},
+          {"name": "Top", "$text": "1", "typeId": "f293-d7ab-abe0-c981"},
+          {"name": "Is Hit on", "$text": "4+", "typeId": "1a01-5cd5-d0d0-91c0"},
+          {"name": "Courage", "$text": "3+", "typeId": "12e0-c8cc-7fb1-25b5"},
+          {"name": "Morale", "$text": "3+", "typeId": "fb3f-6bb0-8c2b-d44a"},
+          {"name": "Remount", "$text": "3+", "typeId": "39b2-e446-443a-ccaf"},
+          {"name": "Skill", "$text": "3+", "typeId": "2347-c398-3cb7-2f91"},
+          {"name": "Assault", "$text": "5+", "typeId": "071d-fb0c-dc9f-c97f"},
+          {"name": "Counterattack", "$text": "4+", "typeId": "552a-1058-00df-a425"}
+        ]
+      },
+      {
+        "name": "23mm 2A7 AA gun",
+        "id": "bd27-5b3d-0a17-d844",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "20\"/50CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "6", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "4", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "6", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "5+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "120mm Mortar",
+        "id": "0f5c-359f-cc09-8bef",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "64\"\"/160CM", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "ARTILLERY", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "ARTILLERY", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "3", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "3+", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      }
+    ]
+  }
+}
