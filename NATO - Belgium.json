@@ -1,0 +1,4411 @@
+{
+  "catalogue": {
+    "name": "NATO - Belgium",
+    "id": "c1c6-f4d3-7e99-ffb5",
+    "authorContact": "Discord: Zharrpostingghoroth",
+    "authorName": "UrsinePatriarch",
+    "authorUrl": "https://github.com/BSData/team-yankee",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "9096-fd85-6ba1-72c5",
+    "gameSystemRevision": 7,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "catalogueLinks": [
+      {"name": "NATO - Great Britain", "id": "efd1-c1e7-ac1e-4e36", "importRootEntries": false, "targetId": "e6e0-9a49-2e0b-f063", "type": "catalogue"},
+      {"name": "NATO - West Germany", "id": "7274-7dc4-f8af-202d", "importRootEntries": false, "targetId": "72a9-f370-d503-444b", "type": "catalogue"}
+    ],
+    "categoryEntries": [
+      {"name": "MILAN 2", "id": "6de5-0fba-5919-12e8", "hidden": true},
+      {"name": "LEOPARD 1", "id": "d83f-5d97-056c-2be6", "hidden": false},
+      {"name": "SCIMITAR", "id": "5c62-7023-42f3-4281", "hidden": false},
+      {"name": "AIFV-B IP", "id": "b688-07bf-1b35-3497", "hidden": false},
+      {"name": "M113 IP", "id": "96d1-60fb-9b54-581f", "hidden": false},
+      {"name": "SCORPION", "id": "51d5-f213-77c1-9cd6", "hidden": false},
+      {"name": "Artillery Unit", "id": "903c-6011-a485-067a", "hidden": false}
+    ],
+    "entryLinks": [
+      {
+        "name": "[Aircraft] TOW Lynx Helarm Flight",
+        "id": "df8a-8a43-ea17-3574",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "d46d-3416-5499-4530",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Allied Support", "id": "2e89-3681-e778-7053", "hidden": false, "primary": true, "targetId": "23b6-f962-743b-0715"}],
+        "constraints": [
+          {
+            "id": "87b7-cd5d-11d5-7cf9",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "aebc-d31f-8a73-e698",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Aircraft] TOW Lynx Helarm Flight",
+        "id": "de30-43d7-20a8-1372",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "d46d-3416-5499-4530",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Allied Support", "id": "aceb-4c80-0c79-45f2", "hidden": false, "primary": true, "targetId": "23b6-f962-743b-0715"}],
+        "constraints": [
+          {
+            "id": "9f24-f478-f287-fe3b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "aebc-d31f-8a73-e698",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "* [Armour] British Armoured Troop",
+        "id": "36fe-c384-ccdf-ba52",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "d0e0-49e6-b024-a2af",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Allied Support", "id": "4278-d79b-d775-f6fa", "hidden": false, "primary": true, "targetId": "23b6-f962-743b-0715"}],
+        "constraints": [
+          {
+            "id": "f8af-0f6f-cd19-867b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "aebc-d31f-8a73-e698",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "* [Armour] British Mechanised Platoon",
+        "id": "7d4b-0108-5bf4-c7ee",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "3b11-57f3-c88c-2874",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Allied Support", "id": "806f-1462-aabd-c2b3", "hidden": false, "primary": true, "targetId": "23b6-f962-743b-0715"}],
+        "constraints": [
+          {
+            "id": "f611-9328-a6be-1a9f",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "aebc-d31f-8a73-e698",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Anti-aircraft] Roland Flarakpanzer Batterie",
+        "id": "dc4f-03f6-95cb-34b4",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "2013-5a30-5a29-a0a7",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Allied Support", "id": "20b6-c53f-4ab2-1c5c", "hidden": false, "primary": true, "targetId": "23b6-f962-743b-0715"}],
+        "constraints": [
+          {
+            "id": "c6d0-0c67-6e0a-b1a2",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "ca70-632c-188d-a652",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Aircraft] PAH Anti-Tank Helicopter Flight",
+        "id": "e499-9e46-4228-2623",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "224f-f472-3cd3-9ccd",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Allied Support", "id": "ea66-1db5-16e6-13b4", "hidden": false, "primary": true, "targetId": "23b6-f962-743b-0715"}],
+        "constraints": [
+          {
+            "id": "bf2d-c514-ab35-c3a6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "ca70-632c-188d-a652",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Aircraft] PAH Anti-Tank Helicopter Flight",
+        "id": "4653-a576-d125-24c9",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "224f-f472-3cd3-9ccd",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Allied Support", "id": "96df-f8d3-06e0-7568", "hidden": false, "primary": true, "targetId": "23b6-f962-743b-0715"}],
+        "constraints": [
+          {
+            "id": "bcf4-6c0d-6b28-d3fb",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "ca70-632c-188d-a652",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Artillery] LARS Raketenwerfer Batterie",
+        "id": "424c-8813-fef5-fbe6",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "a8b8-0975-d3aa-a1ab",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Allied Support", "id": "5760-26c1-f443-8877", "hidden": false, "primary": true, "targetId": "23b6-f962-743b-0715"}],
+        "constraints": [
+          {
+            "id": "0593-0ecc-b809-8540",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "ca70-632c-188d-a652",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Allied Nation Selector]",
+        "id": "dc64-33e9-7c29-c888",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "c410-27ff-97dd-0e0e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1250-1227-4875-adad", "hidden": false, "primary": true, "targetId": "23b6-f962-743b-0715"}],
+        "constraints": [
+          {
+            "id": "d2b6-db17-e2fd-90c2",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "3af8-032c-1760-adb9",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "* [FS] Leopard 1 Tank Peloton",
+        "id": "f3c3-5e0a-d515-bf2b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a16c-641e-bf0a-f633",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c731-0e8b-4a37-7cf9", "hidden": false, "primary": true, "targetId": "ccc5-e668-a26d-db83"}],
+        "constraints": [
+          {
+            "id": "f1bd-5171-b684-9b09",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "d83f-5d97-056c-2be6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "* [FS] Scimitar Verkennings Troep",
+        "id": "6cb6-792e-db21-0a75",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "dace-d8f8-62b5-cf36",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "3b9f-a91a-aa39-e007", "hidden": false, "primary": true, "targetId": "ccc5-e668-a26d-db83"}],
+        "constraints": [
+          {
+            "id": "f7dc-1f97-089a-0060",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "5c62-7023-42f3-4281",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Scorpion Verkennings Troep",
+        "id": "73e7-7213-feb7-1778",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "83d5-22a1-98cf-7422",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "b3f2-4795-a51f-9f42", "hidden": false, "primary": true, "targetId": "ccc5-e668-a26d-db83"}],
+        "constraints": [
+          {
+            "id": "00a5-fb44-c661-1f86",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "51d5-f213-77c1-9cd6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[FS] AIFV-B Infanterie Peloton",
+        "id": "37a6-6ac3-67ea-68e9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "41ac-3360-8e1c-dbbd",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "e57e-76cb-ec2c-1239", "hidden": false, "primary": true, "targetId": "ccc5-e668-a26d-db83"}],
+        "constraints": [
+          {
+            "id": "39e7-c2f3-d85a-05ee",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "b688-07bf-1b35-3497",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[FS] M113 Infanterie Peloton",
+        "id": "a805-12e1-53f9-0ba1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "6a1d-38f6-e685-9689",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "9f31-5692-dae9-9e29", "hidden": false, "primary": true, "targetId": "ccc5-e668-a26d-db83"}],
+        "constraints": [
+          {
+            "id": "6983-6b8b-a938-d3f1",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "96d1-60fb-9b54-581f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "* [F] Leopard 1 Tank Eskadron",
+        "id": "1479-2304-0284-45dd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "e728-01ad-8368-2d0e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "debc-11bf-fe7c-cdd2", "hidden": false, "primary": true, "targetId": "49c4-0317-f106-84c7"}],
+        "constraints": [
+          {
+            "id": "2bac-3d7e-636d-f1a1",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "name": "* [F] Verkennings Eskadron",
+        "id": "5aed-a4e1-ec7f-b083",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "e546-7842-610c-cfb5",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "6cae-3fbb-efa5-2098", "hidden": false, "primary": true, "targetId": "49c4-0317-f106-84c7"}],
+        "constraints": [
+          {
+            "id": "ab65-94ce-2e30-8ed4",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Infanterie Compagnie",
+        "id": "5802-f60d-3884-0ac7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b6e2-ab00-47c9-380d",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "2caa-d149-8ac3-afe4", "hidden": false, "primary": true, "targetId": "49c4-0317-f106-84c7"}],
+        "constraints": [
+          {
+            "id": "1251-cadc-d6a9-d4a8",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "name": "* [Aircraft] Mirage 5 Jager Vlucht",
+        "id": "97a5-7513-cc26-fa6b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "ef18-8001-4fb6-373a",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a661-e485-619b-4190", "hidden": false, "primary": true, "targetId": "f947-2750-08c3-d4fc"}],
+        "constraints": [
+          {
+            "id": "2dd5-6d92-4031-e79c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "* [Anti-aircraft] Gepard Pantserluchtdoel Peloton",
+        "id": "8a64-e30a-f8fe-bd53",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "46b3-a619-9874-512b",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "da0f-e454-2ae3-069c", "hidden": false, "primary": true, "targetId": "f947-2750-08c3-d4fc"}],
+        "constraints": [
+          {
+            "id": "e7b3-1c9f-dd29-3d1a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "* [Artillery] M109 Artillerie Batterij",
+        "id": "7db4-d0bf-7879-7d5c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "300d-14fd-bf5a-dd88",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "9532-e981-a20b-7c56", "hidden": false, "primary": true, "targetId": "f947-2750-08c3-d4fc"}],
+        "constraints": [
+          {
+            "id": "fab6-c527-fa91-53c8",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "[Observer] AIFV-B OP",
+        "id": "b425-ac87-bb7c-ac2f",
+        "collective": false,
+        "hidden": true,
+        "import": true,
+        "targetId": "ab34-5b41-5a21-d98e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "8cbf-95b9-a0ea-286b", "hidden": false, "primary": true, "targetId": "f947-2750-08c3-d4fc"}],
+        "constraints": [
+          {
+            "id": "66cd-c453-2fba-dc61",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "903c-6011-a485-067a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "greaterThan",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publications": [{"name": "New Publication", "id": "69aa-a408-cb0b-a05b"}],
+    "sharedInfoGroups": [
+      {
+        "name": "[W] 105mm L7 Gun",
+        "id": "0174-6092-8d5e-d9b4",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Laser Rangefinder", "id": "2f80-cadc-f66a-3c85", "hidden": false, "targetId": "ab4f-6615-cc38-6418", "type": "rule"},
+          {"name": "Smoke", "id": "03e4-3317-325b-dd04", "hidden": false, "targetId": "f3d4-cf1f-bfdd-e76c", "type": "rule"},
+          {"name": "Stabiliser", "id": "9ef0-fe4b-2983-374f", "hidden": false, "targetId": "d3fb-834f-d6a6-3a89", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "105mm L7 Gun",
+            "id": "a2ef-a991-f359-9fc7",
+            "hidden": false,
+            "typeId": "e9be-b9e3-7b99-9c51",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "40\" / 100cm", "typeId": "224f-dd7c-9266-b9b2"},
+              {"name": "Halted / Moving ROF ", "$text": "2 / 2", "typeId": "9ed0-82b4-8515-e261"},
+              {"name": "Anti-tank", "$text": "19", "typeId": "5f33-46c1-c5f2-ebaf"},
+              {"name": "Firepower", "$text": "2+", "typeId": "3b54-88ee-7eef-aa5b"},
+              {"name": "Notes", "$text": "Laser Rangefinder, Smoke, Stabiliser", "typeId": "6f6e-850e-037b-22b7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[W] 7.62mm AA MG",
+        "id": "db58-2db2-d9b2-9fa9",
+        "hidden": false,
+        "infoLinks": [{"name": "AA MG", "id": "3af3-8a2a-2a16-ddf5", "hidden": false, "targetId": "60ba-123c-4f2a-1604", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "7.62mm AA MG",
+            "id": "34c0-e287-154a-0b1c",
+            "hidden": false,
+            "typeId": "e9be-b9e3-7b99-9c51",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\" / 40cm", "typeId": "224f-dd7c-9266-b9b2"},
+              {"name": "Halted / Moving ROF ", "$text": "3 / 3", "typeId": "9ed0-82b4-8515-e261"},
+              {"name": "Anti-tank", "$text": "2", "typeId": "5f33-46c1-c5f2-ebaf"},
+              {"name": "Firepower", "$text": "6", "typeId": "3b54-88ee-7eef-aa5b"},
+              {"name": "Notes", "$text": "AA", "typeId": "6f6e-850e-037b-22b7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[W] .50 cal AA MG",
+        "id": "3b21-3d76-8288-89f1",
+        "hidden": false,
+        "infoLinks": [{"name": "AA MG", "id": "da38-ac61-3a0a-4e2b", "hidden": false, "targetId": "60ba-123c-4f2a-1604", "type": "rule"}],
+        "profiles": [
+          {
+            "name": ".50 cal AA MG",
+            "id": "03e0-2dc3-4de1-64c3",
+            "hidden": false,
+            "typeId": "e9be-b9e3-7b99-9c51",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "20\"/50cm", "typeId": "224f-dd7c-9266-b9b2"},
+              {"name": "Halted / Moving ROF ", "$text": "3 / 2", "typeId": "9ed0-82b4-8515-e261"},
+              {"name": "Anti-tank", "$text": "4", "typeId": "5f33-46c1-c5f2-ebaf"},
+              {"name": "Firepower", "$text": "5+", "typeId": "3b54-88ee-7eef-aa5b"},
+              {"name": "Notes", "$text": "AA", "typeId": "6f6e-850e-037b-22b7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[W] 25mm KBA gun",
+        "id": "e321-46a2-ddd2-2d3f",
+        "hidden": false,
+        "infoLinks": [{"name": "Anti-Helicopter", "id": "d3a6-dc2e-eea3-df96", "hidden": false, "targetId": "8e4a-59b8-2d58-8f33", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "25mm KBA gun",
+            "id": "09b9-d617-6083-1b45",
+            "hidden": false,
+            "typeId": "e9be-b9e3-7b99-9c51",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "28\"/70cm", "typeId": "224f-dd7c-9266-b9b2"},
+              {"name": "Halted / Moving ROF ", "$text": "3 / 2", "typeId": "9ed0-82b4-8515-e261"},
+              {"name": "Anti-tank", "$text": "8", "typeId": "5f33-46c1-c5f2-ebaf"},
+              {"name": "Firepower", "$text": "5+", "typeId": "3b54-88ee-7eef-aa5b"},
+              {"name": "Notes", "$text": "Anti-helicopter", "typeId": "6f6e-850e-037b-22b7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Scorpion Verkennings",
+        "id": "96bd-4d50-e21a-9420",
+        "hidden": false,
+        "infoGroups": [
+          {
+            "name": "76mm L23 Gun",
+            "id": "a07d-51d5-2ee9-0270",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Sneak and Peek", "id": "bc76-6233-a090-287c", "hidden": false, "targetId": "6c2d-90d8-7b76-9bb4", "type": "rule"},
+              {"name": "HEAT", "id": "faef-b02e-8d85-4bbe", "hidden": false, "targetId": "4ac0-f918-a4e1-d232", "type": "rule"},
+              {"name": "Smoke", "id": "fb62-3657-e671-92c7", "hidden": false, "targetId": "f3d4-cf1f-bfdd-e76c", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "76mm L23 Gun",
+                "id": "edaf-270f-3d5f-057d",
+                "hidden": false,
+                "typeId": "c31a-db70-952b-43ec",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Range", "$text": "24\" / 60cm", "typeId": "236c-2ce4-666b-bfe5"},
+                  {"name": "Halted ROF ", "$text": "2", "typeId": "7a61-c54f-97c9-9ecd"},
+                  {"name": "Moving ROF ", "$text": "1", "typeId": "9696-6fb3-ca9f-9769"},
+                  {"name": "Anti-tank", "$text": "14", "typeId": "b1ef-a4e9-0f52-3c13"},
+                  {"name": "Firepower", "$text": "2+", "typeId": "798b-75af-3f7d-0b25"},
+                  {"name": "Notes", "$text": "HEAT, Smoke, Sneak and Peek", "typeId": "e028-835f-f0cf-cb93"}
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Infra-Red", "id": "fe28-39d1-cc20-edca", "hidden": false, "targetId": "e794-7147-1c60-5942", "type": "rule"},
+          {"name": "Scout", "id": "6c15-8a65-b48e-00f2", "hidden": false, "targetId": "9df5-f39b-4148-24ca", "type": "rule"},
+          {"name": "Spearhead", "id": "64bc-5ef9-610b-525d", "hidden": false, "targetId": "e9cf-a511-2a6a-6507", "type": "rule"},
+          {"name": "7.62mm MG", "id": "c234-e720-eee7-93c0", "hidden": false, "targetId": "7457-f9b9-89e4-6ab5", "type": "profile"}
+        ],
+        "profiles": [
+          {
+            "name": "Scorpion",
+            "id": "60be-0296-18a8-b60f",
+            "hidden": false,
+            "typeId": "28dc-0c96-453a-604f",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Courage", "$text": "4+", "typeId": "5ee0-23e6-42ea-47de"},
+              {"name": "Skill", "$text": "4+\nAssault 4+\nCounterattack 5+", "typeId": "77c7-e659-4a0c-a38f"},
+              {"name": "Is Hit on", "$text": "4+", "typeId": "e693-f9bf-d2bd-225c"},
+              {"name": "Front", "$text": "2", "typeId": "3234-1c68-4b74-9d5f"},
+              {"name": "Side", "$text": "1", "typeId": "7011-0119-007e-4560"},
+              {"name": "Top", "$text": "1", "typeId": "cc2b-8114-3c93-7362"},
+              {"name": "Tactical", "$text": "6\" / 15cm", "typeId": "bc1b-82d3-08fc-916c"},
+              {"name": "Terrain Dash", "$text": "20\" / 50cm", "typeId": "1ff4-646b-beac-9b2c"},
+              {"name": "Cross Country Dash", "$text": "28\" / 70cm", "typeId": "b863-6232-9412-c3be"},
+              {"name": "Road Dash", "$text": "36\" / 90cm", "typeId": "f74a-19ab-96a1-2a3b"},
+              {"name": "Cross", "$text": "3+", "typeId": "032f-59ad-74b3-1601"},
+              {"name": "Notes", "$text": "Infra-Red, Scout, Spearhead", "typeId": "7c50-9f1d-ca19-57c0"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spartan Transport",
+        "id": "90b2-d24f-bf4b-fdb0",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Passengers #", "id": "5838-eb09-beb9-4687", "hidden": false, "targetId": "988f-bf9e-b22b-463e", "type": "rule"},
+          {"name": "7.62mm AA MG", "id": "6ff1-ac84-4f7a-6609", "hidden": false, "targetId": "db58-2db2-d9b2-9fa9", "type": "infoGroup"}
+        ],
+        "profiles": [
+          {
+            "name": "Spartan",
+            "id": "c74c-84fe-4fac-4504",
+            "hidden": false,
+            "typeId": "28dc-0c96-453a-604f",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Courage", "$text": "4+", "typeId": "5ee0-23e6-42ea-47de"},
+              {"name": "Skill", "$text": "4+\nAssault 6+\nCounterattack 6+", "typeId": "77c7-e659-4a0c-a38f"},
+              {"name": "Is Hit on", "$text": "4+", "typeId": "e693-f9bf-d2bd-225c"},
+              {"name": "Front", "$text": "2", "typeId": "3234-1c68-4b74-9d5f"},
+              {"name": "Side", "$text": "1", "typeId": "7011-0119-007e-4560"},
+              {"name": "Top", "$text": "1", "typeId": "cc2b-8114-3c93-7362"},
+              {"name": "Tactical", "$text": "10\" / 25cm", "typeId": "bc1b-82d3-08fc-916c"},
+              {"name": "Terrain Dash", "$text": "20\" / 50cm", "typeId": "1ff4-646b-beac-9b2c"},
+              {"name": "Cross Country Dash", "$text": "28\" / 70cm", "typeId": "b863-6232-9412-c3be"},
+              {"name": "Road Dash", "$text": "36\" / 90cm", "typeId": "f74a-19ab-96a1-2a3b"},
+              {"name": "Cross", "$text": "3+", "typeId": "032f-59ad-74b3-1601"},
+              {"name": "Notes", "$text": "Passengers 1", "typeId": "7c50-9f1d-ca19-57c0"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Scimitar Verkennings",
+        "id": "b67e-ba27-befc-8121",
+        "hidden": false,
+        "infoGroups": [
+          {
+            "name": "[W] 30mm L21 Rarden Gun",
+            "id": "3faf-fd90-8810-9fcd",
+            "hidden": false,
+            "infoLinks": [{"name": "Sneak and Peek", "id": "600d-61ef-d434-529b", "hidden": false, "targetId": "6c2d-90d8-7b76-9bb4", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "30mm L21 Rarden Gun",
+                "id": "fbbf-ebe6-14f2-4d53",
+                "hidden": false,
+                "typeId": "e9be-b9e3-7b99-9c51",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Range", "$text": "24\" / 60cm", "typeId": "224f-dd7c-9266-b9b2"},
+                  {"name": "Halted / Moving ROF ", "$text": "3 / 2", "typeId": "9ed0-82b4-8515-e261"},
+                  {"name": "Anti-tank", "$text": "10", "typeId": "5f33-46c1-c5f2-ebaf"},
+                  {"name": "Firepower", "$text": "5+", "typeId": "3b54-88ee-7eef-aa5b"},
+                  {"name": "Notes", "$text": "Sneak and Peek", "typeId": "6f6e-850e-037b-22b7"}
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Scout", "id": "464d-25a4-cbb3-c5bb", "hidden": false, "targetId": "9df5-f39b-4148-24ca", "type": "rule"},
+          {"name": "Infra-Red", "id": "393d-f7de-dc55-35af", "hidden": false, "targetId": "e794-7147-1c60-5942", "type": "rule"},
+          {"name": "Spearhead", "id": "7044-b1fe-9a05-c401", "hidden": false, "targetId": "e9cf-a511-2a6a-6507", "type": "rule"},
+          {"name": "7.62mm MG", "id": "94e0-7714-37c0-278e", "hidden": false, "targetId": "7457-f9b9-89e4-6ab5", "type": "profile"}
+        ],
+        "profiles": [
+          {
+            "name": "Scimitar",
+            "id": "a32a-2fa0-7d53-856f",
+            "hidden": false,
+            "typeId": "28dc-0c96-453a-604f",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Courage", "$text": "4+", "typeId": "5ee0-23e6-42ea-47de"},
+              {"name": "Skill", "$text": "4+\nAssault 4+\nCounterattack 5+", "typeId": "77c7-e659-4a0c-a38f"},
+              {"name": "Is Hit on", "$text": "4+", "typeId": "e693-f9bf-d2bd-225c"},
+              {"name": "Front", "$text": "2", "typeId": "3234-1c68-4b74-9d5f"},
+              {"name": "Side", "$text": "1", "typeId": "7011-0119-007e-4560"},
+              {"name": "Top", "$text": "1", "typeId": "cc2b-8114-3c93-7362"},
+              {"name": "Tactical", "$text": "6\" / 15cm", "typeId": "bc1b-82d3-08fc-916c"},
+              {"name": "Terrain Dash", "$text": "20\" / 50cm", "typeId": "1ff4-646b-beac-9b2c"},
+              {"name": "Cross Country Dash", "$text": "28\" / 70cm", "typeId": "b863-6232-9412-c3be"},
+              {"name": "Road Dash", "$text": "36\" / 90cm", "typeId": "f74a-19ab-96a1-2a3b"},
+              {"name": "Cross", "$text": "3+", "typeId": "032f-59ad-74b3-1601"},
+              {"name": "Notes", "$text": "Infra-Red, Scout, Spearhead", "typeId": "7c50-9f1d-ca19-57c0"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mirage 5",
+        "id": "e245-b0ed-ad1e-061b",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Strike Aircraft", "id": "4651-e03a-998b-a4cd", "hidden": false, "targetId": "c9ad-9317-fa93-e4f2", "type": "rule"},
+          {"name": "Anti-Helicopter", "id": "9784-3410-446b-aeb9", "hidden": false, "targetId": "8e4a-59b8-2d58-8f33", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "30mm auto-cannon",
+            "id": "24be-2e23-f8b8-8e70",
+            "hidden": false,
+            "typeId": "e9be-b9e3-7b99-9c51",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "8\" / 20cm", "typeId": "224f-dd7c-9266-b9b2"},
+              {"name": "Halted / Moving ROF ", "$text": "- / 3", "typeId": "9ed0-82b4-8515-e261"},
+              {"name": "Anti-tank", "$text": "7", "typeId": "5f33-46c1-c5f2-ebaf"},
+              {"name": "Firepower", "$text": "5+", "typeId": "3b54-88ee-7eef-aa5b"},
+              {"name": "Notes", "$text": "Anti-Helicopter", "typeId": "6f6e-850e-037b-22b7"}
+            ]
+          },
+          {
+            "name": "BL-755 cluster bomb",
+            "id": "d35c-14ad-c1db-5fc6",
+            "hidden": false,
+            "typeId": "e9be-b9e3-7b99-9c51",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "6\" / 15cm", "typeId": "224f-dd7c-9266-b9b2"},
+              {"name": "Halted / Moving ROF ", "$text": "SALVO", "typeId": "9ed0-82b4-8515-e261"},
+              {"name": "Anti-tank", "$text": "8", "typeId": "5f33-46c1-c5f2-ebaf"},
+              {"name": "Firepower", "$text": "3+", "typeId": "3b54-88ee-7eef-aa5b"},
+              {"name": "Notes", "typeId": "6f6e-850e-037b-22b7"}
+            ]
+          },
+          {
+            "name": "Mirage 5",
+            "id": "9d53-1ab9-7cd7-579d",
+            "hidden": false,
+            "typeId": "93f9-4d95-fc61-de58",
+            "typeName": "Aircraft",
+            "characteristics": [
+              {"name": "Courage", "$text": "4+", "typeId": "519d-b8b1-81db-3a75"},
+              {"name": "Morale", "$text": "4+", "typeId": "a6ac-0c16-c63a-14a8"},
+              {"name": "Skill", "$text": "3+", "typeId": "9d98-b4e1-be94-0c75"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "5437-01f8-2432-9fbd"},
+              {"name": "Save", "$text": "5+", "typeId": "3b66-bbe3-88a8-d8bc"},
+              {"name": "Movement", "$text": "UNLIMITED", "typeId": "5cbc-2315-11c6-72c9"},
+              {"name": "Notes", "typeId": "660f-c36d-39cb-2510"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spartan Stormaanval Troep",
+        "id": "2af9-2578-bdd8-78c6",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "HEAT", "id": "05f8-fc6b-af0f-3635", "hidden": false, "targetId": "4ac0-f918-a4e1-d232", "type": "rule"},
+          {"name": "Slow Firing", "id": "ea2d-485a-d1bc-43de", "hidden": false, "targetId": "7504-1bfb-7651-0911", "type": "rule"},
+          {"name": "Spartan Transport", "id": "668b-aeee-a243-cdb7", "hidden": false, "targetId": "90b2-d24f-bf4b-fdb0", "type": "infoGroup"}
+        ],
+        "profiles": [
+          {
+            "name": "Spartan Stormaanval Troep",
+            "id": "3d1b-854b-5765-b00d",
+            "hidden": false,
+            "typeId": "de02-a834-ba11-b332",
+            "typeName": "Infantry Team",
+            "characteristics": [
+              {"name": "Courage", "$text": "4+", "typeId": "dbca-5616-8114-4e72"},
+              {"name": "Skill", "$text": "3+\nAssault 4+\nCounterattack 4+", "typeId": "f658-164f-55f0-0e6d"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "03bb-8237-592b-a12b"},
+              {"name": "Save", "$text": "3+", "typeId": "3510-6ce7-e33f-5ca8"},
+              {"name": "Tactical", "$text": "8\"/20cm", "typeId": "656c-b7a0-87a8-4b74"},
+              {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "00d8-2a6f-fd92-ff9e"},
+              {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "f0b7-cce5-f47e-17dd"},
+              {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "c2ed-7d88-a972-da85"},
+              {"name": "Cross", "$text": "AUTO", "typeId": "fbda-9b21-d859-ec36"},
+              {"name": "Notes", "typeId": "666f-d8c3-22ed-0134"}
+            ]
+          },
+          {
+            "name": "FN FAL team",
+            "id": "909f-a156-2275-f35a",
+            "hidden": false,
+            "typeId": "e9be-b9e3-7b99-9c51",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "224f-dd7c-9266-b9b2"},
+              {"name": "Halted / Moving ROF ", "$text": "1 / 1", "typeId": "9ed0-82b4-8515-e261"},
+              {"name": "Anti-tank", "$text": "2", "typeId": "5f33-46c1-c5f2-ebaf"},
+              {"name": "Firepower", "$text": "6", "typeId": "3b54-88ee-7eef-aa5b"},
+              {"name": "Notes", "typeId": "6f6e-850e-037b-22b7"}
+            ]
+          },
+          {
+            "name": "LAW anti-tank",
+            "id": "3ca7-272f-0a2b-67ab",
+            "hidden": false,
+            "typeId": "e9be-b9e3-7b99-9c51",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "12\"/30cm", "typeId": "224f-dd7c-9266-b9b2"},
+              {"name": "Halted / Moving ROF ", "$text": "1 / 1", "typeId": "9ed0-82b4-8515-e261"},
+              {"name": "Anti-tank", "$text": "12", "typeId": "5f33-46c1-c5f2-ebaf"},
+              {"name": "Firepower", "$text": "5+", "typeId": "3b54-88ee-7eef-aa5b"},
+              {"name": "Notes", "$text": "HEAT, Slow Firing", "typeId": "6f6e-850e-037b-22b7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Striker Swingfire",
+        "id": "80b3-473a-6ccd-9a96",
+        "hidden": false,
+        "infoGroups": [
+          {
+            "name": "[W] Swingfire Missile",
+            "id": "9100-a561-c91c-22c3",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Guided", "id": "984c-6754-11c9-1874", "hidden": false, "targetId": "5571-a7f9-133c-dd58", "type": "rule"},
+              {"name": "HEAT", "id": "3076-4798-e7a4-8608", "hidden": false, "targetId": "4ac0-f918-a4e1-d232", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Swingfire Missile",
+                "id": "dd68-fa28-b5d4-4fc8",
+                "hidden": false,
+                "page": 33,
+                "publicationId": "96f5-a2c3-a592-699e",
+                "typeId": "e9be-b9e3-7b99-9c51",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Range", "$text": "8\"/20cm - 48\"/120cm", "typeId": "224f-dd7c-9266-b9b2"},
+                  {"name": "Halted / Moving ROF ", "$text": "1 / -", "typeId": "9ed0-82b4-8515-e261"},
+                  {"name": "Anti-tank", "$text": "23", "typeId": "5f33-46c1-c5f2-ebaf"},
+                  {"name": "Firepower", "$text": "3+", "typeId": "3b54-88ee-7eef-aa5b"},
+                  {"name": "Notes", "$text": "Guided, HEAT", "typeId": "6f6e-850e-037b-22b7"}
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "7.62mm AA MG", "id": "efe3-1647-cf62-ac53", "hidden": false, "targetId": "db58-2db2-d9b2-9fa9", "type": "infoGroup"},
+          {"name": "Thermal Imaging", "id": "07c3-f5f3-b630-eb78", "hidden": false, "targetId": "d777-d425-a1a7-8e83", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Striker",
+            "id": "7aae-222e-103a-2d61",
+            "hidden": false,
+            "page": 42,
+            "publicationId": "96f5-a2c3-a592-699e",
+            "typeId": "28dc-0c96-453a-604f",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Courage", "$text": "4+", "typeId": "5ee0-23e6-42ea-47de"},
+              {"name": "Skill", "$text": "4+\nAssault 5+\nCounterattack 5+", "typeId": "77c7-e659-4a0c-a38f"},
+              {"name": "Is Hit on", "$text": "4+", "typeId": "e693-f9bf-d2bd-225c"},
+              {"name": "Front", "$text": "2", "typeId": "3234-1c68-4b74-9d5f"},
+              {"name": "Side", "$text": "1", "typeId": "7011-0119-007e-4560"},
+              {"name": "Top", "$text": "1", "typeId": "cc2b-8114-3c93-7362"},
+              {"name": "Tactical", "$text": "10\" / 25cm", "typeId": "bc1b-82d3-08fc-916c"},
+              {"name": "Terrain Dash", "$text": "20\" / 50cm", "typeId": "1ff4-646b-beac-9b2c"},
+              {"name": "Cross Country Dash", "$text": "28\" / 70cm", "typeId": "b863-6232-9412-c3be"},
+              {"name": "Road Dash", "$text": "36\" / 90cm", "typeId": "f74a-19ab-96a1-2a3b"},
+              {"name": "Cross", "$text": "3+", "typeId": "032f-59ad-74b3-1601"},
+              {"name": "Notes", "$text": "Swingfire, Thermal Imaging", "typeId": "7c50-9f1d-ca19-57c0"}
+            ]
+          }
+        ],
+        "rules": [
+          {"name": "Swingfire", "id": "91f1-4beb-f34e-d12b", "description": "A Team firing Swingfire missiles can remain Gone To Ground while shooting.", "hidden": false}
+        ]
+      },
+      {
+        "name": "M106 Mortier",
+        "id": "bdca-9820-446c-aaea",
+        "hidden": false,
+        "infoLinks": [
+          {"name": ".50 cal AA MG", "id": "c181-0f22-10e3-65b5", "hidden": false, "targetId": "3b21-3d76-8288-89f1", "type": "infoGroup"},
+          {"name": "Smoke Bombardment", "id": "f9a9-ad8d-ba8c-28c4", "hidden": false, "targetId": "9897-8e4d-613a-55cb", "type": "rule"},
+          {"name": "Amphibious", "id": "2f41-3cf4-e1b6-d19f", "hidden": false, "targetId": "5807-4eac-7fae-eda0", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "107mm mortar",
+            "id": "1cb3-1db8-de40-c520",
+            "hidden": false,
+            "typeId": "e9be-b9e3-7b99-9c51",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "48\"/120cm", "typeId": "224f-dd7c-9266-b9b2"},
+              {"name": "Halted / Moving ROF ", "$text": "ARTILLERY", "typeId": "9ed0-82b4-8515-e261"},
+              {"name": "Anti-tank", "$text": "2", "typeId": "5f33-46c1-c5f2-ebaf"},
+              {"name": "Firepower", "$text": "4+", "typeId": "3b54-88ee-7eef-aa5b"},
+              {"name": "Notes", "$text": "Smoke Bombardment", "typeId": "6f6e-850e-037b-22b7"}
+            ]
+          },
+          {
+            "name": "M106",
+            "id": "d72d-f312-5a53-499b",
+            "hidden": false,
+            "typeId": "28dc-0c96-453a-604f",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Courage", "$text": "4+", "typeId": "5ee0-23e6-42ea-47de"},
+              {"name": "Skill", "$text": "4+\nAssault 6\nCounterattack 6", "typeId": "77c7-e659-4a0c-a38f"},
+              {"name": "Is Hit on", "$text": "4+", "typeId": "e693-f9bf-d2bd-225c"},
+              {"name": "Front", "$text": "3", "typeId": "3234-1c68-4b74-9d5f"},
+              {"name": "Side", "$text": "2", "typeId": "7011-0119-007e-4560"},
+              {"name": "Top", "$text": "0", "typeId": "cc2b-8114-3c93-7362"},
+              {"name": "Tactical", "$text": "10\"/25cm", "typeId": "bc1b-82d3-08fc-916c"},
+              {"name": "Terrain Dash", "$text": "16\"/40cm", "typeId": "1ff4-646b-beac-9b2c"},
+              {"name": "Cross Country Dash", "$text": "24\"/60cm", "typeId": "b863-6232-9412-c3be"},
+              {"name": "Road Dash", "$text": "32\"/80cm", "typeId": "f74a-19ab-96a1-2a3b"},
+              {"name": "Cross", "$text": "3+", "typeId": "032f-59ad-74b3-1601"},
+              {"name": "Notes", "$text": "Amphibious", "typeId": "7c50-9f1d-ca19-57c0"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Milan Anti-tank Peloton",
+        "id": "69af-6a59-9d63-389a",
+        "hidden": false,
+        "infoLinks": [{"name": "Thermal Imaging", "id": "d833-2046-2b07-da25", "hidden": false, "targetId": "d777-d425-a1a7-8e83", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Milan Anti-tank Peloton",
+            "id": "1b8f-5c35-b81a-af2e",
+            "hidden": false,
+            "typeId": "de02-a834-ba11-b332",
+            "typeName": "Infantry Team",
+            "characteristics": [
+              {"name": "Courage", "$text": "4+", "typeId": "dbca-5616-8114-4e72"},
+              {"name": "Skill", "$text": "4+\nAssault 5+\nCounterattack 4+", "typeId": "f658-164f-55f0-0e6d"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "03bb-8237-592b-a12b"},
+              {"name": "Save", "$text": "3+", "typeId": "3510-6ce7-e33f-5ca8"},
+              {"name": "Tactical", "$text": "8\"/20cm", "typeId": "656c-b7a0-87a8-4b74"},
+              {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "00d8-2a6f-fd92-ff9e"},
+              {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "f0b7-cce5-f47e-17dd"},
+              {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "c2ed-7d88-a972-da85"},
+              {"name": "Cross", "$text": "AUTO", "typeId": "fbda-9b21-d859-ec36"},
+              {"name": "Notes", "$text": "Thermal Imaging", "typeId": "666f-d8c3-22ed-0134"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[T] AIFV-B-C25 Transport",
+        "id": "28a7-bedd-e9a5-e378",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "25mm gun", "id": "9167-f1f5-7efb-80be", "hidden": false, "targetId": "e321-46a2-ddd2-2d3f", "type": "infoGroup"},
+          {"name": "Passengers #", "id": "a811-ef25-f2ab-08d6", "hidden": false, "targetId": "988f-bf9e-b22b-463e", "type": "rule"},
+          {"name": "Infra-Red", "id": "3ab1-4572-febe-4ac6", "hidden": false, "targetId": "e794-7147-1c60-5942", "type": "rule"},
+          {"name": "Amphibious", "id": "cf01-826a-e187-3052", "hidden": false, "targetId": "5807-4eac-7fae-eda0", "type": "rule"},
+          {"name": "7.62mm MG", "id": "43bd-84ac-fabf-4911", "hidden": false, "targetId": "7457-f9b9-89e4-6ab5", "type": "profile"},
+          {"name": "Milan Mount", "id": "bd0d-391a-a30e-d44d", "hidden": false, "targetId": "f684-03a5-583e-5ebf", "type": "rule"},
+          {"name": "AIFV-B Transport", "id": "76a8-8173-795b-19c3", "hidden": false, "targetId": "d45f-e903-d323-1bda", "type": "profile"}
+        ]
+      },
+      {
+        "name": "[W] Milan missile",
+        "id": "e061-4c6e-82b4-15a3",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Guided", "id": "08ab-35d9-b615-ed80", "hidden": false, "targetId": "5571-a7f9-133c-dd58", "type": "rule"},
+          {"name": "HEAT", "id": "415c-1f0e-cd4e-f32c", "hidden": false, "targetId": "4ac0-f918-a4e1-d232", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Milan missile",
+            "id": "5f23-79f9-c728-87d6",
+            "hidden": false,
+            "page": 20,
+            "publicationId": "96f5-a2c3-a592-699e",
+            "typeId": "e9be-b9e3-7b99-9c51",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "8\" / 20cm - 36\" / 90cm", "typeId": "224f-dd7c-9266-b9b2"},
+              {"name": "Halted / Moving ROF ", "$text": "1 / -", "typeId": "9ed0-82b4-8515-e261"},
+              {"name": "Anti-tank", "$text": "21", "typeId": "5f33-46c1-c5f2-ebaf"},
+              {"name": "Firepower", "$text": "3+", "typeId": "3b54-88ee-7eef-aa5b"},
+              {"name": "Notes", "$text": "Guided, HEAT", "typeId": "6f6e-850e-037b-22b7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[W] Milan 2 missile",
+        "id": "dc53-45ae-4e55-0a15",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "HEAT", "id": "63f5-9b7c-9d0d-d956", "hidden": false, "targetId": "4ac0-f918-a4e1-d232", "type": "rule"},
+          {"name": "Guided", "id": "7dcd-588f-201c-12a9", "hidden": false, "targetId": "5571-a7f9-133c-dd58", "type": "rule"},
+          {"name": "Thermal Imaging", "id": "df51-9857-a0de-e095", "hidden": false, "targetId": "d777-d425-a1a7-8e83", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Milan 2 missile",
+            "id": "78b8-b8a4-312e-a708",
+            "hidden": false,
+            "typeId": "e9be-b9e3-7b99-9c51",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "8\"/20cm - 36\"/90cm", "typeId": "224f-dd7c-9266-b9b2"},
+              {"name": "Halted / Moving ROF ", "$text": "1 / -", "typeId": "9ed0-82b4-8515-e261"},
+              {"name": "Anti-tank", "$text": "24", "typeId": "5f33-46c1-c5f2-ebaf"},
+              {"name": "Firepower", "$text": "3+", "typeId": "3b54-88ee-7eef-aa5b"},
+              {"name": "Notes", "$text": "Assault 5+, Guided, HEAT, Thermal Imaging", "typeId": "6f6e-850e-037b-22b7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[T] AIFV-B-.50 Transport",
+        "id": "b19c-e1dd-bd73-1f22",
+        "hidden": false,
+        "infoLinks": [
+          {"name": ".50 cal AA MG", "id": "395b-9608-d4a5-6aa8", "hidden": false, "targetId": "3b21-3d76-8288-89f1", "type": "infoGroup"},
+          {"name": "Passengers #", "id": "4fb7-be93-6f09-f455", "hidden": false, "targetId": "988f-bf9e-b22b-463e", "type": "rule"},
+          {"name": "Infra-Red", "id": "7924-e42a-f59e-d071", "hidden": false, "targetId": "e794-7147-1c60-5942", "type": "rule"},
+          {"name": "Amphibious", "id": "5a05-40a9-a176-1beb", "hidden": false, "targetId": "5807-4eac-7fae-eda0", "type": "rule"},
+          {"name": "7.62mm MG", "id": "7571-88ce-52d3-1ae7", "hidden": false, "targetId": "7457-f9b9-89e4-6ab5", "type": "profile"},
+          {"name": "Milan Mount", "id": "8e24-09a5-caee-fedc", "hidden": false, "targetId": "f684-03a5-583e-5ebf", "type": "rule"},
+          {"name": "AIFV-B Transport", "id": "eda9-8fac-da22-e132", "hidden": false, "targetId": "d45f-e903-d323-1bda", "type": "profile"}
+        ]
+      },
+      {
+        "name": "Kanonenjagdpanzer",
+        "id": "6883-492f-4082-513f",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "7.62mm AA MG", "id": "3d83-9a2d-7054-1b2b", "hidden": false, "targetId": "db58-2db2-d9b2-9fa9", "type": "infoGroup"},
+          {"name": "Infra-Red", "id": "a29c-91da-2123-0875", "hidden": false, "targetId": "e794-7147-1c60-5942", "type": "rule"},
+          {"name": "HEAT", "id": "1950-6b34-d7bd-0523", "hidden": false, "targetId": "4ac0-f918-a4e1-d232", "type": "rule"},
+          {"name": "Forward Firing", "id": "9d01-90b8-1380-6b87", "hidden": false, "targetId": "253b-8bc1-23c4-40c7", "type": "rule"},
+          {"name": "Forward Defence", "id": "4e64-0247-7db8-bb18", "hidden": false, "targetId": "d968-fbfa-8192-e630", "type": "rule"},
+          {"name": "7.62mm MG", "id": "6fff-8dce-78de-387e", "hidden": false, "targetId": "7457-f9b9-89e4-6ab5", "type": "profile"},
+          {"name": "Laser Rangefinder", "id": "b7d8-b5fa-9a90-005a", "hidden": false, "targetId": "ab4f-6615-cc38-6418", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "9cm L/40 Gun",
+            "id": "1148-f653-ff86-2e17",
+            "hidden": false,
+            "typeId": "e9be-b9e3-7b99-9c51",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "32\"/80cm", "typeId": "224f-dd7c-9266-b9b2"},
+              {"name": "Halted / Moving ROF ", "$text": "2 / 1", "typeId": "9ed0-82b4-8515-e261"},
+              {"name": "Anti-tank", "$text": "16", "typeId": "5f33-46c1-c5f2-ebaf"},
+              {"name": "Firepower", "$text": "3+", "typeId": "3b54-88ee-7eef-aa5b"},
+              {"name": "Notes", "$text": "Forward Firing, HEAT, Laser Rangefinder", "typeId": "6f6e-850e-037b-22b7"}
+            ]
+          },
+          {
+            "name": "Kanonenjagdpanzer",
+            "id": "4352-cb0e-a99f-7d2e",
+            "hidden": false,
+            "typeId": "28dc-0c96-453a-604f",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Courage", "$text": "4+", "typeId": "5ee0-23e6-42ea-47de"},
+              {"name": "Skill", "$text": "4+\nAssault 5+\nCounterattack 5+", "typeId": "77c7-e659-4a0c-a38f"},
+              {"name": "Is Hit on", "$text": "4+", "typeId": "e693-f9bf-d2bd-225c"},
+              {"name": "Front", "$text": "6", "typeId": "3234-1c68-4b74-9d5f"},
+              {"name": "Side", "$text": "3", "typeId": "7011-0119-007e-4560"},
+              {"name": "Top", "$text": "1", "typeId": "cc2b-8114-3c93-7362"},
+              {"name": "Tactical", "$text": "10\" / 25cm", "typeId": "bc1b-82d3-08fc-916c"},
+              {"name": "Terrain Dash", "$text": "18\" / 45cm", "typeId": "1ff4-646b-beac-9b2c"},
+              {"name": "Cross Country Dash", "$text": "28\" / 70cm", "typeId": "b863-6232-9412-c3be"},
+              {"name": "Road Dash", "$text": "32\" / 80cm", "typeId": "f74a-19ab-96a1-2a3b"},
+              {"name": "Cross", "$text": "3+", "typeId": "032f-59ad-74b3-1601"},
+              {"name": "Notes", "$text": "Forward Defence, Infra-Red", "typeId": "7c50-9f1d-ca19-57c0"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Leopard 1",
+        "id": "eccd-496a-5bc2-1d09",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "7.62mm AA MG", "id": "7c88-e3c1-67fa-051c", "hidden": false, "targetId": "db58-2db2-d9b2-9fa9", "type": "infoGroup"},
+          {"name": "105mm L7 Gun", "id": "710d-123f-5f8b-0d76", "hidden": false, "targetId": "0174-6092-8d5e-d9b4", "type": "infoGroup"},
+          {"name": "Infra-Red", "id": "d12d-ff9c-e461-9052", "hidden": false, "targetId": "e794-7147-1c60-5942", "type": "rule"},
+          {"name": "Bazooka Skirts", "id": "6540-905a-318b-8267", "hidden": false, "targetId": "2cb5-d057-feb4-dd26", "type": "rule"},
+          {"name": "7.62mm MG", "id": "1105-802e-dfdd-6cb9", "hidden": false, "targetId": "7457-f9b9-89e4-6ab5", "type": "profile"}
+        ],
+        "profiles": [
+          {
+            "name": "Leopard 1",
+            "id": "c0c9-e719-47f8-43c4",
+            "hidden": false,
+            "typeId": "28dc-0c96-453a-604f",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Courage", "$text": "4+\nMorale 4+\nRemount 3+", "typeId": "5ee0-23e6-42ea-47de"},
+              {"name": "Skill", "$text": "4+", "typeId": "77c7-e659-4a0c-a38f"},
+              {"name": "Is Hit on", "$text": "4+", "typeId": "e693-f9bf-d2bd-225c"},
+              {"name": "Front", "$text": "9", "typeId": "3234-1c68-4b74-9d5f"},
+              {"name": "Side", "$text": "5", "typeId": "7011-0119-007e-4560"},
+              {"name": "Top", "$text": "1", "typeId": "cc2b-8114-3c93-7362"},
+              {"name": "Tactical", "$text": "10\" / 25cm", "typeId": "bc1b-82d3-08fc-916c"},
+              {"name": "Terrain Dash", "$text": "16\" / 40cm", "typeId": "1ff4-646b-beac-9b2c"},
+              {"name": "Cross Country Dash", "$text": "28\" / 70cm", "typeId": "b863-6232-9412-c3be"},
+              {"name": "Road Dash", "$text": "32\" / 80cm", "typeId": "f74a-19ab-96a1-2a3b"},
+              {"name": "Cross", "$text": "2+", "typeId": "032f-59ad-74b3-1601"},
+              {"name": "Notes", "$text": "Bazooka Skirts, Infra-Red", "typeId": "7c50-9f1d-ca19-57c0"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[T] M113 Transport",
+        "id": "9a08-a5ba-1ecf-68da",
+        "hidden": false,
+        "infoLinks": [
+          {"name": ".50 cal AA MG", "id": "9e1e-4017-5732-0f86", "hidden": false, "targetId": "3b21-3d76-8288-89f1", "type": "infoGroup"},
+          {"name": "Passengers #", "id": "3880-638f-3e2f-2ab3", "hidden": false, "targetId": "988f-bf9e-b22b-463e", "type": "rule"},
+          {"name": "Amphibious", "id": "515e-bd3a-ca4f-aea4", "hidden": false, "targetId": "5807-4eac-7fae-eda0", "type": "rule"},
+          {"name": "Infra-Red", "id": "5a52-5709-28a1-aa9d", "hidden": false, "targetId": "e794-7147-1c60-5942", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "M113 Transport",
+            "id": "125e-f31a-7afc-a077",
+            "hidden": false,
+            "typeId": "28dc-0c96-453a-604f",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Courage", "$text": "4+", "typeId": "5ee0-23e6-42ea-47de"},
+              {"name": "Skill", "$text": "4+\nAssault 5+\nCounterattack 5+", "typeId": "77c7-e659-4a0c-a38f"},
+              {"name": "Is Hit on", "$text": "4+", "typeId": "e693-f9bf-d2bd-225c"},
+              {"name": "Front", "$text": "3", "typeId": "3234-1c68-4b74-9d5f"},
+              {"name": "Side", "$text": "2", "typeId": "7011-0119-007e-4560"},
+              {"name": "Top", "$text": "1", "typeId": "cc2b-8114-3c93-7362"},
+              {"name": "Tactical", "$text": "10\"/25cm", "typeId": "bc1b-82d3-08fc-916c"},
+              {"name": "Terrain Dash", "$text": "16\"/40cm", "typeId": "1ff4-646b-beac-9b2c"},
+              {"name": "Cross Country Dash", "$text": "24\"/60cm", "typeId": "b863-6232-9412-c3be"},
+              {"name": "Road Dash", "$text": "32\"/80cm", "typeId": "f74a-19ab-96a1-2a3b"},
+              {"name": "Cross", "$text": "3+", "typeId": "032f-59ad-74b3-1601"},
+              {"name": "Notes", "$text": "Amphibious, Infra-Red. Passengers 3", "typeId": "7c50-9f1d-ca19-57c0"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "APILAS anti-tank team",
+        "id": "cf46-f122-92ef-f3c3",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "HEAT", "id": "81c1-ffb7-2332-39bd", "hidden": false, "targetId": "4ac0-f918-a4e1-d232", "type": "rule"},
+          {"name": "Slow Firing", "id": "9490-cd6d-619b-777d", "hidden": false, "targetId": "7504-1bfb-7651-0911", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "APILAS anti-tank team",
+            "id": "762b-e3c2-afd1-23ac",
+            "hidden": false,
+            "typeId": "e9be-b9e3-7b99-9c51",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\" / 40cm", "typeId": "224f-dd7c-9266-b9b2"},
+              {"name": "Halted / Moving ROF ", "$text": "1 / 1", "typeId": "9ed0-82b4-8515-e261"},
+              {"name": "Anti-tank", "$text": "21", "typeId": "5f33-46c1-c5f2-ebaf"},
+              {"name": "Firepower", "$text": "3+", "typeId": "3b54-88ee-7eef-aa5b"},
+              {"name": "Notes", "$text": "HEAT, Slow Firing", "typeId": "6f6e-850e-037b-22b7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Infanterie Peloton",
+        "id": "4db9-6aaa-ce9d-f8db",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "HEAT", "id": "3afc-658f-aa8a-03c3", "hidden": false, "targetId": "4ac0-f918-a4e1-d232", "type": "rule"},
+          {"name": "Slow Firing", "id": "86c8-6853-4ddf-0107", "hidden": false, "targetId": "7504-1bfb-7651-0911", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Infanterie Peloton",
+            "id": "d56f-571c-e8e1-ef5f",
+            "hidden": false,
+            "typeId": "de02-a834-ba11-b332",
+            "typeName": "Infantry Team",
+            "characteristics": [
+              {"name": "Courage", "$text": "4+", "typeId": "dbca-5616-8114-4e72"},
+              {"name": "Skill", "$text": "4+", "typeId": "f658-164f-55f0-0e6d"},
+              {"name": "Is Hit On", "$text": "4+", "typeId": "03bb-8237-592b-a12b"},
+              {"name": "Save", "$text": "3+", "typeId": "3510-6ce7-e33f-5ca8"},
+              {"name": "Tactical", "$text": "8\"/20cm", "typeId": "656c-b7a0-87a8-4b74"},
+              {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "00d8-2a6f-fd92-ff9e"},
+              {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "f0b7-cce5-f47e-17dd"},
+              {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "c2ed-7d88-a972-da85"},
+              {"name": "Cross", "$text": "AUTO", "typeId": "fbda-9b21-d859-ec36"},
+              {"name": "Notes", "typeId": "666f-d8c3-22ed-0134"}
+            ]
+          },
+          {
+            "name": "FN-FAL & MAG team",
+            "id": "9f3e-e5cf-b96c-1c50",
+            "hidden": false,
+            "typeId": "e9be-b9e3-7b99-9c51",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "16\"/40cm", "typeId": "224f-dd7c-9266-b9b2"},
+              {"name": "Halted / Moving ROF ", "$text": "2 / 1", "typeId": "9ed0-82b4-8515-e261"},
+              {"name": "Anti-tank", "$text": "2", "typeId": "5f33-46c1-c5f2-ebaf"},
+              {"name": "Firepower", "$text": "6", "typeId": "3b54-88ee-7eef-aa5b"},
+              {"name": "Notes", "typeId": "6f6e-850e-037b-22b7"}
+            ]
+          },
+          {
+            "name": "LAW anti-tank",
+            "id": "d2dd-78c9-417d-0bff",
+            "hidden": false,
+            "typeId": "e9be-b9e3-7b99-9c51",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "12\"/30cm", "typeId": "224f-dd7c-9266-b9b2"},
+              {"name": "Halted / Moving ROF ", "$text": "1 / 1", "typeId": "9ed0-82b4-8515-e261"},
+              {"name": "Anti-tank", "$text": "12", "typeId": "5f33-46c1-c5f2-ebaf"},
+              {"name": "Firepower", "$text": "5+", "typeId": "3b54-88ee-7eef-aa5b"},
+              {"name": "Notes", "$text": "HEAT, Slow Firing", "typeId": "6f6e-850e-037b-22b7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Blindicide anti-tank team",
+        "id": "934a-3e5c-ea9c-3e34",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "HEAT", "id": "6c95-096e-51b4-90e1", "hidden": false, "targetId": "4ac0-f918-a4e1-d232", "type": "rule"},
+          {"name": "Slow Firing", "id": "145f-9d62-0441-49a6", "hidden": false, "targetId": "7504-1bfb-7651-0911", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Blindicide anti-tank team",
+            "id": "3bcb-0d82-f835-16aa",
+            "hidden": false,
+            "typeId": "e9be-b9e3-7b99-9c51",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "8\"/20cm", "typeId": "224f-dd7c-9266-b9b2"},
+              {"name": "Halted / Moving ROF ", "$text": "1 / 1", "typeId": "9ed0-82b4-8515-e261"},
+              {"name": "Anti-tank", "$text": "14", "typeId": "5f33-46c1-c5f2-ebaf"},
+              {"name": "Firepower", "$text": "4+", "typeId": "3b54-88ee-7eef-aa5b"},
+              {"name": "Notes", "$text": "Assault 5+. HEAT, Slow Firing", "typeId": "6f6e-850e-037b-22b7"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[W] 60mm mortar",
+        "id": "db2f-0d6a-432d-1b76",
+        "hidden": false,
+        "infoLinks": [
+          {"name": "Overhead Fire", "id": "268b-f1a5-caac-dadf", "hidden": false, "targetId": "1012-26ff-1087-e4a6", "type": "rule"},
+          {"name": "Slow Firing", "id": "fdf5-cf39-6519-62c5", "hidden": false, "targetId": "7504-1bfb-7651-0911", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "60mm mortar",
+            "id": "010e-a85e-9d81-34ee",
+            "hidden": false,
+            "typeId": "e9be-b9e3-7b99-9c51",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "32\"/80cm", "typeId": "224f-dd7c-9266-b9b2"},
+              {"name": "Halted / Moving ROF ", "$text": "1 / 1", "typeId": "9ed0-82b4-8515-e261"},
+              {"name": "Anti-tank", "$text": "1", "typeId": "5f33-46c1-c5f2-ebaf"},
+              {"name": "Firepower", "$text": "4+", "typeId": "3b54-88ee-7eef-aa5b"},
+              {"name": "Notes", "$text": "Assault 5+, Overhead Fire, Slow Firing", "typeId": "6f6e-850e-037b-22b7"}
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "7.62mm MG",
+        "id": "7457-f9b9-89e4-6ab5",
+        "hidden": false,
+        "typeId": "c31a-db70-952b-43ec",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "16\" / 40cm", "typeId": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "$text": "1", "typeId": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "$text": "1", "typeId": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "$text": "2", "typeId": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "$text": "6", "typeId": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "typeId": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "Carl Gustav anti-tank team",
+        "id": "f200-2ea9-6cfc-2fd7",
+        "hidden": false,
+        "typeId": "e9be-b9e3-7b99-9c51",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "16\"/40cm", "typeId": "224f-dd7c-9266-b9b2"},
+          {"name": "Halted / Moving ROF ", "$text": "1 / 1", "typeId": "9ed0-82b4-8515-e261"},
+          {"name": "Anti-tank", "$text": "17", "typeId": "5f33-46c1-c5f2-ebaf"},
+          {"name": "Firepower", "$text": "3+", "typeId": "3b54-88ee-7eef-aa5b"},
+          {"name": "Notes", "$text": "Assault 5+, HEAT, Slow Firing", "typeId": "6f6e-850e-037b-22b7"}
+        ]
+      },
+      {
+        "name": "AIFV-B Transport",
+        "id": "d45f-e903-d323-1bda",
+        "hidden": false,
+        "typeId": "28dc-0c96-453a-604f",
+        "typeName": "Tank Unit",
+        "characteristics": [
+          {"name": "Courage", "$text": "4+", "typeId": "5ee0-23e6-42ea-47de"},
+          {"name": "Skill", "$text": "4+\nAssault 5+\nCounterattack 5+", "typeId": "77c7-e659-4a0c-a38f"},
+          {"name": "Is Hit on", "$text": "4+", "typeId": "e693-f9bf-d2bd-225c"},
+          {"name": "Front", "$text": "3", "typeId": "3234-1c68-4b74-9d5f"},
+          {"name": "Side", "$text": "2", "typeId": "7011-0119-007e-4560"},
+          {"name": "Top", "$text": "1", "typeId": "cc2b-8114-3c93-7362"},
+          {"name": "Tactical", "$text": "10\"/25cm", "typeId": "bc1b-82d3-08fc-916c"},
+          {"name": "Terrain Dash", "$text": "16\"/40cm", "typeId": "1ff4-646b-beac-9b2c"},
+          {"name": "Cross Country Dash", "$text": "24\"/60cm", "typeId": "b863-6232-9412-c3be"},
+          {"name": "Road Dash", "$text": "28\"/70cm", "typeId": "f74a-19ab-96a1-2a3b"},
+          {"name": "Cross", "$text": "3+", "typeId": "032f-59ad-74b3-1601"},
+          {"name": "Notes", "$text": "Amphibious, Infra-Red, Milan Mount, Passengers 3", "typeId": "7c50-9f1d-ca19-57c0"}
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Milan Mount [Belgium]",
+        "id": "f684-03a5-583e-5ebf",
+        "description": "Milan missile teams may fire while Mounted as a Passenger in a transport with a Milan Mount, using the Optional Milan Missile weapons line. [For Belgians, there does not seem to be a different statline.]",
+        "hidden": false
+      },
+      {
+        "name": "Sneak and Peek",
+        "id": "6c2d-90d8-7b76-9bb4",
+        "description": "A tank with Sneak and Peek can move 10\" / 25cm at Tactical if it is not firing its main gun that turn.",
+        "hidden": false
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "[Artillery] M109 Artillerie Batterij",
+        "id": "300d-14fd-bf5a-dd88",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Artillery Unit", "id": "f3d3-1934-8811-d85c", "hidden": false, "primary": false, "targetId": "903c-6011-a485-067a"}],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoGroups": [
+          {
+            "name": "M185 155mm Howitzer",
+            "id": "7219-c83c-80cb-7d9a",
+            "hidden": false,
+            "infoLinks": [
+              {"name": "Smoke Bombardment", "id": "41f1-7ddd-3e6d-904f", "hidden": false, "targetId": "9897-8e4d-613a-55cb", "type": "rule"},
+              {"name": "Smoke", "id": "e609-d43b-f62e-d498", "hidden": false, "targetId": "f3d4-cf1f-bfdd-e76c", "type": "rule"},
+              {"name": "Slow Firing", "id": "9c14-3b5c-450b-356c", "hidden": false, "targetId": "7504-1bfb-7651-0911", "type": "rule"},
+              {"name": "Brutal", "id": "fb57-0c6d-316a-bd79", "hidden": false, "targetId": "2102-fd36-69d4-0b93", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "M185 155mm Howitzer",
+                "id": "86dd-049b-f74e-79b4",
+                "hidden": false,
+                "typeId": "e9be-b9e3-7b99-9c51",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Range", "$text": "96\"/240cm", "typeId": "224f-dd7c-9266-b9b2"},
+                  {"name": "Halted / Moving ROF ", "$text": "ARTILLERY", "typeId": "9ed0-82b4-8515-e261"},
+                  {"name": "Anti-tank", "$text": "4", "typeId": "5f33-46c1-c5f2-ebaf"},
+                  {"name": "Firepower", "$text": "2+", "typeId": "3b54-88ee-7eef-aa5b"},
+                  {"name": "Notes", "$text": "Smoke Bombardment", "typeId": "6f6e-850e-037b-22b7"}
+                ]
+              },
+              {
+                "name": "M185 155mm Howitzer (Direct Fire)",
+                "id": "f9ea-4e52-81e9-b65e",
+                "hidden": false,
+                "typeId": "e9be-b9e3-7b99-9c51",
+                "typeName": "Weapon",
+                "characteristics": [
+                  {"name": "Range", "$text": "36\"/90cm", "typeId": "224f-dd7c-9266-b9b2"},
+                  {"name": "Halted / Moving ROF ", "$text": "1 / 1", "typeId": "9ed0-82b4-8515-e261"},
+                  {"name": "Anti-tank", "$text": "15", "typeId": "5f33-46c1-c5f2-ebaf"},
+                  {"name": "Firepower", "$text": "1+", "typeId": "3b54-88ee-7eef-aa5b"},
+                  {"name": "Notes", "$text": "Brutal, Slow Firing, Smoke", "typeId": "6f6e-850e-037b-22b7"}
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [{"name": ".50 cal AA MG", "id": "98c7-0681-936a-d319", "hidden": false, "targetId": "3b21-3d76-8288-89f1", "type": "infoGroup"}],
+        "profiles": [
+          {
+            "name": "M109",
+            "id": "6112-16d9-6cef-3e94",
+            "hidden": false,
+            "typeId": "28dc-0c96-453a-604f",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Courage", "$text": "4+", "typeId": "5ee0-23e6-42ea-47de"},
+              {"name": "Skill", "$text": "4+\nAssault 5+\nCounterattack 5+", "typeId": "77c7-e659-4a0c-a38f"},
+              {"name": "Is Hit on", "$text": "4+", "typeId": "e693-f9bf-d2bd-225c"},
+              {"name": "Front", "$text": "2", "typeId": "3234-1c68-4b74-9d5f"},
+              {"name": "Side", "$text": "2", "typeId": "7011-0119-007e-4560"},
+              {"name": "Top", "$text": "1", "typeId": "cc2b-8114-3c93-7362"},
+              {"name": "Tactical", "$text": "10\" / 25cm", "typeId": "bc1b-82d3-08fc-916c"},
+              {"name": "Terrain Dash", "$text": "16\" / 40cm", "typeId": "1ff4-646b-beac-9b2c"},
+              {"name": "Cross Country Dash", "$text": "24\" / 60cm", "typeId": "b863-6232-9412-c3be"},
+              {"name": "Road Dash", "$text": "28\" / 70cm", "typeId": "f74a-19ab-96a1-2a3b"},
+              {"name": "Cross", "$text": "3+", "typeId": "032f-59ad-74b3-1601"},
+              {"name": "Notes", "typeId": "7c50-9f1d-ca19-57c0"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "6a72-1f1b-c580-95c6",
+            "collective": false,
+            "defaultSelectionEntryId": "7121-b58f-6627-1ea0",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "4fe2-835b-becf-5315",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "f825-f1d6-20ec-ce4d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x M109",
+                "id": "7121-b58f-6627-1ea0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "unit",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 5}]
+              },
+              {
+                "name": "4x M109",
+                "id": "914e-71bc-3bed-3a8a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "unit",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 9}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Leopard 1 Tank Peloton",
+        "id": "a16c-641e-bf0a-f633",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "24c2-c15a-d225-2962",
+            "collective": false,
+            "defaultSelectionEntryId": "1237-035b-caa1-b412",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "4d94-79b4-0ae9-858f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "682d-c5e5-e415-f3da",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "3x Leopard 1",
+                "id": "1237-035b-caa1-b412",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "unit",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 9}],
+                "infoLinks": [{"name": "Leopard 1", "id": "c2d2-9876-e307-bae1", "hidden": false, "targetId": "eccd-496a-5bc2-1d09", "type": "infoGroup"}]
+              },
+              {
+                "name": "4x Leopard 1",
+                "id": "6c2e-9b63-afc8-369a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "unit",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 12}],
+                "infoLinks": [{"name": "Leopard 1", "id": "445e-9307-b480-d384", "hidden": false, "targetId": "eccd-496a-5bc2-1d09", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Leopard 1 Tank Eskadron",
+        "id": "e728-01ad-8368-2d0e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "* [FS] Leopard 1 Tank Peloton",
+            "id": "b954-8fb6-d84c-99b0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "a16c-641e-bf0a-f633",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "LEOPARD 1", "id": "d27c-c930-0bc1-e05b", "hidden": false, "primary": false, "targetId": "d83f-5d97-056c-2be6"}],
+            "constraints": [
+              {
+                "id": "6fdf-e047-6ad0-404d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "909c-eb0c-0f4d-8af7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "* [FS] Leopard 1 Tank Peloton",
+            "id": "8159-ccad-2e6a-9a70",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "a16c-641e-bf0a-f633",
+            "type": "selectionEntry",
+            "categoryLinks": [{"name": "LEOPARD 1", "id": "1172-fa13-18ab-585e", "hidden": false, "primary": false, "targetId": "d83f-5d97-056c-2be6"}],
+            "constraints": [
+              {
+                "id": "a759-4087-7006-60bb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "a210-2f39-ee05-df5e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Leopard 1 Tank Eskadron HQ",
+            "id": "5bdb-9db3-ec4d-8df1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "unit",
+            "constraints": [
+              {
+                "id": "d018-9e2f-18ad-9933",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "a71f-b507-2e59-9d60",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+            "infoLinks": [
+              {"name": "7.62mm MG", "id": "2903-0899-1cb5-650c", "hidden": false, "targetId": "7457-f9b9-89e4-6ab5", "type": "profile"},
+              {"name": "Bazooka Skirts", "id": "f5d8-c3d0-47ae-a305", "hidden": false, "targetId": "2cb5-d057-feb4-dd26", "type": "rule"},
+              {"name": "Infra-Red", "id": "fd24-79dc-86d1-0b56", "hidden": false, "targetId": "e794-7147-1c60-5942", "type": "rule"},
+              {"name": "105mm L7 Gun", "id": "7414-0193-20df-bec1", "hidden": false, "targetId": "0174-6092-8d5e-d9b4", "type": "infoGroup"},
+              {"name": "7.62mm AA MG", "id": "ed94-e736-020f-99b6", "hidden": false, "targetId": "db58-2db2-d9b2-9fa9", "type": "infoGroup"}
+            ],
+            "profiles": [
+              {
+                "name": "Leopard 1 HQ",
+                "id": "0ce0-7d1d-58e9-5b13",
+                "hidden": false,
+                "typeId": "28dc-0c96-453a-604f",
+                "typeName": "Tank Unit",
+                "characteristics": [
+                  {"name": "Courage", "$text": "3+", "typeId": "5ee0-23e6-42ea-47de"},
+                  {"name": "Skill", "$text": "3+\nAssault 4+\nCounterattack 3+", "typeId": "77c7-e659-4a0c-a38f"},
+                  {"name": "Is Hit on", "$text": "4+", "typeId": "e693-f9bf-d2bd-225c"},
+                  {"name": "Front", "$text": "9", "typeId": "3234-1c68-4b74-9d5f"},
+                  {"name": "Side", "$text": "5", "typeId": "7011-0119-007e-4560"},
+                  {"name": "Top", "$text": "1", "typeId": "cc2b-8114-3c93-7362"},
+                  {"name": "Tactical", "$text": "10\" / 25cm", "typeId": "bc1b-82d3-08fc-916c"},
+                  {"name": "Terrain Dash", "$text": "16\" / 40cm", "typeId": "1ff4-646b-beac-9b2c"},
+                  {"name": "Cross Country Dash", "$text": "28\" / 70cm", "typeId": "b863-6232-9412-c3be"},
+                  {"name": "Road Dash", "$text": "32\" / 80cm", "typeId": "f74a-19ab-96a1-2a3b"},
+                  {"name": "Cross", "$text": "2+", "typeId": "032f-59ad-74b3-1601"},
+                  {"name": "Notes", "$text": "Bazooka Skirts, Infra-Red", "typeId": "7c50-9f1d-ca19-57c0"}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "1x Leopard 1",
+                "id": "5d92-dd3e-c696-2576",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "unit",
+                "constraints": [
+                  {
+                    "id": "d1c3-93f5-9d93-bad5",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "eacc-a0c2-2c13-dee6",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 3}]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Optional Leopard 1 Peloton",
+            "id": "185a-dea1-f563-f179",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "* [FS] Leopard 1 Tank Peloton",
+                "id": "54b6-7487-9493-6746",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "a16c-641e-bf0a-f633",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "LEOPARD 1", "id": "c0d6-14c0-80cc-5d46", "hidden": false, "primary": false, "targetId": "d83f-5d97-056c-2be6"}],
+                "constraints": [
+                  {
+                    "id": "0606-a912-2add-a6eb",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "2) Optional Armour or Infantry",
+            "id": "690c-9bf6-e152-dee6",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "1e52-5698-f4e1-958f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "* [FS] Leopard 1 Tank Peloton",
+                "id": "1dfb-ef7e-3821-bf2f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "a16c-641e-bf0a-f633",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "LEOPARD 1", "id": "a6c8-835b-bcc6-dc0f", "hidden": false, "primary": false, "targetId": "d83f-5d97-056c-2be6"}]
+              },
+              {
+                "name": "[FS] AIFV-B Infanterie Peloton",
+                "id": "562f-f549-e40b-4bce",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "41ac-3360-8e1c-dbbd",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "AIFV-B IP", "id": "1003-48d4-ed19-f7d4", "hidden": false, "primary": false, "targetId": "b688-07bf-1b35-3497"}]
+              },
+              {
+                "name": "[FS] M113 Infanterie Peloton",
+                "id": "596d-e470-c450-9d02",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "6a1d-38f6-e685-9689",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "M113 IP", "id": "9330-a8e8-1f4c-ee79", "hidden": false, "primary": false, "targetId": "96d1-60fb-9b54-581f"}]
+              }
+            ]
+          },
+          {
+            "name": "3) Optional AA & Recon",
+            "id": "f730-427a-08f8-ecc0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "* [Anti-aircraft] Gepard Pantserluchtdoel Peloton",
+                "id": "e69b-09fb-39ed-21c5",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "46b3-a619-9874-512b",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "d05d-0f1e-382f-ac63",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "* [FS] Scimitar Verkennings Troep",
+                "id": "9473-fc5b-aeba-259f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "dace-d8f8-62b5-cf36",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "SCIMITAR", "id": "7362-732e-36ad-69e4", "hidden": false, "primary": false, "targetId": "5c62-7023-42f3-4281"}],
+                "constraints": [
+                  {
+                    "id": "871a-7141-7203-069d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Infanterie Compagnie",
+        "id": "b6e2-ab00-47c9-380d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Infanterie Compagnie HQ",
+            "id": "750d-f116-af7a-4535",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "unit",
+            "constraints": [
+              {
+                "id": "aa3d-9440-964d-8cc8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "57c6-f5f3-8091-d8fb",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+            "infoLinks": [{"name": "HQ Transport", "id": "00a9-b0ea-0703-438e", "hidden": false, "targetId": "2d25-2cc5-0ea9-7fd9", "type": "rule"}],
+            "selectionEntries": [
+              {
+                "name": "1x FAL rifle team, 1x Blindicide AT team",
+                "id": "292c-1476-e9af-6559",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "a459-85c6-c4b9-4004",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "bef6-9d7f-7b6a-0ec5",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 2}],
+                "infoLinks": [{"name": "Blindicide anti-tank team", "id": "f4cc-0f75-8dbe-c28d", "hidden": false, "targetId": "934a-3e5c-ea9c-3e34", "type": "infoGroup"}],
+                "profiles": [
+                  {
+                    "name": "Infanterie Compagnie HQ",
+                    "id": "5caa-cb31-01fc-1292",
+                    "hidden": false,
+                    "typeId": "de02-a834-ba11-b332",
+                    "typeName": "Infantry Team",
+                    "characteristics": [
+                      {"name": "Courage", "$text": "3+", "typeId": "dbca-5616-8114-4e72"},
+                      {"name": "Skill", "$text": "3+\nAssault 4+\nCounterattack 3+", "typeId": "f658-164f-55f0-0e6d"},
+                      {"name": "Is Hit On", "$text": "4+", "typeId": "03bb-8237-592b-a12b"},
+                      {"name": "Save", "$text": "3+", "typeId": "3510-6ce7-e33f-5ca8"},
+                      {"name": "Tactical", "$text": "8\"/20cm", "typeId": "656c-b7a0-87a8-4b74"},
+                      {"name": "Terrain Dash", "$text": "8\"/20cm", "typeId": "00d8-2a6f-fd92-ff9e"},
+                      {"name": "Cross Country Dash", "$text": "12\"/30cm", "typeId": "f0b7-cce5-f47e-17dd"},
+                      {"name": "Road Dash", "$text": "12\"/30cm", "typeId": "c2ed-7d88-a972-da85"},
+                      {"name": "Cross", "$text": "AUTO", "typeId": "fbda-9b21-d859-ec36"},
+                      {"name": "Notes", "$text": "HQ Transport", "typeId": "666f-d8c3-22ed-0134"}
+                    ]
+                  },
+                  {
+                    "name": "FAL rifle team",
+                    "id": "c426-ea91-f9ce-7c2d",
+                    "hidden": false,
+                    "typeId": "e9be-b9e3-7b99-9c51",
+                    "typeName": "Weapon",
+                    "characteristics": [
+                      {"name": "Range", "$text": "16\"/40cm", "typeId": "224f-dd7c-9266-b9b2"},
+                      {"name": "Halted / Moving ROF ", "$text": "1 / 1", "typeId": "9ed0-82b4-8515-e261"},
+                      {"name": "Anti-tank", "$text": "2", "typeId": "5f33-46c1-c5f2-ebaf"},
+                      {"name": "Firepower", "$text": "6", "typeId": "3b54-88ee-7eef-aa5b"},
+                      {"name": "Notes", "typeId": "6f6e-850e-037b-22b7"}
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "1) Transport Type",
+                "id": "4977-a325-7a93-2b5f",
+                "collective": false,
+                "defaultSelectionEntryId": "e1a3-d59a-62df-5048",
+                "hidden": false,
+                "import": true,
+                "constraints": [
+                  {
+                    "id": "8ffb-0f53-98f6-0949",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "9cb3-a72b-2cc8-cb9c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "AIFV-B-C25",
+                    "id": "e1a3-d59a-62df-5048",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+                    "infoLinks": [{"name": "[T] AIFV-B-C25 Transport", "id": "6726-2ab9-9df0-98f2", "hidden": false, "targetId": "28a7-bedd-e9a5-e378", "type": "infoGroup"}]
+                  },
+                  {
+                    "name": "M113",
+                    "id": "048d-6f09-4c2f-a54f",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+                    "infoLinks": [{"name": "[T] M113 Transport", "id": "a7cb-7f62-e8b5-4c8a", "hidden": false, "targetId": "9a08-a5ba-1ecf-68da", "type": "infoGroup"}]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Infantry Peloton #1",
+            "id": "4f35-8bc8-62e8-5927",
+            "collective": false,
+            "defaultSelectionEntryId": "b077-10db-ac8d-095b",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "13f0-b444-0d98-f34f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "be94-a6ed-da35-03a4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[FS] AIFV-B Infanterie Peloton",
+                "id": "b077-10db-ac8d-095b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "41ac-3360-8e1c-dbbd",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "AIFV-B IP", "id": "8317-8609-59d7-a62e", "hidden": false, "primary": false, "targetId": "b688-07bf-1b35-3497"}]
+              },
+              {
+                "name": "[FS] M113 Infanterie Peloton",
+                "id": "69e4-fb41-8125-40c1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "6a1d-38f6-e685-9689",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "M113 IP", "id": "229c-ef4d-894b-6589", "hidden": false, "primary": false, "targetId": "96d1-60fb-9b54-581f"}]
+              }
+            ]
+          },
+          {
+            "name": "2) Infantry Peloton #2",
+            "id": "3fde-e6a9-b13f-aa62",
+            "collective": false,
+            "defaultSelectionEntryId": "b7be-409f-397a-7102",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "8c1e-19c3-df56-698c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "c651-6fdd-b690-2fb1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[FS] AIFV-B Infanterie Peloton",
+                "id": "b7be-409f-397a-7102",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "41ac-3360-8e1c-dbbd",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "AIFV-B IP", "id": "6202-e6e0-dc63-3545", "hidden": false, "primary": false, "targetId": "b688-07bf-1b35-3497"}]
+              },
+              {
+                "name": "[FS] M113 Infanterie Peloton",
+                "id": "5f00-6473-fc82-138c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "6a1d-38f6-e685-9689",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "M113 IP", "id": "5b6f-634a-85cc-a372", "hidden": false, "primary": false, "targetId": "96d1-60fb-9b54-581f"}]
+              }
+            ]
+          },
+          {
+            "name": "3) Optional Infantry or Armour  Peloton",
+            "id": "9986-1c3a-0cde-d56b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "a35f-8c51-d1d9-a0de",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "[FS] AIFV-B Infanterie Peloton",
+                "id": "6cdf-92c3-b823-fb2e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "41ac-3360-8e1c-dbbd",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "AIFV-B IP", "id": "fd75-62df-2dad-a5fd", "hidden": false, "primary": false, "targetId": "b688-07bf-1b35-3497"}]
+              },
+              {
+                "name": "[FS] M113 Infanterie Peloton",
+                "id": "d435-85ef-cf3f-d01e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "6a1d-38f6-e685-9689",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "M113 IP", "id": "6e4d-f897-b619-3de6", "hidden": false, "primary": false, "targetId": "96d1-60fb-9b54-581f"}]
+              },
+              {
+                "name": "* [FS] Leopard 1 Tank Peloton",
+                "id": "4c40-1101-76fb-9050",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "a16c-641e-bf0a-f633",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "LEOPARD 1", "id": "5340-b3b0-c60e-badd", "hidden": false, "primary": false, "targetId": "d83f-5d97-056c-2be6"}]
+              }
+            ]
+          },
+          {
+            "name": "4) Optional Anti-tank Peloton",
+            "id": "39cf-f3fb-0835-b87e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "bd3c-db6e-6322-8813",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "* Milan Anti-tank Section",
+                "id": "a2fc-f87c-32de-94ae",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "8c06-7fb4-f507-02a7",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "* Kanonenjagdpanzer Anti-tank Peloton",
+                "id": "a14e-5136-a804-44a0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "b1c9-7342-90ed-de44",
+                "type": "selectionEntry"
+              }
+            ]
+          },
+          {
+            "name": "5) Optional Artillery & Recon Units",
+            "id": "ad74-54f7-31cf-6732",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "* M106 Mortier Peloton",
+                "id": "1a8a-8488-bbeb-d2ad",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "3ac7-45cb-dd5f-a973",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "8b4c-a8ec-eb2a-02e8",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "* [FS] Scimitar Verkennings Troep",
+                "id": "f4ea-fd35-ff17-05c2",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "dace-d8f8-62b5-cf36",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "SCIMITAR", "id": "81a8-c823-5fcd-8fca", "hidden": false, "primary": false, "targetId": "5c62-7023-42f3-4281"}],
+                "constraints": [
+                  {
+                    "id": "4be6-871e-8b36-c51c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Verkennings Eskadron",
+        "id": "e546-7842-610c-cfb5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "selectionEntries": [
+          {
+            "name": "Verkennings Eskadron HQ",
+            "id": "dd6b-b153-4b66-5c6b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "unit",
+            "constraints": [
+              {
+                "id": "bbbd-a145-6317-2216",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "011f-c593-0bfe-5872",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+            "infoLinks": [
+              {"name": "Scout", "id": "0e8f-8f44-f07f-105c", "hidden": false, "targetId": "9df5-f39b-4148-24ca", "type": "rule"},
+              {"name": "7.62mm AA MG", "id": "5ddf-89d6-ab14-dbf5", "hidden": false, "targetId": "db58-2db2-d9b2-9fa9", "type": "infoGroup"}
+            ],
+            "profiles": [
+              {
+                "name": "Verkennings Eskadron HQ",
+                "id": "57e9-f410-ad35-0c53",
+                "hidden": false,
+                "typeId": "28dc-0c96-453a-604f",
+                "typeName": "Tank Unit",
+                "characteristics": [
+                  {"name": "Courage", "$text": "3+\nMorale 3+\nRemount 4+", "typeId": "5ee0-23e6-42ea-47de"},
+                  {"name": "Skill", "$text": "3+\nAssault 4+\nCounterattack 5+", "typeId": "77c7-e659-4a0c-a38f"},
+                  {"name": "Is Hit on", "$text": "4+", "typeId": "e693-f9bf-d2bd-225c"},
+                  {"name": "Front", "$text": "2", "typeId": "3234-1c68-4b74-9d5f"},
+                  {"name": "Side", "$text": "1", "typeId": "7011-0119-007e-4560"},
+                  {"name": "Top", "$text": "1", "typeId": "cc2b-8114-3c93-7362"},
+                  {"name": "Tactical", "$text": "10\"/25cm", "typeId": "bc1b-82d3-08fc-916c"},
+                  {"name": "Terrain Dash", "$text": "20\"/50cm", "typeId": "1ff4-646b-beac-9b2c"},
+                  {"name": "Cross Country Dash", "$text": "28\"/70cm", "typeId": "b863-6232-9412-c3be"},
+                  {"name": "Road Dash", "$text": "36\"/90cm", "typeId": "f74a-19ab-96a1-2a3b"},
+                  {"name": "Cross", "$text": "3+", "typeId": "032f-59ad-74b3-1601"},
+                  {"name": "Notes", "$text": "Scout", "typeId": "7c50-9f1d-ca19-57c0"}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x Spartan",
+                "id": "c604-4af7-9d1a-c73d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "70fe-eb29-4625-01b5",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "2fa1-5b19-fdd1-88a9",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 1}]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Recon Troep #1",
+            "id": "8a65-aa3d-0e94-8397",
+            "collective": false,
+            "defaultSelectionEntryId": "e087-a98b-e1f7-cbff",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "5415-f12e-1320-47ce",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "3842-dfc8-61b8-b1a1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "* [FS] Scimitar Verkennings Troep",
+                "id": "e087-a98b-e1f7-cbff",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "dace-d8f8-62b5-cf36",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "SCIMITAR", "id": "c426-213e-fbe9-4992", "hidden": false, "primary": false, "targetId": "5c62-7023-42f3-4281"}]
+              },
+              {
+                "name": "* [FS] Scorpion Verkennings Troep",
+                "id": "c1e5-0c3a-8fa8-e511",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "83d5-22a1-98cf-7422",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "SCORPION", "id": "9023-468f-36f4-9c2b", "hidden": false, "primary": false, "targetId": "51d5-f213-77c1-9cd6"}]
+              }
+            ]
+          },
+          {
+            "name": "2) Recon Troep #2",
+            "id": "e470-3317-b5b3-7e07",
+            "collective": false,
+            "defaultSelectionEntryId": "aa6a-828c-c9da-83e4",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "2f80-1339-96e3-e710",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "0c38-2a3b-09dd-663d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "* [FS] Scimitar Verkennings Troep",
+                "id": "aa6a-828c-c9da-83e4",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "dace-d8f8-62b5-cf36",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "SCIMITAR", "id": "6541-e0e5-294f-e568", "hidden": false, "primary": false, "targetId": "5c62-7023-42f3-4281"}]
+              },
+              {
+                "name": "* [FS] Scorpion Verkennings Troep",
+                "id": "d2bb-f7de-5450-f4a0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "83d5-22a1-98cf-7422",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "SCORPION", "id": "6291-5881-abbd-e896", "hidden": false, "primary": false, "targetId": "51d5-f213-77c1-9cd6"}]
+              }
+            ]
+          },
+          {
+            "name": "3) Optional Recon Troep",
+            "id": "7d36-4aac-b264-9438",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "328c-87b3-4bb4-623b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "* [FS] Scimitar Verkennings Troep",
+                "id": "523d-cd5f-221f-f614",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "dace-d8f8-62b5-cf36",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "SCIMITAR", "id": "f785-2701-698f-7011", "hidden": false, "primary": false, "targetId": "5c62-7023-42f3-4281"}]
+              },
+              {
+                "name": "* [FS] Scorpion Verkennings Troep",
+                "id": "cb65-3cdc-0915-a646",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "83d5-22a1-98cf-7422",
+                "type": "selectionEntry",
+                "categoryLinks": [{"name": "SCORPION", "id": "40ac-9dc1-8e14-f6c1", "hidden": false, "primary": false, "targetId": "51d5-f213-77c1-9cd6"}]
+              }
+            ]
+          },
+          {
+            "name": "4) Optional Troepen",
+            "id": "f17a-c9f7-b85c-2a49",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "08fe-2762-6a5d-5910",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "* Spartan Stormaanval Troep",
+                "id": "b9fb-ac85-b80c-a650",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "2b74-4591-a4f3-3084",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "* Striker Geleide Wapens Troep",
+                "id": "c859-b747-a231-73c9",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "9b70-b51f-3695-c8af",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Observer] AIFV-B OP",
+        "id": "ab34-5b41-5a21-d98e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [
+          {"name": "Amphibious", "id": "4bac-316d-4f06-073b", "hidden": false, "targetId": "5807-4eac-7fae-eda0", "type": "rule"},
+          {"name": "Infra-Red", "id": "d605-9ea6-f2e3-7ae9", "hidden": false, "targetId": "e794-7147-1c60-5942", "type": "rule"},
+          {"name": "Observer", "id": "c911-58fd-f3dc-f222", "hidden": false, "targetId": "e41f-bf7a-3766-c44c", "type": "rule"},
+          {"name": "Scout", "id": "91e4-e73b-8051-335b", "hidden": false, "targetId": "9df5-f39b-4148-24ca", "type": "rule"},
+          {"name": ".50 cal AA MG", "id": "0051-1080-2d05-4e5d", "hidden": false, "targetId": "3b21-3d76-8288-89f1", "type": "infoGroup"}
+        ],
+        "profiles": [
+          {
+            "name": "AIFV-B OP",
+            "id": "ed44-2279-95a5-8db7",
+            "hidden": false,
+            "typeId": "28dc-0c96-453a-604f",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Courage", "$text": "4+", "typeId": "5ee0-23e6-42ea-47de"},
+              {"name": "Skill", "$text": "4+\nAssault 5+\nCounterattack 5+", "typeId": "77c7-e659-4a0c-a38f"},
+              {"name": "Is Hit on", "$text": "4+", "typeId": "e693-f9bf-d2bd-225c"},
+              {"name": "Front", "$text": "3", "typeId": "3234-1c68-4b74-9d5f"},
+              {"name": "Side", "$text": "2", "typeId": "7011-0119-007e-4560"},
+              {"name": "Top", "$text": "1", "typeId": "cc2b-8114-3c93-7362"},
+              {"name": "Tactical", "$text": "10\"/25cm", "typeId": "bc1b-82d3-08fc-916c"},
+              {"name": "Terrain Dash", "$text": "16\"/40cm", "typeId": "1ff4-646b-beac-9b2c"},
+              {"name": "Cross Country Dash", "$text": "24\"/60cm", "typeId": "b863-6232-9412-c3be"},
+              {"name": "Road Dash", "$text": "28\"/70cm", "typeId": "f74a-19ab-96a1-2a3b"},
+              {"name": "Cross", "$text": "3+", "typeId": "032f-59ad-74b3-1601"},
+              {"name": "Notes", "$text": "Amphibious, Infra-Red, Observer, Scout", "typeId": "7c50-9f1d-ca19-57c0"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "1x AIFV-B OP",
+            "id": "b839-8181-ebed-88e2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "78ed-7745-48ca-862f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "4960-03d6-9569-6141",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 1}]
+          }
+        ]
+      },
+      {
+        "name": "[Anti-aircraft] Gepard Pantserluchtdoel Peloton",
+        "id": "46b3-a619-9874-512b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "infoLinks": [
+          {"name": "Infra-Red", "id": "7026-2b27-b9b2-2005", "hidden": false, "targetId": "e794-7147-1c60-5942", "type": "rule"},
+          {"name": "Dedicated AA", "id": "3da7-ef4a-3e6b-8f13", "hidden": false, "targetId": "514b-1009-1db9-e89a", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Gepard",
+            "id": "e244-3aaf-9eff-bab9",
+            "hidden": false,
+            "typeId": "28dc-0c96-453a-604f",
+            "typeName": "Tank Unit",
+            "characteristics": [
+              {"name": "Courage", "$text": "4+", "typeId": "5ee0-23e6-42ea-47de"},
+              {"name": "Skill", "$text": "4+\nAssault 5+\nCounterattack 5+", "typeId": "77c7-e659-4a0c-a38f"},
+              {"name": "Is Hit on", "$text": "4+", "typeId": "e693-f9bf-d2bd-225c"},
+              {"name": "Front", "$text": "3", "typeId": "3234-1c68-4b74-9d5f"},
+              {"name": "Side", "$text": "2", "typeId": "7011-0119-007e-4560"},
+              {"name": "Top", "$text": "1", "typeId": "cc2b-8114-3c93-7362"},
+              {"name": "Tactical", "$text": "10\"/25cm", "typeId": "bc1b-82d3-08fc-916c"},
+              {"name": "Terrain Dash", "$text": "16\"/40cm", "typeId": "1ff4-646b-beac-9b2c"},
+              {"name": "Cross Country Dash", "$text": "28\"/70cm", "typeId": "b863-6232-9412-c3be"},
+              {"name": "Road Dash", "$text": "32\"/80cm", "typeId": "f74a-19ab-96a1-2a3b"},
+              {"name": "Cross", "$text": "2+", "typeId": "032f-59ad-74b3-1601"},
+              {"name": "Notes", "$text": "Infra-Red", "typeId": "7c50-9f1d-ca19-57c0"}
+            ]
+          },
+          {
+            "name": "Twin 35mm L/90 gun",
+            "id": "a2ba-6e15-1c38-1918",
+            "hidden": false,
+            "typeId": "e9be-b9e3-7b99-9c51",
+            "typeName": "Weapon",
+            "characteristics": [
+              {"name": "Range", "$text": "28\"/70cm", "typeId": "224f-dd7c-9266-b9b2"},
+              {"name": "Halted / Moving ROF ", "$text": "5 / 4", "typeId": "9ed0-82b4-8515-e261"},
+              {"name": "Anti-tank", "$text": "11", "typeId": "5f33-46c1-c5f2-ebaf"},
+              {"name": "Firepower", "$text": "4+", "typeId": "3b54-88ee-7eef-aa5b"},
+              {"name": "Notes", "$text": "Dedicated AA, Radar", "typeId": "6f6e-850e-037b-22b7"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Radar (Gepard)",
+            "id": "6f0b-0e72-5f73-9cec",
+            "description": "The Twin 35mm L/90 guns on a Gepard have a Range of 40”/100cm against Aircraft and do not suffer the usual +1 To Hit penalty for range over 16”/40cm when Shooting at Aircraft.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "1962-35d6-ef5f-ffea",
+            "collective": false,
+            "defaultSelectionEntryId": "303c-f71c-8968-ddfd",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "3ea3-a694-82bd-06c8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "7371-ba85-bc83-7c7b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x PRTL",
+                "id": "303c-f71c-8968-ddfd",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 4}]
+              },
+              {
+                "name": "3x PRTL",
+                "id": "8e13-c968-bf89-cd65",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 6}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M106 Mortier Peloton",
+        "id": "3ac7-45cb-dd5f-a973",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Artillery Unit", "id": "f4d2-69ea-4559-44f3", "hidden": false, "primary": false, "targetId": "903c-6011-a485-067a"}],
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "d90a-0cb0-28ea-adf4",
+            "collective": false,
+            "defaultSelectionEntryId": "8b42-c37a-2e94-b34d",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "740f-e0b0-34c3-57bd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "0bc8-8cba-7cf2-c8ca",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x M106",
+                "id": "8b42-c37a-2e94-b34d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 2}],
+                "infoLinks": [{"name": "M106 Mortier", "id": "2323-c834-80b1-a3cf", "hidden": false, "targetId": "bdca-9820-446c-aaea", "type": "infoGroup"}]
+              },
+              {
+                "name": "4x M106",
+                "id": "8bf6-9e98-f4a2-ebd9",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 4}],
+                "infoLinks": [{"name": "M106 Mortier", "id": "c5e1-e911-2a25-6f3a", "hidden": false, "targetId": "bdca-9820-446c-aaea", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M113 Infanterie Peloton",
+        "id": "6a1d-38f6-e685-9689",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "4bef-5f93-d1b5-c056",
+            "collective": false,
+            "defaultSelectionEntryId": "94fa-a9ec-1334-d094",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "0410-a160-71e4-5307",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "7909-3c76-1376-e3da",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "7x FN-FAL & MAG teams w/LAW AT, 1x 60mm mortar team, 4x M113",
+                "id": "77b3-ebaa-e7e4-bc3c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 7}],
+                "infoLinks": [
+                  {"name": "Infanterie Peloton", "id": "828f-3fab-552f-1802", "hidden": false, "targetId": "4db9-6aaa-ce9d-f8db", "type": "infoGroup"},
+                  {"name": "60mm mortar", "id": "5eae-cb3a-f41f-63f2", "hidden": false, "targetId": "db2f-0d6a-432d-1b76", "type": "infoGroup"}
+                ],
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "7x FN-FAL & MAG teams w/LAW AT, 1x 60mm mortar team, 4x AIFV-B-.50",
+                    "conditions": [
+                      {
+                        "childId": "0217-b835-6624-1402",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "6a1d-38f6-e685-9689",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "5x FN-FAL & MAG teams w/LAW AT, 3x M113",
+                "id": "94fa-a9ec-1334-d094",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 4}],
+                "infoLinks": [{"name": "Infanterie Peloton", "id": "2d7d-0e3f-f277-4e34", "hidden": false, "targetId": "4db9-6aaa-ce9d-f8db", "type": "infoGroup"}],
+                "modifiers": [
+                  {
+                    "field": "name",
+                    "type": "set",
+                    "value": "5x FN-FAL & MAG teams w/LAW AT, 3x AIFV-B-.50",
+                    "conditions": [
+                      {
+                        "childId": "0217-b835-6624-1402",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "6a1d-38f6-e685-9689",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "2) Anti-tank weapon type",
+            "id": "6890-87e8-d0fb-7d43",
+            "collective": false,
+            "defaultSelectionEntryId": "1b32-0a95-7cc7-3077",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "0bcc-cd29-b138-fdc3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "d487-7efd-4b4c-fb46",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "1x Blindicide anti-tank team",
+                "id": "1b32-0a95-7cc7-3077",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+                "infoLinks": [{"name": "Blindicide anti-tank team", "id": "58dd-e475-512a-3d68", "hidden": false, "targetId": "934a-3e5c-ea9c-3e34", "type": "infoGroup"}]
+              },
+              {
+                "name": "1x APILAS anti-tank team",
+                "id": "5ab5-1c95-9df9-ad0c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 1}],
+                "infoLinks": [{"name": "APILAS anti-tank team", "id": "b689-f86c-cc31-9e03", "hidden": false, "targetId": "cf46-f122-92ef-f3c3", "type": "infoGroup"}]
+              }
+            ]
+          },
+          {
+            "name": "3) Transport type",
+            "id": "5d72-ee91-edc8-0c1f",
+            "collective": false,
+            "defaultSelectionEntryId": "efbc-7922-7a14-352e",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "f46e-3a4d-218c-f32a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "0dc4-5241-369a-0b4f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "AIFV-B-.50",
+                "id": "0217-b835-6624-1402",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+                "infoLinks": [{"name": "AIFV-B-.50 Transport", "id": "7ea1-8347-a29b-75b8", "hidden": false, "targetId": "b19c-e1dd-bd73-1f22", "type": "infoGroup"}]
+              },
+              {
+                "name": "M113",
+                "id": "efbc-7922-7a14-352e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+                "infoLinks": [{"name": "M113 Transport", "id": "6759-1a08-7f71-1e70", "hidden": false, "targetId": "9a08-a5ba-1ecf-68da", "type": "infoGroup"}]
+              }
+            ]
+          },
+          {
+            "name": "4) Optional Milan team",
+            "id": "234c-8278-45e4-3924",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "8403-9819-97fc-6210",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "1x Milan 2 missile team",
+                "id": "b96d-65f6-88ca-db86",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "categoryLinks": [{"name": "MILAN 2", "id": "1799-515a-9cc1-4a69", "hidden": false, "primary": false, "targetId": "6de5-0fba-5919-12e8"}],
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 2}],
+                "infoLinks": [{"name": "[W] Milan 2 missile", "id": "7f33-edcf-37b2-51c3", "hidden": false, "targetId": "dc53-45ae-4e55-0a15", "type": "infoGroup"}]
+              },
+              {
+                "name": "1x Milan missile team",
+                "id": "505d-a607-2fb4-e0f3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 1}],
+                "infoLinks": [{"name": "[W] Milan Missile", "id": "e8d2-b3c1-8639-2fc2", "hidden": false, "targetId": "e061-4c6e-82b4-15a3", "type": "infoGroup"}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "6de5-0fba-5919-12e8",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Armour] British Armoured Troop",
+        "id": "d0e0-49e6-b024-a2af",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Type",
+            "id": "cb08-656a-d733-447b",
+            "collective": false,
+            "defaultSelectionEntryId": "e157-44c6-4c7a-2f71",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "7222-8179-b699-3b1b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "7973-e3e8-48c5-db1d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Challenger Armoured Troop",
+                "id": "e157-44c6-4c7a-2f71",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "125f-d032-1bb6-4cf1",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Chieftain Armoured Troop",
+                "id": "8d94-5ff7-7948-bd04",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4957-ee30-7d91-b027",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Armour] British Mechanised Platoon",
+        "id": "3b11-57f3-c88c-2874",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Type",
+            "id": "c83d-020b-4527-6b15",
+            "collective": false,
+            "defaultSelectionEntryId": "5f27-1245-422c-bf8d",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "f485-9768-9832-3f49",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "d29f-9ae6-f4cd-5458",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "FV432 Mechanised Platoon",
+                "id": "5f27-1245-422c-bf8d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "7bb9-00a8-668e-6d9d",
+                "type": "selectionEntry"
+              },
+              {
+                "name": "Warrior Mechanised Platoon",
+                "id": "6b93-a225-ee48-d7bc",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "d6d7-28fc-8199-738a",
+                "type": "selectionEntry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Aircraft] Mirage 5 Jager Vlucht",
+        "id": "ef18-8001-4fb6-373a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "fe0d-9988-8b45-7938",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "f17e-32de-c6d4-aea8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "0b5c-9c76-9081-a46c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x Mirage 5",
+                "id": "d8e9-2364-01f1-9b54",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "unit",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 3}],
+                "infoLinks": [{"name": "Mirage 5", "id": "5f73-9110-99f1-d9da", "hidden": false, "targetId": "e245-b0ed-ad1e-061b", "type": "infoGroup"}]
+              },
+              {
+                "name": "4x Mirage 5",
+                "id": "f406-9cc5-e969-d407",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "unit",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 6}],
+                "infoLinks": [{"name": "Mirage 5", "id": "0338-ea1f-f62b-170a", "hidden": false, "targetId": "e245-b0ed-ad1e-061b", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spartan Stormaanval Troep",
+        "id": "2b74-4591-a4f3-3084",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "69fe-b75f-8228-e86b",
+            "collective": false,
+            "defaultSelectionEntryId": "943e-47a2-2dfa-de57",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "640b-aba0-0666-d05f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "3c8c-dae6-e7d5-c25a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "4x FN FAL teams w/LAW AT, 4x Spartan",
+                "id": "c703-f7c6-cd84-09ee",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 3}],
+                "infoLinks": [{"name": "Spartan Stormaanval Troep", "id": "ffa8-7ffa-e817-7a74", "hidden": false, "targetId": "2af9-2578-bdd8-78c6", "type": "infoGroup"}]
+              },
+              {
+                "name": "3x FN FAL teams w/LAW AT, 3x Spartan",
+                "id": "943e-47a2-2dfa-de57",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 2}],
+                "infoLinks": [{"name": "Spartan Stormaanval Troep", "id": "8ec5-875b-b822-1877", "hidden": false, "targetId": "2af9-2578-bdd8-78c6", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Striker Geleide Wapens Troep",
+        "id": "9b70-b51f-3695-c8af",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "ae1a-a04e-ee00-8fa0",
+            "collective": false,
+            "defaultSelectionEntryId": "c6a5-9fc2-8c1b-c58c",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "b604-66ba-748c-9771",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "a19f-7c1a-7d08-6a75",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x Striker",
+                "id": "c6a5-9fc2-8c1b-c58c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 4}],
+                "infoLinks": [{"name": "Striker Swingfire", "id": "cf66-5a86-7a61-ffdc", "hidden": false, "targetId": "be29-6411-ddf9-88f0", "type": "infoGroup"}]
+              },
+              {
+                "name": "4x Striker",
+                "id": "7697-9f09-3ea6-f519",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 6}],
+                "infoLinks": [{"name": "Striker Swingfire", "id": "fe6a-e96e-e6d7-a914", "hidden": false, "targetId": "be29-6411-ddf9-88f0", "type": "infoGroup"}]
+              },
+              {
+                "name": "6x Striker",
+                "id": "10e0-efef-5301-6ffb",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 9}],
+                "infoLinks": [{"name": "Striker Swingfire", "id": "5da0-2b90-afab-41de", "hidden": false, "targetId": "be29-6411-ddf9-88f0", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Scorpion Verkennings Troep",
+        "id": "83d5-22a1-98cf-7422",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "be0b-16ff-3e02-47d6",
+            "collective": false,
+            "defaultSelectionEntryId": "e018-cd3f-ff29-93a7",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "41d8-a0bd-ac62-a1b4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "d9dd-4609-932b-c98b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x Scorpion",
+                "id": "e018-cd3f-ff29-93a7",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "unit",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 2}],
+                "infoLinks": [{"name": "Scorpion Verkennings", "id": "d613-aa1a-7e37-2ef5", "hidden": false, "targetId": "96bd-4d50-e21a-9420", "type": "infoGroup"}]
+              },
+              {
+                "name": "4x Scorpion",
+                "id": "aa03-9958-24e5-e0cb",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "unit",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 4}],
+                "infoLinks": [{"name": "Scorpion Recce", "id": "5bd2-104f-1bc3-64f5", "hidden": false, "targetId": "96bd-4d50-e21a-9420", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Scimitar Verkennings Troep",
+        "id": "dace-d8f8-62b5-cf36",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "2d58-61d9-8245-920a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "1872-f4d0-88eb-4f03",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "bb43-f428-039b-4e53",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "4x Scimitar",
+                "id": "aaff-3291-60fc-8e97",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 4}],
+                "infoLinks": [{"name": "Scimitar Verkennings", "id": "a42a-856a-14b8-d2b0", "hidden": false, "targetId": "b67e-ba27-befc-8121", "type": "infoGroup"}]
+              },
+              {
+                "name": "2x Scimitar",
+                "id": "87a2-60a8-c77c-9329",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 2}],
+                "infoLinks": [{"name": "Scimitar Verkennings", "id": "1191-f5cc-4814-51b9", "hidden": false, "targetId": "b67e-ba27-befc-8121", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Milan Anti-tank Section",
+        "id": "8c06-7fb4-f507-02a7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "536c-c051-111a-15ae",
+            "collective": false,
+            "defaultSelectionEntryId": "ff1c-4341-0dd5-2712",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "2ec0-9a70-a0e4-04ba",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "0b46-6e8f-2894-ea1a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "4x Milan Missile team, 2x AIFV-B-.50",
+                "id": "07d4-413f-9247-8996",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "unit",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 6}],
+                "infoLinks": [
+                  {"name": "FV432 Milan Section", "id": "ae5a-10c9-f82f-b4af", "hidden": false, "targetId": "69af-6a59-9d63-389a", "type": "infoGroup"},
+                  {"name": "AIFV-B-.50 Transport", "id": "ba9b-25ba-d098-1f8c", "hidden": false, "targetId": "b19c-e1dd-bd73-1f22", "type": "infoGroup"}
+                ]
+              },
+              {
+                "name": "2x Milan Missile team, 1x AIFV-B-.50",
+                "id": "ff1c-4341-0dd5-2712",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "unit",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 3}],
+                "infoLinks": [
+                  {"name": "AIFV-B-.50 Transport", "id": "dfa6-29c1-b5e0-2b6c", "hidden": false, "targetId": "b19c-e1dd-bd73-1f22", "type": "infoGroup"},
+                  {"name": "FV432 Milan Section", "id": "da3e-e263-fe1b-8246", "hidden": false, "targetId": "69af-6a59-9d63-389a", "type": "infoGroup"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "2) Missile Type",
+            "id": "1530-1e3c-8dd4-9738",
+            "collective": false,
+            "defaultSelectionEntryId": "3204-69e6-ced7-239f",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "725b-e7b5-3140-dc4f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "8324-199b-83f7-c2e1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "1) Milan missile",
+                "id": "3204-69e6-ced7-239f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+                "infoLinks": [{"name": "[W] Milan Missile", "id": "546c-bfd3-4893-b95e", "hidden": false, "targetId": "e061-4c6e-82b4-15a3", "type": "infoGroup"}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "6de5-0fba-5919-12e8",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "2) Milan 2 missile",
+                "id": "92d9-322f-fe89-6c17",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "categoryLinks": [{"name": "MILAN 2", "id": "4ef4-2fb4-eb4c-63c1", "hidden": false, "primary": false, "targetId": "eab0-b05b-fc2e-4949"}],
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 2}],
+                "infoLinks": [{"name": "[W] Milan 2 missile", "id": "b017-0270-b5c5-a593", "hidden": false, "targetId": "dc53-45ae-4e55-0a15", "type": "infoGroup"}],
+                "modifiers": [
+                  {
+                    "field": "7216-9333-2b5d-9b72",
+                    "type": "set",
+                    "value": 4,
+                    "conditions": [
+                      {
+                        "childId": "07d4-413f-9247-8996",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "8c06-7fb4-f507-02a7",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kanonenjagdpanzer Anti-tank Peloton",
+        "id": "b1c9-7342-90ed-de44",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "fc87-b636-74c9-34e4",
+            "collective": false,
+            "defaultSelectionEntryId": "e2de-481c-36a0-ea82",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "cf82-2fbf-0ca2-a6d4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "c712-2aef-251d-963e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "3x Kanonenjagdpanzer",
+                "id": "e2de-481c-36a0-ea82",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "unit",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 4}],
+                "infoLinks": [{"name": "Kanonenjagdpanzer", "id": "f73c-b555-f5d6-e390", "hidden": false, "targetId": "6883-492f-4082-513f", "type": "infoGroup"}]
+              },
+              {
+                "name": "4x Kanonenjagdpanzer",
+                "id": "f1e9-01b2-2358-214e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "unit",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 6}],
+                "infoLinks": [{"name": "Kanonenjagdpanzer", "id": "586b-97d5-887b-bb1b", "hidden": false, "targetId": "6883-492f-4082-513f", "type": "infoGroup"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AIFV-B Infanterie Peloton",
+        "id": "41ac-3360-8e1c-dbbd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Unit Size",
+            "id": "657b-32f2-fdd4-7632",
+            "collective": false,
+            "defaultSelectionEntryId": "abc6-7895-1c33-950b",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "6961-c348-7e17-2af4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "bc5e-37bd-49a8-9675",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "7x FN-FAL & MAG teams w/LAW AT, 1x 60mm mortar team, 4x AIFV-B-C25",
+                "id": "878f-0efc-5f65-2534",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 8}],
+                "infoLinks": [
+                  {"name": "Infanterie Peloton", "id": "b2b8-4db6-a7b5-41d5", "hidden": false, "targetId": "4db9-6aaa-ce9d-f8db", "type": "infoGroup"},
+                  {"name": "60mm mortar", "id": "e49f-443d-d82c-fff6", "hidden": false, "targetId": "db2f-0d6a-432d-1b76", "type": "infoGroup"},
+                  {"name": "[T] AIFV-B-C25 Transport", "id": "6bce-0207-4b31-b120", "hidden": false, "targetId": "28a7-bedd-e9a5-e378", "type": "infoGroup"}
+                ]
+              },
+              {
+                "name": "5x FN-FAL & MAG teams w/LAW AT, 3x AIFV-B-C25",
+                "id": "abc6-7895-1c33-950b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 5}],
+                "infoLinks": [
+                  {"name": "Infanterie Peloton", "id": "772f-0809-9fb6-5516", "hidden": false, "targetId": "4db9-6aaa-ce9d-f8db", "type": "infoGroup"},
+                  {"name": "[T] AIFV-B-C25 Transport", "id": "637f-5c58-ffd1-eb2b", "hidden": false, "targetId": "28a7-bedd-e9a5-e378", "type": "infoGroup"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "2) Anti-tank weapon type",
+            "id": "2448-9bf6-64a6-178f",
+            "collective": false,
+            "defaultSelectionEntryId": "89ef-2983-ab94-87f1",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "070a-8053-483a-eeb5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "9809-76b8-2735-99e6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "1x Blindicide anti-tank team",
+                "id": "89ef-2983-ab94-87f1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+                "infoLinks": [{"name": "Blindicide anti-tank team", "id": "58d5-3fc9-6004-219f", "hidden": false, "targetId": "934a-3e5c-ea9c-3e34", "type": "infoGroup"}]
+              },
+              {
+                "name": "1x APILAS anti-tank team",
+                "id": "6271-cebe-3884-4c69",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 1}],
+                "infoLinks": [{"name": "APILAS anti-tank team", "id": "f24d-7fd1-4237-128c", "hidden": false, "targetId": "cf46-f122-92ef-f3c3", "type": "infoGroup"}]
+              }
+            ]
+          },
+          {
+            "name": "3) Optional Milan team",
+            "id": "d906-e8fe-7fd3-aea3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "2a05-5167-d87a-0dd3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "1x Milan 2 missile team",
+                "id": "f2a0-e9c7-3e16-7053",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "categoryLinks": [{"name": "MILAN 2", "id": "7ae1-c0da-e29d-d4db", "hidden": false, "primary": false, "targetId": "6de5-0fba-5919-12e8"}],
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 2}],
+                "infoLinks": [{"name": "[W] Milan 2 missile", "id": "5316-3674-827e-0c15", "hidden": false, "targetId": "dc53-45ae-4e55-0a15", "type": "infoGroup"}]
+              },
+              {
+                "name": "1x Milan missile team",
+                "id": "c9b8-a3db-a2e3-e925",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 1}],
+                "infoLinks": [{"name": "[W] Milan Missile", "id": "5ec4-df2a-0d76-feb6", "hidden": false, "targetId": "e061-4c6e-82b4-15a3", "type": "infoGroup"}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "6de5-0fba-5919-12e8",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "[Allied Nation Selector]",
+        "id": "c410-27ff-97dd-0e0e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}],
+        "selectionEntryGroups": [
+          {
+            "name": "1) Nation Selection",
+            "id": "f0f8-d986-adcd-d67f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "e037-a090-299f-8324",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Great Britain",
+                "id": "aebc-d31f-8a73-e698",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}]
+              },
+              {
+                "name": "West Germany",
+                "id": "ca70-632c-188d-a652",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "7216-9333-2b5d-9b72", "value": 0}]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
