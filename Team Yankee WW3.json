@@ -1,0 +1,526 @@
+{
+  "gameSystem": {
+    "name": "Team Yankee WW3",
+    "id": "9096-fd85-6ba1-72c5",
+    "authorContact": "toasterfree@gmail.com, Discord: zharrpostingghoroth",
+    "authorName": "Walter Vining, UrsinePatriarch",
+    "battleScribeVersion": 2.03,
+    "readme": "Picked up, dusted off, and beginning the process of overhauling 5-11-2025 - Ursine",
+    "revision": 8,
+    "type": "gameSystem",
+    "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
+    "categoryEntries": [
+      {"name": "Combat Formation", "id": "49c4-0317-f106-84c7", "hidden": false},
+      {"name": "Support Unit", "id": "f947-2750-08c3-d4fc", "hidden": false},
+      {"name": "Allied Formation", "id": "6e0b-5b8e-50c9-666c", "hidden": false},
+      {"name": "Formation Support", "id": "ccc5-e668-a26d-db83", "hidden": false},
+      {"name": "Allied Support", "id": "23b6-f962-743b-0715", "hidden": false}
+    ],
+    "costTypes": [{"name": "pts", "id": "7216-9333-2b5d-9b72", "defaultCostLimit": -1, "hidden": false}],
+    "forceEntries": [
+      {
+        "name": "1) Main Force",
+        "id": "cab4-4782-0e92-0a9c",
+        "hidden": false,
+        "categoryLinks": [
+          {
+            "name": "Combat Formation",
+            "id": "d4df-45f7-c0ca-739f",
+            "hidden": false,
+            "primary": false,
+            "targetId": "49c4-0317-f106-84c7",
+            "constraints": [
+              {
+                "id": "79be-5314-de98-9d6b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {"name": "Support Unit", "id": "c304-0424-a197-1909", "hidden": false, "primary": false, "targetId": "f947-2750-08c3-d4fc"},
+          {"name": "Formation Support", "id": "2ce6-6a0c-438a-24b4", "hidden": false, "primary": false, "targetId": "ccc5-e668-a26d-db83"},
+          {"name": "Allied Support", "id": "a3c4-9e79-e502-87a3", "hidden": false, "primary": false, "targetId": "23b6-f962-743b-0715"}
+        ]
+      },
+      {
+        "name": "2) Allied Formation",
+        "id": "4eb7-4027-aa63-b0d1",
+        "hidden": false,
+        "categoryLinks": [
+          {
+            "name": "Combat Formation",
+            "id": "2afb-92bd-1236-ff2a",
+            "hidden": false,
+            "primary": false,
+            "targetId": "49c4-0317-f106-84c7",
+            "constraints": [
+              {
+                "id": "d1e0-086e-b2ee-90cc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "c52d-7e0e-5cc6-8cc5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "force",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "profileTypes": [
+      {
+        "name": "Tank Unit",
+        "id": "e086-dcd6-1518-dc44",
+        "characteristicTypes": [
+          {"name": "Courage", "id": "12e0-c8cc-7fb1-25b5"},
+          {"name": "Morale", "id": "fb3f-6bb0-8c2b-d44a"},
+          {"name": "Remount", "id": "39b2-e446-443a-ccaf"},
+          {"name": "Skill", "id": "2347-c398-3cb7-2f91"},
+          {"name": "Assault", "id": "071d-fb0c-dc9f-c97f"},
+          {"name": "Counterattack", "id": "552a-1058-00df-a425"},
+          {"name": "Is Hit on", "id": "1a01-5cd5-d0d0-91c0"},
+          {"name": "Front", "id": "ca8b-c8f9-96f3-a913"},
+          {"name": "Side", "id": "a40f-72f4-3d35-ec93"},
+          {"name": "Top", "id": "f293-d7ab-abe0-c981"},
+          {"name": "Tactical", "id": "0f95-1160-8137-2e70"},
+          {"name": "Terrain Dash", "id": "f9c7-641e-a00f-0552"},
+          {"name": "Cross Country Dash", "id": "8fd7-dfd5-de5e-e574"},
+          {"name": "Road Dash", "id": "f778-f445-c19b-30d4"},
+          {"name": "Cross", "id": "ae80-d6b0-cb1b-4c9c"}
+        ]
+      },
+      {
+        "name": "Aircraft",
+        "id": "cb62-cf79-c5be-c00b",
+        "characteristicTypes": [
+          {"name": "Courage", "id": "c68f-dba5-3af1-dcfc"},
+          {"name": "Skill", "id": "d287-43b1-d61a-f837"},
+          {"name": "Is Hit On", "id": "a94f-1214-dc73-0af0"},
+          {"name": "Save", "id": "cf80-c66b-9018-b7bc"},
+          {"name": "Movement", "id": "0683-6f3b-3779-ddb2"}
+        ]
+      },
+      {
+        "name": "Weapon",
+        "id": "c31a-db70-952b-43ec",
+        "characteristicTypes": [
+          {"name": "Range", "id": "236c-2ce4-666b-bfe5"},
+          {"name": "Halted ROF ", "id": "7a61-c54f-97c9-9ecd"},
+          {"name": "Moving ROF ", "id": "9696-6fb3-ca9f-9769"},
+          {"name": "Anti-tank", "id": "b1ef-a4e9-0f52-3c13"},
+          {"name": "Firepower", "id": "798b-75af-3f7d-0b25"},
+          {"name": "Notes", "id": "e028-835f-f0cf-cb93"}
+        ]
+      },
+      {
+        "name": "Infantry Team",
+        "id": "095d-7a5e-b507-44e4",
+        "characteristicTypes": [
+          {"name": "Courage", "id": "3ea8-3e5a-9400-878e"},
+          {"name": "Morale", "id": "68ce-356d-7a68-0eaf"},
+          {"name": "Rally", "id": "2a3a-aed9-48b2-234a"},
+          {"name": "Skill", "id": "eb99-12e9-c164-6fd6"},
+          {"name": "Assault", "id": "060b-f9d6-0748-a496"},
+          {"name": "Counter Attack", "id": "57d9-d0c4-dd83-6019"},
+          {"name": "Is Hit On", "id": "b0ba-ff6a-b454-a926"},
+          {"name": "Save", "id": "7ad2-ac9e-02fd-af45"},
+          {"name": "Tactical", "id": "e0ee-5804-d1a7-ffb3"},
+          {"name": "Terrain Dash", "id": "ccbc-9147-7cef-acca"},
+          {"name": "Cross Country Dash", "id": "ba8c-85b8-4860-cd28"},
+          {"name": "Road Dash", "id": "ad4b-3a11-05ef-daf4"},
+          {"name": "Cross", "id": "93df-8d45-e422-9163"}
+        ]
+      },
+      {
+        "name": "Unarmored Tank Unit",
+        "id": "1d0d-99f1-d80c-2026",
+        "characteristicTypes": [
+          {"name": "Courage", "id": "6e4b-43ef-87a8-252f"},
+          {"name": "Morale", "id": "2b91-eafe-3aeb-c70b"},
+          {"name": "Rally", "id": "2373-177f-ce29-78cb"},
+          {"name": "Skill", "id": "1933-fc7d-e801-99ab"},
+          {"name": "Assault", "id": "f004-e5d8-0da9-3d21"},
+          {"name": "Counterattack", "id": "498a-fd31-607a-feec"},
+          {"name": "Is Hit On", "id": "9a7e-de6c-8c03-e998"},
+          {"name": "Save", "id": "9baa-1042-991e-640d"},
+          {"name": "Tactical", "id": "c12d-44b4-4826-9d0e"},
+          {"name": "Terrain Dash", "id": "5321-8ef2-2e31-96f7"},
+          {"name": "Cross Country Dash", "id": "3e82-3246-6cf8-5f46"},
+          {"name": "Road Dash", "id": "8254-878c-40b4-861c"},
+          {"name": "Cross", "id": "18fa-7699-146f-6363"}
+        ]
+      },
+      {
+        "name": "Aircraft",
+        "id": "93f9-4d95-fc61-de58",
+        "comment": "NEW",
+        "characteristicTypes": [
+          {"name": "Courage", "id": "519d-b8b1-81db-3a75"},
+          {"name": "Morale", "id": "a6ac-0c16-c63a-14a8"},
+          {"name": "Skill", "id": "9d98-b4e1-be94-0c75"},
+          {"name": "Is Hit On", "id": "5437-01f8-2432-9fbd"},
+          {"name": "Save", "id": "3b66-bbe3-88a8-d8bc"},
+          {"name": "Movement", "id": "5cbc-2315-11c6-72c9"},
+          {"name": "Notes", "id": "660f-c36d-39cb-2510"}
+        ]
+      },
+      {
+        "name": "Infantry Team",
+        "id": "de02-a834-ba11-b332",
+        "comment": "NEW",
+        "characteristicTypes": [
+          {"name": "Courage", "id": "dbca-5616-8114-4e72"},
+          {"name": "Skill", "id": "f658-164f-55f0-0e6d"},
+          {"name": "Is Hit On", "id": "03bb-8237-592b-a12b"},
+          {"name": "Save", "id": "3510-6ce7-e33f-5ca8"},
+          {"name": "Tactical", "id": "656c-b7a0-87a8-4b74"},
+          {"name": "Terrain Dash", "id": "00d8-2a6f-fd92-ff9e"},
+          {"name": "Cross Country Dash", "id": "f0b7-cce5-f47e-17dd"},
+          {"name": "Road Dash", "id": "c2ed-7d88-a972-da85"},
+          {"name": "Cross", "id": "fbda-9b21-d859-ec36"},
+          {"name": "Notes", "id": "666f-d8c3-22ed-0134"}
+        ]
+      },
+      {
+        "name": "Tank Unit",
+        "id": "28dc-0c96-453a-604f",
+        "comment": "NEW",
+        "characteristicTypes": [
+          {"name": "Courage", "id": "5ee0-23e6-42ea-47de"},
+          {"name": "Skill", "id": "77c7-e659-4a0c-a38f"},
+          {"name": "Is Hit on", "id": "e693-f9bf-d2bd-225c"},
+          {"name": "Front", "id": "3234-1c68-4b74-9d5f"},
+          {"name": "Side", "id": "7011-0119-007e-4560"},
+          {"name": "Top", "id": "cc2b-8114-3c93-7362"},
+          {"name": "Tactical", "id": "bc1b-82d3-08fc-916c"},
+          {"name": "Terrain Dash", "id": "1ff4-646b-beac-9b2c"},
+          {"name": "Cross Country Dash", "id": "b863-6232-9412-c3be"},
+          {"name": "Road Dash", "id": "f74a-19ab-96a1-2a3b"},
+          {"name": "Cross", "id": "032f-59ad-74b3-1601"},
+          {"name": "Notes", "id": "7c50-9f1d-ca19-57c0"}
+        ]
+      },
+      {
+        "name": "Unarmored Tank Unit",
+        "id": "973a-aa06-b137-2f9e",
+        "comment": "NEW",
+        "characteristicTypes": [
+          {"name": "Courage", "id": "3b8f-cc49-ba8e-2b20"},
+          {"name": "Skill", "id": "ef6b-6ca3-15b2-d564"},
+          {"name": "Is Hit On", "id": "e656-145b-4cc9-2635"},
+          {"name": "Save", "id": "8c9a-7318-13dc-0de3"},
+          {"name": "Tactical", "id": "c997-2f6a-9060-6d07"},
+          {"name": "Terrain Dash", "id": "2827-8574-da44-3efa"},
+          {"name": "Cross Country Dash", "id": "9196-f0b2-890d-de98"},
+          {"name": "Road Dash", "id": "f49e-f223-b4e9-e0ef"},
+          {"name": "Cross", "id": "3c9b-51af-c084-2a62"},
+          {"name": "Notes", "id": "c7dc-2dd4-46c5-a14c"}
+        ]
+      },
+      {
+        "name": "Weapon",
+        "id": "e9be-b9e3-7b99-9c51",
+        "comment": "NEW",
+        "characteristicTypes": [
+          {"name": "Range", "id": "224f-dd7c-9266-b9b2"},
+          {"name": "Halted / Moving ROF ", "id": "9ed0-82b4-8515-e261"},
+          {"name": "Anti-tank", "id": "5f33-46c1-c5f2-ebaf"},
+          {"name": "Firepower", "id": "3b54-88ee-7eef-aa5b"},
+          {"name": "Notes", "id": "6f6e-850e-037b-22b7"}
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "HEAT",
+        "id": "4ac0-f918-a4e1-d232",
+        "description": "Target Armour is not increased for range over 16\"/40CM. Affected by Applique, Bazooka Skirts, BDD, Chobham, and ERA armor.",
+        "hidden": false
+      },
+      {
+        "name": "Hunter-killer",
+        "id": "7504-9285-5e1a-6726",
+        "description": "Can be Concealed by Tall terrain within 4\"/10CM. Can remain Gone to Ground when moving.",
+        "hidden": false
+      },
+      {"name": "One Shot", "id": "42d2-8e63-990e-68f9", "hidden": false},
+      {
+        "name": "Jump Jet",
+        "id": "c71b-70c7-24dc-9111",
+        "description": "Jump Jet Strike Aircraft arrrive each turn on a roll of 3+, rather than the usual 4+.",
+        "hidden": false
+      },
+      {"name": "Anti-helicopter", "id": "8e4a-59b8-2d58-8f33", "description": "Can shoot at Helicopters.", "hidden": false},
+      {
+        "name": "Guided",
+        "id": "5571-a7f9-133c-dd58",
+        "description": "Does not have usual +1 to hit penalty for shooting over 16\"/40CM. Cannot hit infantry teams unless they are stationary and  in bulletproof cover",
+        "hidden": false
+      },
+      {"name": "Chobham Armor", "id": "c037-2081-25b7-61b7", "description": "Front and side Armour is 16 against HEAT weapons.", "hidden": false},
+      {
+        "name": "Strike Aircraft",
+        "id": "c9ad-9317-fa93-e4f2",
+        "description": "At the state of each of their turns, the owning player may roll a die. On a score of 4+, the Strike aricraft Unit arrives and will be placed anywhere on the table in the Movement Step as long as the Aircraft stand can be placed flat on the table or suitable terrain.\n\nIf the Strike Aircraft Unit is held in Reserve, do not start rolling until the Unit arrives from Reserve.\n\nAircraft shoot or bombard as normal in the Shooting Step. Just before an Aircraft attacks, the enemy can shoot their Anti-Aircraft weapons at it.\n\nInfantry Teams (other than Heavy Weapons) and AA MG weapons must re-roll successful Firepower test when shooting at Strike Aircraft Teams.\n\nAll Strike Aircraft are removed from the table at the end of the Shooting Step. Any casualties they suffer carry over when the Unit returns to the table.",
+        "hidden": false
+      },
+      {"name": "Bomblets", "id": "650f-eef5-2ffa-21f1", "description": "May fire Bombardments with ROF: Salvo, Anti-tank 3+, Firepower 6", "hidden": false},
+      {"name": "Brutal", "id": "2102-fd36-69d4-0b93", "description": "Infantry and Unarmored Tank Team re-roll successful saves.", "hidden": false},
+      {
+        "name": "Laser-Guided Projectiles",
+        "id": "6085-2818-344e-c682",
+        "description": "May fire Laser-Guided projectiles instead of Bombardments. Use Observer Team's Line of Sight. Minimum Range\" 16\"/40CM, Anti-Tank: 21 Firepower: 2+, Brutal, Guided, HEAT",
+        "hidden": false
+      },
+      {"name": "Minelets", "id": "fd4b-c96a-39c0-f7cd", "description": "Once per game, can fire Scatterable Mines instead of a Bombardment.", "hidden": false},
+      {"name": "Smoke", "id": "f3d4-cf1f-bfdd-e76c", "description": "Can Shoot Smoke ammunition.", "hidden": false},
+      {"name": "Smoke Bombardment", "id": "9897-8e4d-613a-55cb", "description": "Once per game can fire a Smoke Bombardment.", "hidden": false},
+      {
+        "name": "Advanced Stabiliser",
+        "id": "16f1-d6c2-e846-b6c8",
+        "description": "Tactical Speed is 14\"/35CM. Machine Guns cannot Shoot and Team cannot Assault if it moves more than 10\"/25CM",
+        "hidden": false
+      },
+      {"name": "Laser Rangefinder", "id": "ab4f-6615-cc38-6418", "description": "No To Hit penalty for range over 16\"/40CM.", "hidden": false},
+      {
+        "name": "Thermal Imaging",
+        "id": "d777-d425-a1a7-8e83",
+        "description": "Roll two dice for Night Visibility and choose the highest score. No To Hit penalties for Night and Smoke.",
+        "hidden": false
+      },
+      {"name": "Scout", "id": "9df5-f39b-4148-24ca", "description": "Scouts are Gone to Ground unless they Shoot or Assault.", "hidden": false},
+      {
+        "name": "Spearhead",
+        "id": "e9cf-a511-2a6a-6507",
+        "description": "When a Spearhead Unit is placed on table during Deployment (but not if it arrives from Reserves or is placed outside the normal Deployment Area using this rule), the player may immediately Move its Teams at Tactical or Dash speeds.\n\nThis movement may not use any Movement Orders, and may not take a Team within:\n-16\"/40CM of an enemy Team it is not Concealed from,\n-8\"/20CM of any enemy Team,\n-16\"/40CM of the enemy Deployment Area or any Objective outside your own Deployment Area.\n\nWhen Deploying their remaining Units, a player may trreat the area entirely within 8\"/20CM of a Spearhead Team that is In Command as an extension of their Deployment Area. Teams placed here may not be placed in the areas that a Spearhead Team may not move into.",
+        "hidden": false
+      },
+      {
+        "name": "Stabiliser",
+        "id": "d3fb-834f-d6a6-3a89",
+        "description": "Tank can move 14\"/35CM at Tactical, gaining +1 penalty To Hit. Machine-guns cannot Shoot and Team cannot Assault if it moved more than 10\"/25CM.",
+        "hidden": false
+      },
+      {"name": "Amphibious", "id": "5807-4eac-7fae-eda0", "description": "Amphibious Teams treat Impassable water as Difficult Going.", "hidden": false},
+      {
+        "name": "Bazooka Skirts",
+        "id": "2cb5-d057-feb4-dd26",
+        "description": "Teams with Bazooka Skirts have a Front and Side armor rating of 10 (unless already higher) against HEAT weapons.",
+        "hidden": false
+      },
+      {"name": "BDD Armor", "id": "6f6c-20ec-7219-ad4a", "description": "Teams with BDD Armor have a Side Armour rating of 16 against HEAT weapons.", "hidden": false},
+      {
+        "name": "Dragon Mount",
+        "id": "dfec-07f6-3fa0-c825",
+        "description": "M47 Dragon missile teams may fire while Mounted as a Passenger in a M113 Transport, using the Passenger Fired M47 Dragon missile weapons line.",
+        "hidden": false
+      },
+      {"name": "ERA Armor", "id": "fc21-5681-d34d-6b74", "description": "Teams with ERA Armour have a Side armor rating of 16 against HEAT weapons.", "hidden": false},
+      {
+        "name": "Hammerhead",
+        "id": "a8f5-81a9-be14-76aa",
+        "description": "A Team with Hammerhead can remain Gone to Ground while shooting its missiles.",
+        "hidden": false
+      },
+      {
+        "name": "Heavy Weapon",
+        "id": "d661-451e-b329-b452",
+        "description": "A Heavy Weapon Team cannot Charge into Contact, but may be Assaulting Team if in Contact with an enemy Team.",
+        "hidden": false
+      },
+      {
+        "name": "Infra-Red",
+        "id": "e794-7147-1c60-5942",
+        "description": "A Unit with an Infra-Red rolls two dice on the NIght Visibility Table and chooses the highest score.",
+        "hidden": false
+      },
+      {
+        "name": "Mine Clearing Device",
+        "id": "a4e7-abba-6c06-ce98",
+        "description": "Mine ploughs, rollers, and flails allow tanks to clear mine fields.",
+        "hidden": false
+      },
+      {
+        "name": "Passengers #",
+        "id": "988f-bf9e-b22b-463e",
+        "description": "A Transport Team can carry Infantry Teams as Passengers. The # indicates how many Teams can be carried.",
+        "hidden": false
+      },
+      {
+        "name": "Unarmoured",
+        "id": "5dac-a918-145f-931e",
+        "description": "An Unarmoured Tank team cannot Charge into Contact and must Break Off if Assaulted.",
+        "hidden": false
+      },
+      {
+        "name": "Applique Armour",
+        "id": "b905-73c4-a912-0aae",
+        "description": "Team with Applique Armour have a Front and Side Armour rating of 13 against HEAT weapons.",
+        "hidden": false
+      },
+      {
+        "name": "Radar M247",
+        "id": "ba10-84e3-13af-d030",
+        "description": "When Shooting at Aircraft, vehicles with equipped with Radar do not suffer the usual +1 penalty To Hit for range over 16\"/40CM and the M247 Sergeant York extends its range to 36\"/90CM",
+        "hidden": false
+      },
+      {
+        "name": "Radar M163",
+        "id": "90ff-cbfd-16c2-1b3d",
+        "description": "When Shooting at Aircraft, vehicles with equipped with Radar do not suffer the usual +1 penalty To Hit for range over 16\"/40CM and the M163 VADS extends its range to 32\"/80CM.",
+        "hidden": false
+      },
+      {
+        "name": "Radar LAV-AD",
+        "id": "fd90-2058-09d4-b1d4",
+        "description": "When Shooting at Aircraft, vehicles with equipped with Radar do not suffer the usual +1 penalty To Hit for range over 16\"/40CM and the LAV-AD extends its range to 36\"/90CM",
+        "hidden": false
+      },
+      {"name": "MLRS", "id": "d6a7-6e50-b25c-5811", "description": "Each MLRS rocket launcher counts as two weapons firing.", "hidden": false},
+      {
+        "name": "Door Guns",
+        "id": "d4c9-bc96-f8a6-89e2",
+        "description": "Unlike other Helicopters, UH-1 Hueys with Door Guns can Shoot while Landed. Door Guns can only Shoot in the turn that they Land.",
+        "hidden": false
+      },
+      {
+        "name": "Assault #",
+        "id": "b814-659f-46f8-b83a",
+        "description": "Teams with the Assault # special rule use this number for To Hit rolls in Assaults rather than the normal one shown on the card.",
+        "hidden": false
+      },
+      {"name": "AA MG", "id": "60ba-123c-4f2a-1604", "description": "AA MG Weapons can Shoot at Aircraft with a ROF of 1.", "hidden": false},
+      {
+        "name": "Accurate",
+        "id": "b8d6-5c93-8cd5-5578",
+        "description": "Accurate weapons do not suffer the usual +1 to hit penalty if the targeted Team is more than 16\"/40CM away and the Shooting Team did not move.",
+        "hidden": false
+      },
+      {
+        "name": "Dedicated AA",
+        "id": "514b-1009-1db9-e89a",
+        "description": "Dedicated AA weapons use their normal ROF (rather than ROF 1) when firing at Aircraft.",
+        "hidden": false
+      },
+      {
+        "name": "Forward Firing",
+        "id": "253b-8bc1-23c4-40c7",
+        "description": "Forward-firing weapons can only target Teams fully in front of the shooting Team, and can only fire Artillery Bombardment if the Aiming Point is fully in front of the shooting Team.",
+        "hidden": false
+      },
+      {
+        "name": "Guided AA",
+        "id": "8fe0-6df6-1e26-7ec2",
+        "description": "Guided AA weapons are Guided weapons that cannot target Tank or Infantry Teams. Guided AA weapons use their normal ROF (rather than ROF 1) when firing at Aircraft.",
+        "hidden": false
+      },
+      {
+        "name": "Overhead Fire",
+        "id": "1012-26ff-1087-e4a6",
+        "description": "Grendae Launchers and light mortars capable of Overhead Fire can fire over friendly teams.",
+        "hidden": false
+      },
+      {"name": "Pinned ROF 1", "id": "1567-d8ea-bc21-5566", "description": "These weapons have a ROF of 1 when Pinned Down.", "hidden": false},
+      {
+        "name": "Recoilless",
+        "id": "762b-684f-9ea7-c605",
+        "description": "A Team firing a Recoilless weapon cannot be Concealed if it shot in its previous Shooting Step.",
+        "hidden": false
+      },
+      {"name": "Slow Firing", "id": "7504-1bfb-7651-0911", "description": "Slow-firing weapons add +1 to the score needed To Hit when moving.", "hidden": false},
+      {"name": "HQ Transport", "id": "2d25-2cc5-0ea9-7fd9", "description": "A Formation HQ Transport Team remains part of the HQ Unit.", "hidden": false},
+      {
+        "name": "Helicopter",
+        "id": "76be-ca09-2356-b61c",
+        "description": "Infantry Teams (other than Heavy Weapons) and AA MG weapons must re-reroll successful Firepower tests when shooting at Helicopter Teams.",
+        "hidden": false
+      },
+      {
+        "name": "Independent",
+        "id": "60c8-03f2-c543-a6ea",
+        "description": "An Independent Team can use the Mistaken Target rule to reassign hits to nearby Units, biut cannot Charge into Contact, nor take an Objective.",
+        "hidden": false
+      },
+      {
+        "name": "Observer",
+        "id": "e41f-bf7a-3766-c44c",
+        "description": "An Observer Team can Spot for any friendly Artillllery Unit. An Observer Team reduces the score required to Range In by -1.",
+        "hidden": false
+      },
+      {
+        "name": "NLOS (Non Line of Sight)",
+        "id": "1920-a1a7-2ff4-73c1",
+        "description": "A weapon with NLOS has no To Hit penalty for ranges over 16\" and does not require a Line of Sight to Shoot At an enemy team. The target Team always counts as Concealed to the NLOS weapon, even when in Line of Sight. NLOS weapons cannot hit Infantry Teams unless the Infantry are stationary and in Bulletproof Cover.",
+        "hidden": false
+      },
+      {
+        "name": "Radar",
+        "id": "beb6-7b27-c6e9-3056",
+        "description": "Weapons equipped with Radar increase their Range by +12\"/30CM against Aircraft and do not suffer the usual +1 To Hit penalty for range over 16\"/40CM when Shooting at Aircraft.",
+        "hidden": false
+      },
+      {
+        "name": "Napalm",
+        "id": "beb6-7c27-c6f9-3066",
+        "description": "Infantry and Unarmoured Tank Teams re-roll successful Saves if hit by an Aircraft Unit firing an Artillery Bombardment using Napalm bombs. Armoured Tank Teams use Top armour for Saves when hit by Napalm bombs.",
+        "hidden": false
+      },
+      {
+        "name": "Tandem Warhead",
+        "id": "e699-aa9d-514c-9f08",
+        "description": "A Tandem Warhead HEAT Weapon is unaffected by ERA Armour. The Tank rolls its Armour Save based on its normal armour rating, not that of ERA.",
+        "hidden": false
+      },
+      {
+        "name": "Aeromobile Reserves",
+        "id": "b4b4-c4cb-5eab-1b42",
+        "description": "In a mission with Airmobile Reserves, you may only deploy Aircraft and their Passengers and Parachuted infantry and vehicles from Airborne Formations at the start of the game. All other types of unit must be held in Reserve.",
+        "hidden": true
+      },
+      {
+        "name": "Airborne Operation",
+        "id": "044c-f67b-99ee-7638",
+        "description": "Airmobile Formations and Parachutable Units have been marked accordingly; any unit lacking these keywords must be taken in Reserve.",
+        "hidden": false
+      },
+      {
+        "name": "Parachute Deployment",
+        "id": "1e05-5886-22ee-625a",
+        "description": "Deploy each airborne Unit or Transport Attachment by parachute separately as follows:\n1. Roll a die to determine the quarter in which the Unit’s Drop Zone marker can be placed. On a roll of 5 or 6, the player may choose any quarter to place the marker in.\n2. Place the Drop Zone marker in the rolled quarter in any orientation.\n3. Roll to determine the Unit’s direction of Drift and place the Unit Leader against the appropriate face of the Drop Zone marker.\n4. Roll again to see how far the Unit Drifts using the Parachute Drift Table.\n5. Move the Unit Leader the indicated distance in the direction of Drift.\n6. Deploy the rest of the Unit so that it is In Command and remove the Drop Zone marker.\n7. The Unit does not start the game Dug In or Gone to Ground.",
+        "hidden": false
+      },
+      {
+        "name": "Parachute Drift Table",
+        "id": "5e12-ea34-8a5f-431c",
+        "description": "1 or 2: 4\"/10cm\n3 or 4: 8\"/20cm\n5 or 6: 12\"/30cm\n\n1: North\n2: Northeast\n3: Southeast\n4: South\n5: Southwest\n6: Northwest",
+        "hidden": false
+      },
+      {
+        "name": "Parachute Deployment - Rough Landing / Landing Off Table",
+        "id": "8b11-e3b4-ff3a-323d",
+        "description": "If a Parachute Unit Leader’s team ends their Drift in Difficult or Impassable Terrain or within 2\"/5cm of an enemy team, they continue to Drift a further 4\"/10cm.\n• If the Unit Leader is still in Difficult Terrain, all Teams in the Unit must immediately either roll a Cross test if a Tank team or a Save if an Infantry team, or be Destroyed.\n• If the Unit Leader is still in Impassable Terrain or within 2\"/5cm of an enemy Team, the Unit is Destroyed.\n• Otherwise, they deploy the rest of the Unit as normal at their new location.\n\nLANDING OFF TABLE\nIf the distance rolled results in the Unit Leader Drifting off the table, then the Unit goes into Reserve in addition to the normal Reserves.",
+        "hidden": false
+      }
+    ]
+  }
+}
